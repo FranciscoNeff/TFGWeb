@@ -1,0 +1,26 @@
+{% load static %}
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecera">
+        <img class="logo" src="{%static 'img/logo.png'%}" alt="logo"/></th>
+        <h1 class="cabecera">Face Recognition</h1>
+   </div>
+<div class="navegador">
+    <nav>
+        <a href="{% url 'AnalizarImagen' %}">Analizar Imagen</a>
+        <a href="{% url 'AnalizarVideo' %}">Analizar Video</a>
+        <a href="{% url 'WebCam' %}">Abrir Camera Local</a>
+        <a href="{% url 'IpCAM' %}">Abrir Camera IP</a>
+        <a href="{% url 'Usuarios' %}">Personas reconocidas</a>
+        <a href="administracion">Zona de Administracion</a>
+    </nav>
+</div>
+<iframe width="900" height="900" src="{% url 'camframe' %}" frameborder="0" sandbox="allow-same-origin" allowfullscreen="true"></iframe>
+</body>
+</html>

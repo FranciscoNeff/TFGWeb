@@ -1,0 +1,24 @@
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecera">
+        <img class="logo" src="{%static 'img/logo.png'%}" alt="logo"/></th>
+        <h1 class="cabecera">Face Recognition</h1>
+   </div>
+<div class="navegador">
+    <nav>
+
+<a href="{% url 'AddPersona'%}">Añadir nuevo Usuario</a>
+<a href="{% url 'BorrarUsuarios' %}">Borrar Un Reconocido</a>
+<a href="{% url 'Mostrarfotos' %}">Borrar una foto</a>
+<a href="{% url 'Entrenamiento' %}">Realizar Entrenamiento</a>
+<a href="/">Inicio</a>
+    </nav>
+</div>
+</body>
+</html>

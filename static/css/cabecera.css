@@ -1,0 +1,9 @@
+div.cabecera{background-image: linear-gradient(to bottom right, white,#66CC00, #009933, green ,#336600);
+    width:100%; height:15%; }
+img.logo{ border-radius:50%; width:7%; height:60%;margin-left: 3%; margin-top:1%;float: left;}
+h1.cabecera{float: center; font-family:cursive, Lobster, helvética; margin-left: 20%;
+   font-size:300%; background: linear-gradient(to bottom right,#00cac6,#00e5ec); 
+   -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: 2px black;}
+nav{background-color: #77e3be;padding-bottom:6px;float: left; width: 100%; margin-top: .5%;}
+nav a{font-size:125%; text-decoration:none; padding:8px}
+a{color:#336600}

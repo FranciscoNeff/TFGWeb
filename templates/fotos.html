@@ -1,0 +1,41 @@
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecera">
+        <img class="logo" src="{%static 'img/logo.png'%}" alt="logo"/></th>
+        <h1 class="cabecera">Face Recognition</h1>
+   </div>
+<div class="navegador">
+    <nav>
+
+<a href="{% url 'AddPersona'%}">Añadir nuevo Usuario</a>
+<a href="{% url 'BorrarUsuarios' %}">Borrar Un Reconocido</a>
+<a href="{% url 'Mostrarfotos' %}">Borrar una foto</a>
+<a href="{% url 'Entrenamiento' %}">Realizar Entrenamiento</a>
+<a href="/">Inicio</a>
+    </nav>
+</div>
+    {% csrf_token %}
+    {% if lista %}
+    
+    <form method="POST" action="{%url 'borrarfoto' %}">
+        <h1>Estan son las fotos de {{nombre}}</h1>
+        <p>Haga click en la foto que desea eliminar</p>
+    {% for foto in lista %}    
+          <!-- <img width="150" height="150" src="{%static 'train_img/' %}{{nombre}}/{{foto}}" alt="logo"/> --> 
+        <input type="image" class="foto" name="{{foto}}" width="150" height="150" src="{%static 'train_img/' %}{{nombre}}/{{foto}}" alt="logo"><br>
+        <input type="hidden" name="{{nombre}}">
+    {% endfor %}
+    </form>
+    {% else %}
+    <p>No se tienen fotos para este registros</p>
+    {% endif %}
+       
+</body>
+</html>
+    

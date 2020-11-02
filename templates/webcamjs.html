@@ -1,0 +1,99 @@
+<html>
+<head></head>
+<body>
+  <!-- Stream video via webcam -->
+  {% csrf_token %}
+<div class="video-wrap">
+    <video id="video" playsinline autoplay></video>
+</div>
+
+<!-- Trigger canvas web API -->
+<div class="controller">
+    <button id="snap">Capture</button>
+    <button onclick="start()" id="start">Start</button>
+    <a href="/">inicio</a>
+    <button onclick="remove()" id="start">Stop</button>
+    <button onclick="sendData2()" id="start">Enviar</button>
+</div>
+
+<!-- Webcam video snapshot -->
+<canvas id="canvas" width="640" height="480"></canvas>
+<script type="text/javascript">
+//var csrftoken = $('[name="csrfmiddlewaretoken"]').val();
+'use strict';
+//const csrftoken = document.querySelector('[name="csrftoken"]').val();
+const token = document.cookie;
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const snap = document.getElementById("snap");
+const errorMsgElement = document.querySelector('span#errorMsg');
+var csrf = token.split('=')
+//alert(token)
+const constraints = {
+  audio: false,
+  video: {
+    width: 1280, height: 720
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+}
+function remove(stream) { //revisar esto o meter enlace
+  video.srcObject = stream;
+  video.reset()
+}
+// Load init
+function start() {
+    init()
+}
+/*
+var context = canvas.getContext('2d');
+snap.addEventListener("click", function() {
+  context.drawImage(video, 0, 0, 640, 480)
+  );
+  }*/
+var context = canvas.getContext('2d');
+snap.addEventListener("click", function() {
+  //var filename = "img.jpg"
+  context.drawImage(video, 0, 0, 640, 480)
+  ;})
+//como enviar el csrf
+async function sendData(){
+  var datos = { imagen : video,contentType :'image/jpeg', filename:"captura.jpg"};
+  var header = {'X-CSRFToken':csrf[1], contentType : 'multipart/form-data' , boundary:'something'}
+  await fetch('http://localhost:8000/AnalizarImagen',{
+  method: 'POST',
+  headers: header, //boundary=something,
+  data : datos, 
+  },)
+}
+function sendData2(){
+  var formdata = new FormData();
+  formdata.append('imagen',video);
+  let peticion = new XMLHttpRequest();
+  //var coo = 'csrftoken='+csrf
+  peticion.open('POST','http://localhost:8000/AnalizarImagen');
+  peticion.setRequestHeader('X-CSRFToken',csrf[1]);
+  //peticion.setRequestHeader('Cookie',token)
+  //peticion.setRequestHeader('referer','http://127.0.0.1:8000/AnalizarImagen');
+  //peticion.setRequestHeader('Referrer-Policy','no-referrer');
+  //peticion.setRequestHeader('filename',"captura.jpg");
+  peticion.send(formdata);
+}
+    </script>
+</body>
+
+</html>

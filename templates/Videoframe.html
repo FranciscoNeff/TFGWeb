@@ -1,0 +1,17 @@
+{% load static %}
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    
+</head>
+<body>  
+<p>  {{ msg }} </p>
+    <form method="POST" class="post-form"  enctype="multipart/form-data" >
+           
+            {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Analizar</button>
+    </form>
+</body>
+</html>

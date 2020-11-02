@@ -1,0 +1,16 @@
+./FaceRecognition/pre_img\01 Alfie Allen\d1_l1_l.png 33 49 218 282
+./FaceRecognition/pre_img\01 Alfie Allen\d1_l2_c.png 66 74 223 273
+./FaceRecognition/pre_img\01 Alfie Allen\d1_l3_c.png 86 72 268 293
+./FaceRecognition/pre_img\01 Alfie Allen\d2_l1_c.png 22 49 100 145
+./FaceRecognition/pre_img\01 Alfie Allen\d2_l2_c.png 37 92 153 241
+./FaceRecognition/pre_img\01 Alfie Allen\d2_l2_l.png 22 33 62 86
+./FaceRecognition/pre_img\01 Alfie Allen\d2_l3_l.png 26 67 107 170
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l1_c.png 29 45 86 115
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l1_l.png 23 31 53 70
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l2_c.png 6 27 35 62
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l2_l.png 20 35 53 73
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l3_c.png 45 69 160 225
+./FaceRecognition/pre_img\01 Alfie Allen\d3_l3_l.png 31 50 75 101
+./FaceRecognition/pre_img\01 Alfie Allen\e1.png 40 62 223 294
+./FaceRecognition/pre_img\01 Alfie Allen\e2.png 39 57 190 263
+./FaceRecognition/pre_img\07 Peter Dinklage\d3_l3_l.png
