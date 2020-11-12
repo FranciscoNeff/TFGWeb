@@ -121,7 +121,7 @@ class identify_face_image:
                             print('Result Indices: ', best_class_indices[0])
                             print(HumanNames)
                             print("Mejor Indicie",best_class_indices[0])
-                            if best_class_probabilities < 0.1:
+                            if best_class_probabilities < 0.35:
                                 result_names = "Unknow"
                                 
                                 cv2.putText(frame, result_names+str(i), (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,

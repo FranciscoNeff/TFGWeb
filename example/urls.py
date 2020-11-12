@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from frweb.views import ImagenView, ImagenDisplay, Home,AnalizarVideovista,AnalizarVideoframe, Lista, IpVideoframe, IpVideovista, camframe, camvista, prueba
+from frweb.views import ImagenView, ImagenDisplay, Home,AnalizarVideovista,AnalizarVideoframe, Lista, IpVideoframe, IpVideovista, camframe, camvista, postjsimagen
 from frweb.admin_views import SubirZip,Entrenamiento,BorrarReconocido,ZonaAdmin,borrarfoto,mostrarfoto
 
 urlpatterns = [
@@ -23,14 +23,15 @@ urlpatterns = [
     path('',Home,name='Inicio'),
     path('AnalizarImagen', ImagenView.as_view(), name='AnalizarImagen'),
     path('FaceRecognition/<int:pk>/', ImagenDisplay.as_view(), name='Imagendisplay'),
-    path('Ipcam/', IpVideovista ,name='IpCAM'),
+    path('Ipcam', IpVideovista ,name='IpCAM'),
     path('Ipcamframe/', IpVideoframe ,name='IpCAMframe'),
     path('camframe/',camframe, name='camframe'),
-    path('Webcam/',camvista,name='WebCam'),
+    path('WebCam', camvista),
     path('SubirVideo', AnalizarVideovista, name='AnalizarVideo'),
     path('Subirframe', AnalizarVideoframe, name='Analizarframe'),
     path('ListaUsuarios', Lista, name='Usuarios'),
-    path('prueba',prueba),
+    #path('prueba',prueba),
+    path('resultado',postjsimagen),
     #Administración
 
     path('admin/', admin.site.urls),

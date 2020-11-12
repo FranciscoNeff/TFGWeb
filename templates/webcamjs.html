@@ -1,6 +1,26 @@
-<html>
-<head></head>
+{% load static %}
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
+</head>
 <body>
+    <div class="cabecera">
+        <img class="logo" src="{%static 'img/logo.png'%}" alt="logo"/></th>
+        <h1 class="cabecera">Face Recognition</h1>
+   </div>
+<div class="navegador">
+    <nav>
+        <a href="{% url 'AnalizarImagen' %}">Analizar Imagen</a>
+        <a href="{% url 'AnalizarVideo' %}">Analizar Video</a>
+        <a href="WebCam">Abrir Camera Local</a>
+        <a href="{% url 'IpCAM' %}">Abrir Camera IP</a>
+        <a href="{% url 'Usuarios' %}">Personas reconocidas</a>
+        <a href="administracion">Zona de Administracion</a>
+    </nav>
+</div>
   <!-- Stream video via webcam -->
   {% csrf_token %}
 <div class="video-wrap">
@@ -12,10 +32,10 @@
     <button id="snap">Capture</button>
     <button onclick="start()" id="start">Start</button>
     <a href="/">inicio</a>
-    <button onclick="remove()" id="start">Stop</button>
-    <button onclick="sendData2()" id="start">Enviar</button>
+    <button onclick="mostrar()" id="start">Mostrar</button>
+    <button onclick="sendData()" id="start">Enviar</button>
 </div>
-
+<div id="muestra"></div>
 <!-- Webcam video snapshot -->
 <canvas id="canvas" width="640" height="480"></canvas>
 <script type="text/javascript">
@@ -28,7 +48,7 @@ const canvas = document.getElementById('canvas');
 const snap = document.getElementById("snap");
 const errorMsgElement = document.querySelector('span#errorMsg');
 var csrf = token.split('=')
-//alert(token)
+const valor = csrf[1]+'.png';
 const constraints = {
   audio: false,
   video: {
@@ -51,48 +71,47 @@ function handleSuccess(stream) {
   window.stream = stream;
   video.srcObject = stream;
 }
-function remove(stream) { //revisar esto o meter enlace
-  video.srcObject = stream;
-  video.reset()
-}
+
 // Load init
 function start() {
     init()
 }
-/*
-var context = canvas.getContext('2d');
-snap.addEventListener("click", function() {
-  context.drawImage(video, 0, 0, 640, 480)
-  );
-  }*/
-var context = canvas.getContext('2d');
-snap.addEventListener("click", function() {
-  //var filename = "img.jpg"
-  context.drawImage(video, 0, 0, 640, 480)
-  ;})
-//como enviar el csrf
-async function sendData(){
-  var datos = { imagen : video,contentType :'image/jpeg', filename:"captura.jpg"};
-  var header = {'X-CSRFToken':csrf[1], contentType : 'multipart/form-data' , boundary:'something'}
-  await fetch('http://localhost:8000/AnalizarImagen',{
-  method: 'POST',
-  headers: header, //boundary=something,
-  data : datos, 
-  },)
-}
-function sendData2(){
+
+
+function sendData(){
+  var destinationCanvas = document.createElement("canvas");  
+  var destCtx = destinationCanvas.getContext('2d'); 
+  destinationCanvas.width=640
+  destinationCanvas.height=480
+  destCtx.drawImage(video, 0, 0, 640, 480);
+  
+  var img64 = destinationCanvas.toDataURL();
+  var arrayimg64 = img64.split(';base64,');
+
   var formdata = new FormData();
-  formdata.append('imagen',video);
-  let peticion = new XMLHttpRequest();
-  //var coo = 'csrftoken='+csrf
-  peticion.open('POST','http://localhost:8000/AnalizarImagen');
-  peticion.setRequestHeader('X-CSRFToken',csrf[1]);
-  //peticion.setRequestHeader('Cookie',token)
-  //peticion.setRequestHeader('referer','http://127.0.0.1:8000/AnalizarImagen');
-  //peticion.setRequestHeader('Referrer-Policy','no-referrer');
-  //peticion.setRequestHeader('filename',"captura.jpg");
+  formdata.append('img',arrayimg64[1]);
+  formdata.append('token',valor)
+  var peticion = new XMLHttpRequest();
+  peticion.onreadystatechange = function() {
+       if (peticion.readyState == XMLHttpRequest.DONE) {
+         //alert(peticion.responseText)
+         document.getElementById('muestra').innerHTML='<img src="'+peticion.responseText+'" alt="recogniton">';
+       }
+  }
+  peticion.open('POST','http://localhost:8000/resultado');
   peticion.send(formdata);
 }
+/*
+function mostrar(valor){ 
+  var peticion = new XMLHttpRequest();
+  peticion.onreadystatechange = function() {
+       if (peticion.readyState == XMLHttpRequest.DONE) {
+            document.getElementById('muestra').innerHTML='<img src="'+peticion.responseText+'" alt="recogniton">';
+       }
+  }
+  peticion.open('GET','http://localhost:8000/prueba2');
+  peticion.send();
+}*/
     </script>
 </body>
 

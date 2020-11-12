@@ -9,7 +9,10 @@ from frweb.models import SubirImagen
 import FaceRecognition.identify_face_image as ifm
 from django.core.files.storage import FileSystemStorage
 from .models import SubirVideo, Usuarios
-
+import base64
+from PIL import Image
+from io import BytesIO
+from django.core.files.base import ContentFile
 import os
 from django.views.decorators.clickjacking import xframe_options_sameorigin
 from django.views.decorators.csrf import csrf_exempt
@@ -27,7 +30,6 @@ class ImagenView(TemplateView):#VERDE pero no es mio
 
     form = ImagenForm
     template_name = 'imagenview.html'
-    
     def post(self, request, *args, **kwargs):
 
         form = ImagenForm(request.POST, request.FILES)
@@ -111,9 +113,24 @@ def camframe(request):
     return StreamingHttpResponse(frame, content_type='multipart/x-mixed-replace; boundary=frame')
 
 @xframe_options_sameorigin
-def camvista(request):
-    return render(request, 'localcam.html')
+#def camvista(request):
+#    return render(request, 'localcam.html')
 
-def prueba(request):
+def camvista(request):
     return render(request, 'webcamjs.html')
+
+@csrf_exempt
+def postjsimagen(request):
+    if request.method == 'POST':
+        base=request.POST['img']
+        token=request.POST['token']
+        im = Image.open(BytesIO(base64.b64decode(base)))
+        ruta=basedir+'/media/images/'+token+'.png'
+        im.save(ruta, 'PNG')
+        valor=ifm.identify_face_image.resultado(None, ruta)#devuelva ruta de la nueva foto
+        return HttpResponse('media/images/'+token+'.png')
+        
+    else:
+        return HttpResponse('empty')
+
 
