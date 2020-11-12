@@ -58,7 +58,7 @@ class ImagenDisplay(DetailView):
     context_object_name = 'img'
 
 def AnalizarVideovista(request):
-    return render(request, 'AnalizarVista.html')
+    return render(request, 'AnalizarVideoVista.html')
 
 @xframe_options_sameorigin
 @csrf_exempt
@@ -82,7 +82,7 @@ def AnalizarVideoframe(request):
             print('no se ha podido borrar')
     msg='Introduzca el video a analizar'
     context = {'msg':msg, 'form': form}
-    return render(request, 'Videoframe.html', context)
+    return render(request, 'AnalizarVideoframe.html', context)
 
 
 def Lista(request):#verde
@@ -92,7 +92,7 @@ def Lista(request):#verde
 
 @xframe_options_sameorigin
 def IpVideovista(request):
-    return render(request,'Videovista.html')
+    return render(request,'AnalizarVideoIPvista.html')
 
 @xframe_options_sameorigin
 @csrf_exempt
@@ -100,21 +100,13 @@ def IpVideoframe(request):
     form = VideoForm()
     msg='Introduzca dirección Ip de su camara IP'
     if request.method == 'POST':
-        ruta=request.POST['Ip']
-        frame = (ifv.resultado(None, ruta))
+        dirIP=request.POST['Ip']
+        frame = (ifv.resultado(None, dirIP))
         return StreamingHttpResponse(frame, content_type='multipart/x-mixed-replace; boundary=frame')
     else:
         context={'msg':msg,'form':form}
-        return render(request,'Videoframe.html',context)
+        return render(request,'AnalizarVideoframe.html',context)
 
-@xframe_options_sameorigin
-def camframe(request):
-    frame=(ifw.resultado(None))
-    return StreamingHttpResponse(frame, content_type='multipart/x-mixed-replace; boundary=frame')
-
-@xframe_options_sameorigin
-#def camvista(request):
-#    return render(request, 'localcam.html')
 
 def camvista(request):
     return render(request, 'webcamjs.html')

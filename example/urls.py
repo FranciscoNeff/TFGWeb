@@ -30,7 +30,6 @@ urlpatterns = [
     path('SubirVideo', AnalizarVideovista, name='AnalizarVideo'),
     path('Subirframe', AnalizarVideoframe, name='Analizarframe'),
     path('ListaUsuarios', Lista, name='Usuarios'),
-    #path('prueba',prueba),
     path('resultado',postjsimagen),
     #Administración
 
