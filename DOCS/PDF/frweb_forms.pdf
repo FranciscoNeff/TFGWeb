@@ -1,0 +1,1234 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 20 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 19 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 21 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 19 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 22 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 19 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Outlines 12 0 R /PageLabels 23 0 R /PageMode /UseNone /Pages 19 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20201124124839-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201124124839-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Paquete frweb) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 6 /First 13 0 R /Last 18 0 R /Type /Outlines
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 642.6772 0 ] /Next 14 0 R /Parent 12 0 R /Title (ImagenForm:)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 396.1307 0 ] /Next 15 0 R /Parent 12 0 R /Prev 13 0 R /Title (UploadFileForm:)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 134.5843 0 ] /Next 16 0 R /Parent 12 0 R /Prev 14 0 R /Title (UploadVideoForm:)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 599.4772 0 ] /Next 17 0 R /Parent 12 0 R /Prev 15 0 R /Title (BorrarName:)
+>>
+endobj
+17 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 376.9307 0 ] /Next 18 0 R /Parent 12 0 R /Prev 16 0 R /Title (ReconocidosForm:)
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 154.3843 0 ] /Parent 12 0 R /Prev 17 0 R /Title (VideoForm:)
+>>
+endobj
+19 0 obj
+<<
+/Count 3 /Kids [ 7 0 R 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+20 0 obj
+<<
+/Length 7749
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 166.5949 0 Td (Paquete frweb) Tj T* -166.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 21 Tm /F2 15 Tf 18 TL 6.127382 0 Td (En este m\363dulo se encuentran todos los formularios necesarios) Tj T* 107.52 0 Td (para la interacci\363n con el usuario.) Tj T* -113.6474 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 621.6772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ImagenForm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.6772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n de im\341genes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.6772 cm
+Q
+q
+1 0 0 1 62.69291 513.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( ImagenForm\(forms.ModelForm\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 66 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (ImagenForm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 30 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -6.11 0 Td (imagen:) Tj T* -34.69937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de imagen a analizar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (models.SubirImagen) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 444.4772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 132 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 54 12 re f*
+.960784 .960784 .862745 rg
+n 192 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 48 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (ImagenForm) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (ModelForm) Tj (\):) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Meta) Tj /F5 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (model) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (SubirImagen) Tj  T* (        ) Tj (fields) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ([) Tj .729412 .129412 .129412 rg ('imagen') Tj 0 0 0 rg (]) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 408.1307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 375.1307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (UploadFileForm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.1307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n para a\361adir nuevas personas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.1307 cm
+Q
+q
+1 0 0 1 62.69291 240.1307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( UploadFileForm\(forms.Form\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (UploadFileForm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 57 cm
+Q
+q
+1 0 0 1 91.03937 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -8.88 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Nombre de la nueva persona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -8.33 0 Td (Archivo:) Tj T* -32.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .923093 Tw (Archivo con los datos de la persona en) Tj T* 0 Tw (formato ".zip".) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Persona) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 182.9307 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 84 12 re f*
+.960784 .960784 .862745 rg
+n 120 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 156 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 12 60 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 174 0 12 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (UploadFileForm) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Form) Tj (\):) Tj  T* (    ) Tj (Nombre) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (50) Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (Archivo) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FileField) Tj (\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 146.5843 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 113.5843 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (UploadVideoForm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 95.58425 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n para a\361adir nuevas personas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 89.58425 cm
+Q
+ 
+endstream
+endobj
+21 0 obj
+<<
+/Length 8958
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 693.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( UploadVideoForm\(forms.Form\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 54 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (UploadVideoForm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 7.46937 0 Td (campo Video:) Tj T* -7.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de video a analizar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.SubirVideo) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 647.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 12 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (UploadVideoForm) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Form) Tj (\):) Tj  T* (    ) Tj (Video) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FileField) Tj (\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 611.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 578.4772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (BorrarName:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 560.4772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n para borrar una persona.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 554.4772 cm
+Q
+q
+1 0 0 1 62.69291 470.4772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( BorrarName\(forms.Form\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 66 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (BorrarName.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 30 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -8.88 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Campo de texto para introducir el valor.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Usuarios) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 425.2772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 60 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 168 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 234 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (BorrarName) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Form) Tj (\):) Tj  T* (    ) Tj (Nombre) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (50) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 388.9307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 355.9307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ReconocidosForm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 337.9307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n para a\361adir nuevas personas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 331.9307 cm
+Q
+q
+1 0 0 1 62.69291 247.9307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( ReconocidosForm\(forms.Form\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 66 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (ReconocidosForm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 30 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -8.88 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Campo de texto para introducir el valor.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Reconocidos) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 202.7307 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 90 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 96 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (ReconocidosForm) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Form) Tj (\):) Tj  T* (    ) Tj (Nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (50) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 166.3843 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 133.3843 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (VideoForm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 121.3843 cm
+Q
+q
+1 0 0 1 62.69291 109.3843 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Formulario de petici\363n para conseguir la direcci\363n Ip de la c\341mara y otros campos de texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 109.3843 cm
+Q
+q
+1 0 0 1 62.69291 103.3843 cm
+Q
+ 
+endstream
+endobj
+22 0 obj
+<<
+/Length 2710
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 693.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( VideoForm\(forms.Form\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 54 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (Formulario:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (UploadVideoForm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 25.80937 0 Td (campo Ip:) Tj T* -25.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Campo de texto para introducir el valor.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Reconocidos) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 647.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 36 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 72 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 198 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (VideoForm) Tj /F5 10 Tf 0 0 0 rg (\() Tj (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Form) Tj (\):) Tj  T* (    ) Tj (Ip) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (forms) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (100) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 611.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+23 0 obj
+<<
+/Nums [ 0 24 0 R 1 25 0 R 2 26 0 R ]
+>>
+endobj
+24 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+25 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+26 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000363 00000 n 
+0000000478 00000 n 
+0000000588 00000 n 
+0000000693 00000 n 
+0000000898 00000 n 
+0000001103 00000 n 
+0000001308 00000 n 
+0000001414 00000 n 
+0000001685 00000 n 
+0000001759 00000 n 
+0000001871 00000 n 
+0000002000 00000 n 
+0000002130 00000 n 
+0000002255 00000 n 
+0000002385 00000 n 
+0000002496 00000 n 
+0000002568 00000 n 
+0000010369 00000 n 
+0000019379 00000 n 
+0000022141 00000 n 
+0000022200 00000 n 
+0000022234 00000 n 
+0000022268 00000 n 
+trailer
+<<
+/ID 
+[<03ad3857f80f6d0e8e3db830d23dc1f6><03ad3857f80f6d0e8e3db830d23dc1f6>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 27
+>>
+startxref
+22302
+%%EOF

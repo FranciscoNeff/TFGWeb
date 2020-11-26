@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Inicio</title>
     <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
     <style type="text/css">
 
@@ -19,13 +19,15 @@
 
 <div class="navegador">
     <nav>
+        <a href="{% url 'Inicio' %}">Inicio</a>
         <a href="{% url 'AnalizarImagen' %}">Analizar Imagen</a>
         <a href="{% url 'AnalizarVideo' %}">Analizar Video</a>
-        <a href="WebCam">Abrir Camera Local</a>
-        <a href="{% url 'IpCAM' %}">Abrir Camera IP</a>
+        <a href="{% url 'WebCam' %}">Abrir Camara Local</a>
+        <a href="{% url 'IpCAM' %}">Abrir Camara IP</a>
         <a href="{% url 'Usuarios' %}">Personas reconocidas</a>
         <a href="administracion">Zona de Administracion</a>
     </nav>
 </div>
+<h1>{{msg}}</h1>
 </body>
 </html>

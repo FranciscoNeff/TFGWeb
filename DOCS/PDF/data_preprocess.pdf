@@ -1,0 +1,457 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/PageLabels 12 0 R /PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author () /CreationDate (D:20201124124327-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201124124327-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Paquete FaceRecognition) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 1 /Kids [ 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Length 7797
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 112.6949 0 Td (Paquete FaceRecognition) Tj T* -112.6949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 21 Tm /F2 15 Tf 18 TL 34.86738 0 Td (En este m\363dulo se normalizan las im\341genes alojadas en) Tj T* 16.8675 0 Td ('train_img' para ser utilizadas por el entrenamiento.) Tj T* -51.73488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 671.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Clase para aplicar el normalizado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 665.0236 cm
+Q
+q
+1 0 0 1 62.69291 650.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( DPreprocesses.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 632.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (M\351todo para aplicar normalizado a las im\341genes alojadas en 'trai_img' y gurdarlas en 'pre_img'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.0236 cm
+Q
+q
+1 0 0 1 62.69291 479.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 135 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( preproceso\(self\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+Q
+q
+1 0 0 1 91.03937 93 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 36.90937 0 Td (Valores) Tj T* -3.32 0 Td (entrada:) Tj T* -33.58937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (self) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 25.79937 0 Td (valor self:) Tj T* -25.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (self.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 35.24937 0 Td (Lista de) Tj T* -7.21 0 Td (m\351todos:) Tj T* -28.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (m\351todos para el desarrollo del reconocimiento facial.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 57 cm
+Q
+q
+1 0 0 1 91.03937 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 36.92937 0 Td (m\351todo) Tj T* -32.25 0 Td (preprocesses:) Tj T* -4.67937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Normaliza la imagen.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 36.92937 0 Td (m\351todo) Tj T* -25.02 0 Td (collect_data:) Tj T* -11.90937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 16.05388 Tw (Obtiene variables asocidas al) Tj T* 0 Tw (preprocesses.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 25.81937 0 Td (no return:) Tj T* -25.81937 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 352.752 cm
+q
+q
+.887925 0 0 .887925 0 0 cm
+q
+1 0 0 1 6.6 7.433063 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 528 132 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 108 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 108 78 12 re f*
+.960784 .960784 .862745 rg
+n 114 108 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 60 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 138 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 78 12 re f*
+.960784 .960784 .862745 rg
+n 132 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 84 174 12 re f*
+.960784 .960784 .862745 rg
+n 48 72 84 12 re f*
+.960784 .960784 .862745 rg
+n 138 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 162 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 72 12 re f*
+.960784 .960784 .862745 rg
+n 144 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 48 78 12 re f*
+.960784 .960784 .862745 rg
+n 228 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 48 84 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 102 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 150 12 re f*
+.960784 .960784 .862745 rg
+n 306 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 330 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 336 36 72 12 re f*
+.960784 .960784 .862745 rg
+n 408 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 150 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 246 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 102 12 re f*
+.960784 .960784 .862745 rg
+n 372 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 0 240 12 re f*
+.960784 .960784 .862745 rg
+n 324 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 336 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 360 0 150 12 re f*
+.960784 .960784 .862745 rg
+n 510 0 6 12 re f*
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (class) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (DPreprocesses) Tj /F4 10 Tf 0 0 0 rg (\(\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (preproceso) Tj 0 0 0 rg (\() Tj 0 .501961 0 rg (self) Tj 0 0 0 rg (\):) Tj  T* (        ) Tj (input_datadir) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("./FaceRecognition/train_img") Tj 0 0 0 rg  T* (        ) Tj (output_datadir) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ("./FaceRecognition/pre_img") Tj 0 0 0 rg  T*  T* (        ) Tj (obj) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (preprocesses) Tj (\() Tj (input_datadir) Tj (,) Tj (output_datadir) Tj (\)) Tj  T* (        ) Tj (nrof_images_total) Tj (,) Tj (nrof_successfully_aligned) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (obj) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (collect_data) Tj (\(\)) Tj  T*  T* (        ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('Total number of images: ) Tj /F3 10 Tf .733333 .4 .533333 rg (%d) Tj /F4 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (%) Tj 0 0 0 rg ( ) Tj (nrof_images_total) Tj (\)) Tj  T* (        ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('Number of successfully aligned images: ) Tj /F3 10 Tf .733333 .4 .533333 rg (%d) Tj /F4 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (%) Tj 0 0 0 rg ( ) Tj (nrof_successfully_aligned) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 332.752 cm
+Q
+q
+1 0 0 1 62.69291 261.752 cm
+.960784 .960784 .862745 rg
+n 0 71 469.8898 -71 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 45 Tm  T* ET
+q
+1 0 0 1 16 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F5 12.5 Tf 15 TL (Nota) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Las im\341genes alojadas en 'pre_img' son las utilizadas para entrenar el modelo.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 71 m 469.8898 71 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 71 l S
+n 469.8898 0 m 469.8898 71 l S
+Q
+Q
+q
+1 0 0 1 62.69291 255.752 cm
+Q
+ 
+endstream
+endobj
+12 0 obj
+<<
+/Nums [ 0 13 0 R ]
+>>
+endobj
+13 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000363 00000 n 
+0000000473 00000 n 
+0000000578 00000 n 
+0000000697 00000 n 
+0000000902 00000 n 
+0000000990 00000 n 
+0000001270 00000 n 
+0000001330 00000 n 
+0000009179 00000 n 
+0000009220 00000 n 
+trailer
+<<
+/ID 
+[<3ba1fdf9ebbc9cf2af79823adbb11510><3ba1fdf9ebbc9cf2af79823adbb11510>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 14
+>>
+startxref
+9254
+%%EOF

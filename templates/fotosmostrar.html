@@ -1,0 +1,37 @@
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MostrarFoto</title>
+    <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecera">
+        <img class="logo" src="{%static 'img/logo.png'%}" alt="logo"/></th>
+        <h1 class="cabecera">Face Recognition</h1>
+   </div>
+<div class="navegador">
+    <nav>
+
+<a href="{% url 'AddPersona'%}">Añadir nuevo Usuario</a>
+<a href="{% url 'BorrarUsuarios' %}">Borrar Un Reconocido</a>
+<a href="{% url 'MostrarfotosBorrado' %}">Borrar una foto</a>
+<a href="{% url 'Mostrarfotos' %}">Ver fotos</a>
+<a href="{% url 'Entrenamiento' %}">Realizar Entrenamiento</a>
+<a href="/">Inicio</a>
+    </nav>
+</div>
+    {% csrf_token %}
+    {% if lista %}
+    <h1>Estan son las fotos de {{nombre}} utilizadas para el entrenamiento</h1>
+    {% for foto in lista %}    
+    <img name="{{foto}}" width="150" height="150" src="{%static 'pre_img/' %}{{nombre}}/{{foto}}" alt="logo"><br>
+    <p>{{foto}}</p>
+    {% endfor %}
+    </form>
+    {% else %}
+    <p>No se tienen fotos para este registros</p>
+    {% endif %}
+       
+</body>
+</html>

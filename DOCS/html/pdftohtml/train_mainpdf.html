@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete FaceRecognition &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-facerecognition">
+<h1>Paquete FaceRecognition<a class="headerlink" href="#paquete-facerecognition" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="en-este-modulo-se-entrena-el-modelo-con-las-imagenes-alojadas-en-pre-img">
+<h2>En este módulo se entrena el modelo con las imágenes alojadas en “pre_img”.<a class="headerlink" href="#en-este-modulo-se-entrena-el-modelo-con-las-imagenes-alojadas-en-pre-img" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Clase para aplicar el normalizado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> Train_main.</p>
+</dd>
+</dl>
+<p>Método para aplicar normalizado a las imágenes alojadas en “trai_img” y gurdarlas en “pre_img”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> train_main(self).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Valores entrada</dt>
+<dd class="field-odd"><p>self</p>
+<dl class="field-list simple">
+<dt class="field-odd">valor self</dt>
+<dd class="field-odd"><p>self.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Lista de métodos</dt>
+<dd class="field-even"><p>métodos para el desarrollo del reconocimiento facial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">método ptraining</dt>
+<dd class="field-odd"><p>Entrenamiento del modelo.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">no return</dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Train_main</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">train_main</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1">#ruta de las imágenes para entrenar el modelo</span>
+        <span class="n">datadir</span> <span class="o">=</span> <span class="s1">&#39;./FaceRecognition/pre_img&#39;</span>
+        <span class="c1">#ruta del modelo predefinido</span>
+        <span class="n">modeldir</span> <span class="o">=</span> <span class="s1">&#39;./FaceRecognition/model/20170511-185253.pb&#39;</span>
+        <span class="c1">#ruta del clasificador SVC</span>
+        <span class="n">classifier_filename</span> <span class="o">=</span> <span class="s1">&#39;./FaceRecognition/class/classifier.pkl&#39;</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Training Start&quot;</span><span class="p">)</span>
+        <span class="n">obj</span><span class="o">=</span><span class="n">training</span><span class="p">(</span><span class="n">datadir</span><span class="p">,</span><span class="n">modeldir</span><span class="p">,</span><span class="n">classifier_filename</span><span class="p">)</span>
+        <span class="n">get_file</span><span class="o">=</span><span class="n">obj</span><span class="o">.</span><span class="n">main_train</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Saved classifier model to file &quot;</span><span class="si">%s</span><span class="s1">&quot;&#39;</span> <span class="o">%</span> <span class="n">get_file</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tarea Realizada con Exito&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Las imágenes alojadas en “pre_img” son las utilizadas para entrenar el modelo.</p>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete FaceRecognition</a><ul>
+<li><a class="reference internal" href="#en-este-modulo-se-entrena-el-modelo-con-las-imagenes-alojadas-en-pre-img">En este módulo se entrena el modelo con las imágenes alojadas en “pre_img”.</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/rstpdf/train_mainpdf.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,610 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete frweb &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-frweb">
+<h1>Paquete frweb<a class="headerlink" href="#paquete-frweb" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="todas-estos-metodos-se-encuentran-dentro-de-frweb-views-todos-ellos-son-utilizados-para-el-funcionamiento-del-cliente-tipo-usuario">
+<h2>Todas estos métodos se encuentran dentro de frweb.views. Todos ellos son utilizados para el funcionamiento del cliente tipo usuario.<a class="headerlink" href="#todas-estos-metodos-se-encuentran-dentro-de-frweb-views-todos-ellos-son-utilizados-para-el-funcionamiento-del-cliente-tipo-usuario" title="Enlazar permanentemente con este título">¶</a></h2>
+<hr class="docutils" />
+<div class="section" id="home">
+<h3>Home:<a class="headerlink" href="#home" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de inicio del servicio web, para poder acceder y utilizar todos los servicios.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> Home(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista de inicio del servicio web.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/home.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">Home</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="s1">&#39;Bienvenidos al servicio Web de reconocimiento facial&#39;</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;home.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="imagenview">
+<h3>ImagenView:<a class="headerlink" href="#imagenview" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Recibe y aloja una imagen enviada desde los archivos locales del cliente en el propio servicio dentro del directorio “/media”.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.
+Analiza la imagen recibida a traves de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_image</span></code> para mostrar su resultado al cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> ImagenView(TemplateView).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder a la subida de la imagen.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="../frweb.html#frweb.forms.ImagenForm" title="frweb.forms.ImagenForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.ImagenForm</span></code></a>.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Request POST</dt>
+<dd class="field-even"><p>Subida y alojamiento de la imagen para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro imagen</dt>
+<dd class="field-odd"><p>Imagen local del usuario.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de imagen.</p>
+</dd>
+<dt class="field-odd">return.POST</dt>
+<dd class="field-odd"><p>HttpResponseRedirect: Redirecciona el servicio con la respuesta de la imagen analizada</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HttpResponseRedirect(img).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/imagenview.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">ImagenView</span><span class="p">(</span><span class="n">TemplateView</span><span class="p">):</span>
+    <span class="n">form</span> <span class="o">=</span> <span class="n">ImagenForm</span>
+    <span class="n">template_name</span> <span class="o">=</span> <span class="s1">&#39;imagenview.html&#39;</span>
+    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+
+        <span class="n">form</span> <span class="o">=</span> <span class="n">ImagenForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">,</span> <span class="n">request</span><span class="o">.</span><span class="n">FILES</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="n">obj</span> <span class="o">=</span> <span class="n">form</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+            <span class="n">ruta</span><span class="o">=</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/&quot;</span><span class="o">+</span><span class="n">obj</span><span class="o">.</span><span class="n">imagen</span><span class="o">.</span><span class="n">url</span>
+            <span class="n">valor</span><span class="o">=</span><span class="n">ifm</span><span class="o">.</span><span class="n">identify_face_image</span><span class="o">.</span><span class="n">resultado</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">ruta</span><span class="p">)</span><span class="c1">#devuelva ruta de la nueva foto</span>
+            <span class="k">return</span> <span class="n">HttpResponseRedirect</span><span class="p">(</span><span class="n">reverse_lazy</span><span class="p">(</span><span class="s1">&#39;Imagendisplay&#39;</span><span class="p">,</span> <span class="n">kwargs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;pk&#39;</span><span class="p">:</span> <span class="n">obj</span><span class="o">.</span><span class="n">id</span><span class="p">}))</span>
+
+        <span class="n">context</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_context_data</span><span class="p">(</span><span class="n">form</span><span class="o">=</span><span class="n">form</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">render_to_response</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="c1">#Cada vez que hacemos una petición al servidor borramos las fotos en su interior.</span>
+        <span class="n">ruta</span><span class="o">=</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/images&quot;</span><span class="p">)</span>
+        <span class="n">fotos</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">ruta</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">foto</span> <span class="ow">in</span> <span class="n">fotos</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/images/&quot;</span><span class="o">+</span><span class="n">foto</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="imagendisplay">
+<h3>ImagenDisplay:<a class="headerlink" href="#imagendisplay" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de presentación de imagenes analizadas por el servicio de reconocimiento facial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> ImagenDisplay(DetailView).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista con los datos de acceso a la imagen analizada por el método «ImagenView».</p>
+<dl class="field-list simple">
+<dt class="field-odd">parametro img</dt>
+<dd class="field-odd"><p>Ruta de la imagen analizada.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de imagen.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/imagendisplay.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">ImagenDisplay</span><span class="p">(</span><span class="n">DetailView</span><span class="p">):</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">SubirImagen</span>
+    <span class="n">template_name</span> <span class="o">=</span> <span class="s1">&#39;imagendisplay.html&#39;</span>
+    <span class="n">context_object_name</span> <span class="o">=</span> <span class="s1">&#39;img&#39;</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="analizarvideovista">
+<h3>AnalizarVideoVista:<a class="headerlink" href="#analizarvideovista" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de representación del formulario para realizar el envío del archivo de video necesario para el método «AnalizarVideoFrame».</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> AnalizarVideoVista(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista para utilizar la plantilla del método «AnalizarVideoFrame» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoVista.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">AnalizarVideovista</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;AnalizarVideoVista.html&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="analizarvideoframe">
+<h3>AnalizarVideoFrame:<a class="headerlink" href="#analizarvideoframe" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><p>Recibe y aloja un video enviado desde los archivos locales del cliente en el propio servicio dentro del directorio “/media/videos”.</p>
+</div></blockquote>
+<p>Analiza los frame del video recibido a traves de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_videoweb</span></code> y envia estos al cliente tras cumplimenter el formulario requerido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> AnalizarVideoFrame(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">context form</dt>
+<dd class="field-even"><p>Formulario a cumplimentar por el cliente para proceder a la subida del archivo de video.</p>
+</dd>
+<dt class="field-odd">form referencia</dt>
+<dd class="field-odd"><p><a class="reference internal" href="../frweb.html#frweb.forms.UploadVideoForm" title="frweb.forms.UploadVideoForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.UploadVideoForm</span></code></a></p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el formulario y mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Subida y alojamiento del video para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Video</dt>
+<dd class="field-odd"><p>Video local del usuario.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de video.</p>
+</dd>
+<dt class="field-odd">return.POST Stream</dt>
+<dd class="field-odd"><p>Devuelve frame a frame la respuesta del analisis del video.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>StreamingHttpResponse(frame).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoframe.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nd">@xframe_options_sameorigin</span>
+<span class="nd">@csrf_exempt</span>
+<span class="k">def</span> <span class="nf">AnalizarVideoframe</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">UploadVideoForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">,</span> <span class="n">request</span><span class="o">.</span><span class="n">FILES</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="n">Archivo</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">FILES</span><span class="p">[</span><span class="s1">&#39;Video&#39;</span><span class="p">]</span>
+            <span class="n">fs</span> <span class="o">=</span> <span class="n">FileSystemStorage</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/videos&quot;</span><span class="p">)</span>
+            <span class="n">fs</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">Archivo</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">Archivo</span><span class="p">)</span>
+            <span class="n">rArchivo</span><span class="o">=</span> <span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/videos&quot;</span><span class="o">+</span><span class="s1">&#39;/&#39;</span><span class="o">+</span><span class="n">Archivo</span><span class="o">.</span><span class="n">name</span>
+            <span class="n">frame</span> <span class="o">=</span> <span class="p">(</span><span class="n">ifv</span><span class="o">.</span><span class="n">resultado</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">rArchivo</span><span class="p">))</span>
+            <span class="k">return</span> <span class="n">StreamingHttpResponse</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">content_type</span><span class="o">=</span><span class="s1">&#39;multipart/x-mixed-replace; boundary=frame&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">UploadVideoForm</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">archivos</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/videos&quot;</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">archivo</span> <span class="ow">in</span> <span class="n">archivos</span><span class="p">:</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/videos/&quot;</span><span class="o">+</span> <span class="n">archivo</span><span class="p">)</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;no se ha podido borrar&#39;</span><span class="p">)</span>
+    <span class="n">msg</span><span class="o">=</span><span class="s1">&#39;Introduzca el video a analizar&#39;</span>
+    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="n">msg</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;AnalizarVideoframe.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="lista">
+<h3>Lista:<a class="headerlink" href="#lista" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de presentación de la lista de todas las personas reconocidas del sistema.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> Lista(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista para utilizar la plantilla del método «IpVideoframe» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Obtiene todos los valores de la lista de usarios</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/ListaReconocidos.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">Lista</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="n">registros</span><span class="o">=</span><span class="n">Reconocidos</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+    <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span><span class="n">registros</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;ListaReconocidos.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="ipvideovista">
+<h3>IpVideovista:<a class="headerlink" href="#ipvideovista" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de representación del formulario para realizar el envío de la dirección Ip necesaria para utilizar método «IpVideoframe».</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> IpVideovista(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista para utilizar la plantilla del metodo «IpVideoframe» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoVista.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nd">@xframe_options_sameorigin</span>
+<span class="k">def</span> <span class="nf">IpVideovista</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;AnalizarVideoIPvista.html&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="ipvideoframe">
+<h3>IpVideoframe:<a class="headerlink" href="#ipvideoframe" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Recibe la dirección Ip que maneja la camara a la que se desea acceder para mostrar el resultado del analisis de su video</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> IpVideoframe(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">context form</dt>
+<dd class="field-even"><p>Formulario a cumplimentar por el cliente para obtener la dirección Ip.</p>
+</dd>
+<dt class="field-odd">form referencia</dt>
+<dd class="field-odd"><p><a class="reference internal" href="../frweb.html#frweb.forms.VideoForm" title="frweb.forms.VideoForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.VideoForm</span></code></a></p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el formulario y mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Subida y alojamiento del video para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Ip</dt>
+<dd class="field-odd"><p>Dirección Ip de la camara que se desea visualizar.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST Stream</dt>
+<dd class="field-odd"><p>Devuelve frame a frame la respuesta del analisis del video.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>StreamingHttpResponse(frame).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoframe.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nd">@xframe_options_sameorigin</span>
+<span class="nd">@csrf_exempt</span>
+<span class="k">def</span> <span class="nf">IpVideoframe</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="n">form</span> <span class="o">=</span> <span class="n">VideoForm</span><span class="p">()</span>
+    <span class="n">msg</span><span class="o">=</span><span class="s1">&#39;Introduzca dirección Ip de su camara IP&#39;</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">dirIP</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;Ip&#39;</span><span class="p">]</span>
+        <span class="n">frame</span> <span class="o">=</span> <span class="p">(</span><span class="n">ifv</span><span class="o">.</span><span class="n">resultado</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">dirIP</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">StreamingHttpResponse</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">content_type</span><span class="o">=</span><span class="s1">&#39;multipart/x-mixed-replace; boundary=frame&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="n">msg</span><span class="p">,</span><span class="s1">&#39;form&#39;</span><span class="p">:</span><span class="n">form</span><span class="p">}</span>
+        <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;AnalizarVideoframe.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="camvista">
+<h3>camvista:<a class="headerlink" href="#camvista" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Vista de representación para utiliar la Webcam del cliente y el método postjsimagen de analisis de imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> camvista(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request GET</dt>
+<dd class="field-odd"><p>Vista para utilizar la Webcam del cliente y el método postjsimagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/webcamjs.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">camvista</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;webcamjs.html&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="postjsimagen">
+<h3>postjsimagen:<a class="headerlink" href="#postjsimagen" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Recibe la imagen capturada a través de la Webcam del cliente, esta imagen se envia en formato texto codificado en Base64 y el servidor
+descodifica esta imagen y la analiza a través de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_image</span></code> , para finalmente responder con la ruta de la
+imagen analizada por el servidor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> postjsimagen(request).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Envio de la imagen en texto Base64 y el token identificador de la imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro img</dt>
+<dd class="field-odd"><p>Texto en Base64 correspondiente a la captura de imagen realizada por el cliente.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">parámetro token</dt>
+<dd class="field-odd"><p>Valor identificativo de la imagen y marca de tiempo de la captura.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST foto</dt>
+<dd class="field-odd"><p>Devuelve el valor de la ruta de la foto analizada.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/webcamjs.html”.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nd">@csrf_exempt</span>
+<span class="k">def</span> <span class="nf">postjsimagen</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">base</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;img&#39;</span><span class="p">]</span>
+        <span class="n">token</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;token&#39;</span><span class="p">]</span>
+        <span class="n">time</span><span class="o">=</span><span class="n">token</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;token&#39;</span><span class="p">)</span> <span class="c1">#se separa el timestamp del identificador</span>
+        <span class="n">timeb</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">time</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">-</span><span class="mi">8000000</span> <span class="c1">#se define un tiempo de borrado</span>
+
+        <span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">base</span><span class="p">)))</span>
+        <span class="n">foto</span><span class="o">=</span><span class="s1">&#39;media/imagescam/&#39;</span><span class="o">+</span><span class="n">token</span>
+        <span class="n">im</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">foto</span><span class="p">,</span> <span class="s1">&#39;PNG&#39;</span><span class="p">)</span>
+        <span class="n">fotos</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/imagescam&quot;</span><span class="p">)</span>
+        <span class="c1">#borrado de fotos mas de 8000000 miliseg</span>
+        <span class="k">for</span> <span class="n">archivo</span> <span class="ow">in</span> <span class="n">fotos</span><span class="p">:</span>
+            <span class="n">borrado</span><span class="o">=</span><span class="n">archivo</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;token&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">borrado</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">&lt;</span><span class="nb">int</span><span class="p">(</span><span class="n">timeb</span><span class="p">):</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s2">&quot;/media/imagescam/&quot;</span><span class="o">+</span><span class="n">archivo</span><span class="p">)</span>
+
+        <span class="n">valor</span><span class="o">=</span><span class="n">ifm</span><span class="o">.</span><span class="n">identify_face_image</span><span class="o">.</span><span class="n">resultado</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">foto</span><span class="p">)</span><span class="c1">#devuelva ruta de la nueva foto</span>
+        <span class="k">return</span> <span class="n">HttpResponse</span><span class="p">(</span><span class="n">foto</span><span class="p">)</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete frweb</a><ul>
+<li><a class="reference internal" href="#todas-estos-metodos-se-encuentran-dentro-de-frweb-views-todos-ellos-son-utilizados-para-el-funcionamiento-del-cliente-tipo-usuario">Todas estos métodos se encuentran dentro de frweb.views. Todos ellos son utilizados para el funcionamiento del cliente tipo usuario.</a><ul>
+<li><a class="reference internal" href="#home">Home:</a></li>
+<li><a class="reference internal" href="#imagenview">ImagenView:</a></li>
+<li><a class="reference internal" href="#imagendisplay">ImagenDisplay:</a></li>
+<li><a class="reference internal" href="#analizarvideovista">AnalizarVideoVista:</a></li>
+<li><a class="reference internal" href="#analizarvideoframe">AnalizarVideoFrame:</a></li>
+<li><a class="reference internal" href="#lista">Lista:</a></li>
+<li><a class="reference internal" href="#ipvideovista">IpVideovista:</a></li>
+<li><a class="reference internal" href="#ipvideoframe">IpVideoframe:</a></li>
+<li><a class="reference internal" href="#camvista">camvista:</a></li>
+<li><a class="reference internal" href="#postjsimagen">postjsimagen:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/rstpdf/frweb_viewpdf.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

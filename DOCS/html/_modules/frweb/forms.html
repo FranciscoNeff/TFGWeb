@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frweb.forms &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Código de módulo</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">frweb.forms</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Código fuente para frweb.forms</h1><div class="highlight"><pre>
+<span></span><span class="c1"># forms.py </span>
+<span class="kn">from</span> <span class="nn">django</span> <span class="kn">import</span> <span class="n">forms</span> 
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">SubirImagen</span>
+<span class="kn">from</span> <span class="nn">.admin</span> <span class="kn">import</span> <span class="n">Reconocidos</span>
+<span class="sd">&quot;&quot;&quot; </span>
+<span class="sd">    En este módulo se encuentran todos los formularios necesarios para la interacción con el usuario.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<div class="viewcode-block" id="ImagenForm"><a class="viewcode-back" href="../../frweb.html#frweb.forms.ImagenForm">[documentos]</a><span class="k">class</span> <span class="nc">ImagenForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span> 
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición de imágenes.</span>
+
+<span class="sd">    :Método clase: **ImagenForm** (forms.ModelForm).</span>
+<span class="sd">    :Formulario: ImagenForm.</span>
+
+<span class="sd">        :campo imagen: Archivo de imagen a analizar.</span>
+
+<span class="sd">    :Modelo: :mod:`models.SubirImagen`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+<div class="viewcode-block" id="ImagenForm.Meta"><a class="viewcode-back" href="../../frweb.html#frweb.forms.ImagenForm.Meta">[documentos]</a>    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span> 
+        <span class="n">model</span> <span class="o">=</span> <span class="n">SubirImagen</span>
+        <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;imagen&#39;</span><span class="p">]</span></div></div>
+
+<div class="viewcode-block" id="UploadFileForm"><a class="viewcode-back" href="../../frweb.html#frweb.forms.UploadFileForm">[documentos]</a><span class="k">class</span> <span class="nc">UploadFileForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición para añadir nuevas personas.</span>
+
+<span class="sd">    :Método clase: **UploadFileForm** (forms.Form).</span>
+
+<span class="sd">    :Formulario: UploadFileForm.</span>
+<span class="sd">    </span>
+<span class="sd">        :campo Nombre: Nombre de la nueva persona.</span>
+<span class="sd">        :campo Archivo: Archivo con los datos de la persona en formato &quot;.zip&quot;.</span>
+
+<span class="sd">    :Modelo: :mod:`models.Persona`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="n">Nombre</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+    <span class="n">Archivo</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">FileField</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="UploadVideoForm"><a class="viewcode-back" href="../../frweb.html#frweb.forms.UploadVideoForm">[documentos]</a><span class="k">class</span> <span class="nc">UploadVideoForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición para añadir nuevas personas.</span>
+
+<span class="sd">    :Método clase: **UploadVideoForm** (forms.Form).</span>
+
+<span class="sd">    :Formulario: UploadVideoForm.</span>
+
+<span class="sd">        :campo Video: Archivo de video a analizar.</span>
+
+<span class="sd">    :Modelo: :mod:`models.SubirVideo`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="n">Video</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">FileField</span><span class="p">()</span></div>
+
+<div class="viewcode-block" id="BorrarName"><a class="viewcode-back" href="../../frweb.html#frweb.forms.BorrarName">[documentos]</a><span class="k">class</span> <span class="nc">BorrarName</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición para borrar una persona.</span>
+
+<span class="sd">    :Método clase: **BorrarName** (forms.Form).</span>
+
+<span class="sd">    :Formulario: BorrarName.</span>
+
+<span class="sd">        :campo Nombre: Campo de texto para introducir el valor.</span>
+
+<span class="sd">    :Modelo: :mod:`models.Usuarios`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="n">Nombre</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ReconocidosForm"><a class="viewcode-back" href="../../frweb.html#frweb.forms.ReconocidosForm">[documentos]</a><span class="k">class</span> <span class="nc">ReconocidosForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición para añadir nuevas personas.</span>
+
+<span class="sd">    :Método clase: **ReconocidosForm** (forms.Form).</span>
+
+<span class="sd">    :Formulario: ReconocidosForm.</span>
+
+<span class="sd">        :campo Nombre: Campo de texto para introducir el valor.</span>
+
+<span class="sd">    :Modelo: :mod:`models.Reconocidos`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="n">Nombre</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="VideoForm"><a class="viewcode-back" href="../../frweb.html#frweb.forms.VideoForm">[documentos]</a><span class="k">class</span> <span class="nc">VideoForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formulario de petición para conseguir la dirección Ip de la cámara y otros campos de texto.</span>
+
+<span class="sd">    :Método clase: **VideoForm** (forms.Form).</span>
+
+<span class="sd">    :Formulario: UploadVideoForm.</span>
+
+<span class="sd">        :campo Ip: Campo de texto para introducir el valor.</span>
+
+<span class="sd">    :Modelo: :mod:`models.Reconocidos`.</span>
+<span class="sd">    &quot;&quot;&quot;</span> 
+    <span class="n">Ip</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span></div>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Código de módulo</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">frweb.forms</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

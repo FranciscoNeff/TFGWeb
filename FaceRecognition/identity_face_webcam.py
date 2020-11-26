@@ -12,7 +12,7 @@ import time
 import sys
 import pickle
 
-
+"Está clase no se utiliza, pero se reserva para posibles líneas futuras si Django entrega alguna libreria viable de uso para webcam"
 global frame
 class identify_face_webcam:
    def resultado(self):

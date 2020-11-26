@@ -1,0 +1,1483 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete frweb &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-frweb">
+<h1>Paquete frweb<a class="headerlink" href="#paquete-frweb" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="modulos">
+<h2>Módulos<a class="headerlink" href="#modulos" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+<div class="section" id="frweb-admin-views-modulo">
+<h2>frweb.admin_views módulo<a class="headerlink" href="#frweb-admin-views-modulo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="module-frweb.admin_views">
+<span id="en-este-modulo-se-encuentran-todos-los-metodos-utilizados-para-el-funcionamiento-del-cliente-tipo-administrador-todos-estos-servicios-necesitan-el-usuario-y-clave-de-administrador"></span><h3>En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo administrador. Todos estos servicios necesitan el usuario y clave de administrador.<a class="headerlink" href="#module-frweb.admin_views" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="py function">
+<dt id="frweb.admin_views.BorrarReconocido">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">BorrarReconocido</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#BorrarReconocido"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.BorrarReconocido" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Con este método se puede borrar todos los datos una persona tipo usuario y reconocido si existiese.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>BorrarReconocido</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder al borrado de una persona.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="#frweb.forms.BorrarName" title="frweb.forms.BorrarName"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.BorrarName</span></code></a>.</p>
+</dd>
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Lista de personas tipo usuario.</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista GET</dt>
+<dd class="field-odd"><p>“templates/nuevapersona.html”.</p>
+</dd>
+<dt class="field-even">Request POST</dt>
+<dd class="field-even"><p>Recepción del nombre de la persona a borrar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona que se desea borrar.</p>
+</dd>
+<dt class="field-even">tipo Nombre</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST</dt>
+<dd class="field-odd"><p>Devuelve los mismos datos que el proceso «Request GET»</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista POST</dt>
+<dd class="field-odd"><p>“templates/BorrarReconocido.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.Entrenamiento">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">Entrenamiento</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#Entrenamiento"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.Entrenamiento" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Con este método se realiza el entrenamiento obtienen primero los datos almacenados en el directorio “/FaceRecognition/train_img”, estos datos se normalizan
+y se almacenan en el directorio “/FaceRecognition/pre_img”, estos son los datos utilizados para realizar el entrenamiento.
+Hace uso de los metodos alojados en :mod:´FaceRecognition.data_preprocess´ y :mod:´FaceRecognition.train_main´ .</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>Entrenamiento</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio del estado del proceso una vez realizado el entrenamiento, si el estado es satisfactorio devuelve la lista de las personas con las que se ha entrado el sistema y el número de las fotos utilizadas, si el estado es no satisfactorio responde con un mensaje negativo.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Lista de personas reconocidas y número de fotos.</p>
+</dd>
+<dt class="field-even">context resultado</dt>
+<dd class="field-even"><p>Indica el estado de haber aplicado el entrenamiento en el servicio.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el resultado del entrenamiento.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista</dt>
+<dd class="field-even"><p>“templates/Entrenamiento.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.SubirZip">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">SubirZip</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#SubirZip"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.SubirZip" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Recibe y aloja el archivo «.zip» enviado desde los archivos locales del cliente con los datos de la nueva persona a añadir
+y poder almacenarla en el propio servicio dentro del directorio “/FaceRecognition”.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.
+Recibido el archivo lo descomprime y aloja las fotos de la nueva persona en el directorio “/FaceRecognition/train_img”</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>SubirZip</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder al ingreso de una nueva persona.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="#frweb.forms.UploadFileForm" title="frweb.forms.UploadFileForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.UploadFileForm</span></code></a>.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista GET</dt>
+<dd class="field-even"><p>“templates/nuevapersona.html”.</p>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Subida y alojamiento de la imagen para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Archivo</dt>
+<dd class="field-odd"><p>Archivo local del usuario con las imagenes de la nueva persona a añadir.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo .zip.</p>
+</dd>
+<dt class="field-odd">parámetro Nombre</dt>
+<dd class="field-odd"><p>Nombre con el que se va a desbrir a la nueva persona.</p>
+</dd>
+<dt class="field-even">tipo Nombre</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST</dt>
+<dd class="field-odd"><p>HttpResponse devuelve la vista con el estado del proceso</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista POST</dt>
+<dd class="field-odd"><p>“templates/respuestasadmin.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.ZonaAdmin">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">ZonaAdmin</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#ZonaAdmin"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.ZonaAdmin" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de inicio del servicio de administración, para poder acceder y utilizar todos los servicios de esta zona.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>ZonaAdmin</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista de inicio del servicio de administración.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/Administracion.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.borrarfoto">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">borrarfoto</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#borrarfoto"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.borrarfoto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Con este método se obtienen los datos de la foto que se quiere borrar.
+El envio se realiza tras cumplimentar el formulario el formulario requerido en el método función <a class="reference internal" href="#frweb.admin_views.mostrarfotoborrado" title="frweb.admin_views.mostrarfotoborrado"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.admin_views.mostrarfotoborrado</span></code></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>borrarfoto</strong> (request).</p>
+</dd>
+<dt class="field-even">Request POST</dt>
+<dd class="field-even"><p>Contiene la cadena de texto QueryDict sin parsear, una vez parseada se obtienen los parámetros necesarios para procesar el borrado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona que se desea borrar su foto.</p>
+</dd>
+<dt class="field-even">tipo nombre</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">parámetro foto</dt>
+<dd class="field-odd"><p>Nombre de la foto a borrar</p>
+</dd>
+<dt class="field-even">tipo foto</dt>
+<dd class="field-even"><p>texto</p>
+</dd>
+<dt class="field-odd">context estado</dt>
+<dd class="field-odd"><p>Listado de la ruta de las imagenes a mostrar si se encuentran y vacia si no se tienen registros.</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST</dt>
+<dd class="field-odd"><p>Devuelve la vista de presentación con el estado resuelto de este proceso</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista POST</dt>
+<dd class="field-odd"><p>“templates/respuestasadmin.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.mostrarfoto">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">mostrarfoto</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#mostrarfoto"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.mostrarfoto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Con este método muestran todas las fotos de una persona tipo usuario almacenadas en el directorio “/FaceRecognition/train_img”.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>mostrarfoto</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder a mostrar las fotos.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="#frweb.forms.BorrarName" title="frweb.forms.BorrarName"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.BorrarName</span></code></a>.</p>
+</dd>
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Lista de personas tipo usuario.</p>
+</dd>
+<dt class="field-even">context msg</dt>
+<dd class="field-even"><p>Mensaje para mostrar al cliente.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista GET</dt>
+<dd class="field-even"><p>“templates/BorrarReconocido.html”.</p>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Recepción del nombre de la persona a borrar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona que se desea ver sus fotos.</p>
+</dd>
+<dt class="field-even">tipo Nombre</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">context lista</dt>
+<dd class="field-odd"><p>Listado con el nombre de las fotos de la persona deseada.</p>
+</dd>
+<dt class="field-even">context nombre</dt>
+<dd class="field-even"><p>Informa si se ha encontrado la persona devolviendo el nombre de esta o un mensaje negativo.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.POST</dt>
+<dd class="field-even"><p>Devuelve los datos procesados para interpretarlos dentro de la vista Post.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista POST</dt>
+<dd class="field-even"><p>“templates/fotosmostrar.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.admin_views.mostrarfotoborrado">
+<code class="sig-prename descclassname">frweb.admin_views.</code><code class="sig-name descname">mostrarfotoborrado</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/admin_views.html#mostrarfotoborrado"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.admin_views.mostrarfotoborrado" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Con este método se consiguen y muestran todas las imagenes de una persona tipo usuario.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>mostrarfotoborrado</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder a mostrar la vista de borrado de imagen.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="#frweb.forms.BorrarName" title="frweb.forms.BorrarName"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.BorrarName</span></code></a>.</p>
+</dd>
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Lista de personas tipo usuario.</p>
+</dd>
+<dt class="field-even">context msg</dt>
+<dd class="field-even"><p>Mensaje de información para el cliente.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista GET</dt>
+<dd class="field-even"><p>“templates/BorrarReconocido.html”.</p>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Recepción del nombre de la persona a borrar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona que se desea borrar o mensaje de resultado negativo en la busqueda de imágenes.</p>
+</dd>
+<dt class="field-even">context lista</dt>
+<dd class="field-even"><p>Listado de la ruta de las imagenes a mostrar si se encuentran y vacia si no se tienen registros.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.POST</dt>
+<dd class="field-even"><p>Devuelve la vista de presentación con las imagenes listas para ser borradas</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Vista POST</dt>
+<dd class="field-even"><p>“templates/fotosborrado.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-frweb.apps">
+<span id="frweb-apps-modulo"></span><h2>frweb.apps módulo<a class="headerlink" href="#module-frweb.apps" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py class">
+<dt id="frweb.apps.FRWebConfig">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.apps.</code><code class="sig-name descname">FRWebConfig</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app_name</span></em>, <em class="sig-param"><span class="n">app_module</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/apps.html#FRWebConfig"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.apps.FRWebConfig" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.apps.config.AppConfig</span></code></p>
+<dl class="py attribute">
+<dt id="frweb.apps.FRWebConfig.name">
+<code class="sig-name descname">name</code><em class="property"> = 'frweb'</em><a class="headerlink" href="#frweb.apps.FRWebConfig.name" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="frweb-forms-modulo">
+<h2>frweb.forms módulo<a class="headerlink" href="#frweb-forms-modulo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="module-frweb.forms">
+<span id="en-este-modulo-se-encuentran-todos-los-formularios-necesarios-para-la-interaccion-con-el-usuario"></span><h3>En este modulo se encuentran todos los formularios necesarios para la interacción con el usuario.<a class="headerlink" href="#module-frweb.forms" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="py class">
+<dt id="frweb.forms.BorrarName">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">BorrarName</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#BorrarName"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.BorrarName" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Formulario de petición para borrar una persona.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>BorrarName</strong> (forms.Form).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>BorrarName.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Usuarios</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.forms.BorrarName.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.BorrarName.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.BorrarName.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.BorrarName.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.BorrarName.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.BorrarName.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.forms.ImagenForm">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">ImagenForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">instance=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#ImagenForm"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.ImagenForm" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.models.ModelForm</span></code></p>
+<p>Formulario de petición de imágenes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>ImagenForm</strong> (forms.ModelForm).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>ImagenForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo imagen</dt>
+<dd class="field-odd"><p>Archivo de imagen a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirImagen</span></code>.</p>
+</dd>
+</dl>
+<dl class="py class">
+<dt id="frweb.forms.ImagenForm.Meta">
+<em class="property">class </em><code class="sig-name descname">Meta</code><a class="reference internal" href="_modules/frweb/forms.html#ImagenForm.Meta"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.ImagenForm.Meta" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="frweb.forms.ImagenForm.Meta.fields">
+<code class="sig-name descname">fields</code><em class="property"> = ['imagen']</em><a class="headerlink" href="#frweb.forms.ImagenForm.Meta.fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.ImagenForm.Meta.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#frweb.forms.ImagenForm.Meta.model" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>alias de <a class="reference internal" href="#frweb.models.SubirImagen" title="frweb.models.SubirImagen"><code class="xref py py-class docutils literal notranslate"><span class="pre">frweb.models.SubirImagen</span></code></a></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.ImagenForm.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'imagen': &lt;django.forms.fields.ImageField object&gt;}</em><a class="headerlink" href="#frweb.forms.ImagenForm.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.ImagenForm.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {}</em><a class="headerlink" href="#frweb.forms.ImagenForm.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.ImagenForm.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.ImagenForm.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.forms.ReconocidosForm">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">ReconocidosForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#ReconocidosForm"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.ReconocidosForm" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>ReconocidosForm</strong> (forms.Form).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>ReconocidosForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Reconocidos</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.forms.ReconocidosForm.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.ReconocidosForm.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.ReconocidosForm.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.ReconocidosForm.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.ReconocidosForm.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.ReconocidosForm.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.forms.UploadFileForm">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">UploadFileForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#UploadFileForm"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.UploadFileForm" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>UploadFileForm</strong> (forms.Form).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>UploadFileForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Nombre de la nueva persona.</p>
+</dd>
+<dt class="field-even">campo Archivo</dt>
+<dd class="field-even"><p>Archivo con los datos de la persona en formato «.zip».</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Modelo</dt>
+<dd class="field-odd"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Persona</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.forms.UploadFileForm.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'Archivo': &lt;django.forms.fields.FileField object&gt;, 'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.UploadFileForm.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.UploadFileForm.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {'Archivo': &lt;django.forms.fields.FileField object&gt;, 'Nombre': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.UploadFileForm.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.UploadFileForm.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.UploadFileForm.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.forms.UploadVideoForm">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">UploadVideoForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#UploadVideoForm"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.UploadVideoForm" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>UploadVideoForm</strong> (forms.Form).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>UploadVideoForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Video</dt>
+<dd class="field-odd"><p>Archivo de video a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirVideo</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.forms.UploadVideoForm.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'Video': &lt;django.forms.fields.FileField object&gt;}</em><a class="headerlink" href="#frweb.forms.UploadVideoForm.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.UploadVideoForm.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {'Video': &lt;django.forms.fields.FileField object&gt;}</em><a class="headerlink" href="#frweb.forms.UploadVideoForm.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.UploadVideoForm.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.UploadVideoForm.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.forms.VideoForm">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.forms.</code><code class="sig-name descname">VideoForm</code><span class="sig-paren">(</span><em class="sig-param">data=None</em>, <em class="sig-param">files=None</em>, <em class="sig-param">auto_id='id_%s'</em>, <em class="sig-param">prefix=None</em>, <em class="sig-param">initial=None</em>, <em class="sig-param">error_class=&lt;class 'django.forms.utils.ErrorList'&gt;</em>, <em class="sig-param">label_suffix=None</em>, <em class="sig-param">empty_permitted=False</em>, <em class="sig-param">field_order=None</em>, <em class="sig-param">use_required_attribute=None</em>, <em class="sig-param">renderer=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/forms.html#VideoForm"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.forms.VideoForm" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.forms.forms.Form</span></code></p>
+<p>Formulario de petición para conseguir la dirección Ip de la cámara y otros campos de texto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>VideoForm</strong> (forms.Form).</p>
+</dd>
+<dt class="field-even">Formulario</dt>
+<dd class="field-even"><p>UploadVideoForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Ip</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Reconocidos</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.forms.VideoForm.base_fields">
+<code class="sig-name descname">base_fields</code><em class="property"> = {'Ip': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.VideoForm.base_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.forms.VideoForm.declared_fields">
+<code class="sig-name descname">declared_fields</code><em class="property"> = {'Ip': &lt;django.forms.fields.CharField object&gt;}</em><a class="headerlink" href="#frweb.forms.VideoForm.declared_fields" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.forms.VideoForm.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#frweb.forms.VideoForm.media" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="frweb-models-modulo">
+<h2>frweb.models módulo<a class="headerlink" href="#frweb-models-modulo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="module-frweb.models">
+<span id="en-este-modulo-se-encuentran-todos-las-clases-necesarios-para-la-recogida-de-los-datos-con-el-usuario"></span><h3>En este modulo se encuentran todos las clases necesarios para la recogida de los datos con el usuario.<a class="headerlink" href="#module-frweb.models" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="py class">
+<dt id="frweb.models.Persona">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.models.</code><code class="sig-name descname">Persona</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/models.html#Persona"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.models.Persona" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Modelo para generar el envio de añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>Persona</strong> (models.Model).</p>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p>Persona.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona a añadir.</p>
+</dd>
+<dt class="field-even">campo ArchivoZip</dt>
+<dd class="field-even"><p>Archivo “.zip” con los datos de la persona.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Modelo</dt>
+<dd class="field-odd"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Persona</span></code>.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.models.Persona.ArchivoZip">
+<code class="sig-name descname">ArchivoZip</code><a class="headerlink" href="#frweb.models.Persona.ArchivoZip" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>The descriptor for the file attribute on the model instance. Return a
+FieldFile when accessed so you can write code like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">myapp.models</span> <span class="kn">import</span> <span class="n">MyModel</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span> <span class="o">=</span> <span class="n">MyModel</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">pk</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">size</span>
+</pre></div>
+</div>
+<p>Assign a file object on assignment so you can do:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/path/to/hello.world&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="n">instance</span><span class="o">.</span><span class="n">file</span> <span class="o">=</span> <span class="n">File</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.Persona.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#frweb.models.Persona.DoesNotExist" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.Persona.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#frweb.models.Persona.MultipleObjectsReturned" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Persona.id">
+<code class="sig-name descname">id</code><a class="headerlink" href="#frweb.models.Persona.id" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Persona.nombre">
+<code class="sig-name descname">nombre</code><a class="headerlink" href="#frweb.models.Persona.nombre" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Persona.objects">
+<code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#frweb.models.Persona.objects" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.models.Reconocidos">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.models.</code><code class="sig-name descname">Reconocidos</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/models.html#Reconocidos"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.models.Reconocidos" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Modelo para generar la base de datos Reconocidos.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>Reconocidos</strong> (models.Model).</p>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p>Reconocidos.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona usuario a añadir.</p>
+</dd>
+<dt class="field-even">campo fotos</dt>
+<dd class="field-even"><p>Número de fotos utilizadas para el entrenamiento.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Modelo</dt>
+<dd class="field-odd"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Reconocidos</span></code>.</p>
+</dd>
+</dl>
+<dl class="py exception">
+<dt id="frweb.models.Reconocidos.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#frweb.models.Reconocidos.DoesNotExist" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.Reconocidos.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#frweb.models.Reconocidos.MultipleObjectsReturned" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Reconocidos.fotos">
+<code class="sig-name descname">fotos</code><a class="headerlink" href="#frweb.models.Reconocidos.fotos" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Reconocidos.nombre">
+<code class="sig-name descname">nombre</code><a class="headerlink" href="#frweb.models.Reconocidos.nombre" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Reconocidos.objects">
+<code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#frweb.models.Reconocidos.objects" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.models.SubirImagen">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.models.</code><code class="sig-name descname">SubirImagen</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/models.html#SubirImagen"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.models.SubirImagen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Modelo para generar el campo de petición de imagenes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>SubirImagen</strong> (models.Model).</p>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p>SubirImagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo imagen</dt>
+<dd class="field-odd"><p>Archivo de imagen a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirImagen</span></code>.</p>
+</dd>
+</dl>
+<dl class="py exception">
+<dt id="frweb.models.SubirImagen.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#frweb.models.SubirImagen.DoesNotExist" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.SubirImagen.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#frweb.models.SubirImagen.MultipleObjectsReturned" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirImagen.id">
+<code class="sig-name descname">id</code><a class="headerlink" href="#frweb.models.SubirImagen.id" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirImagen.imagen">
+<code class="sig-name descname">imagen</code><a class="headerlink" href="#frweb.models.SubirImagen.imagen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Just like the FileDescriptor, but for ImageFields. The only difference is
+assigning the width/height to the width_field/height_field, if appropriate.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirImagen.objects">
+<code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#frweb.models.SubirImagen.objects" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.models.SubirVideo">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.models.</code><code class="sig-name descname">SubirVideo</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/models.html#SubirVideo"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.models.SubirVideo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Modelo para generar el campo de petición de video.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>SubirVideo</strong> (models.Model).</p>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p>SubirVideo.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Video</dt>
+<dd class="field-odd"><p>Archivo de video a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirVideo</span></code>.</p>
+</dd>
+</dl>
+<dl class="py exception">
+<dt id="frweb.models.SubirVideo.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#frweb.models.SubirVideo.DoesNotExist" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.SubirVideo.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#frweb.models.SubirVideo.MultipleObjectsReturned" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirVideo.Video">
+<code class="sig-name descname">Video</code><a class="headerlink" href="#frweb.models.SubirVideo.Video" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>The descriptor for the file attribute on the model instance. Return a
+FieldFile when accessed so you can write code like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">myapp.models</span> <span class="kn">import</span> <span class="n">MyModel</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span> <span class="o">=</span> <span class="n">MyModel</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">pk</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">size</span>
+</pre></div>
+</div>
+<p>Assign a file object on assignment so you can do:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/path/to/hello.world&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="n">instance</span><span class="o">.</span><span class="n">file</span> <span class="o">=</span> <span class="n">File</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirVideo.id">
+<code class="sig-name descname">id</code><a class="headerlink" href="#frweb.models.SubirVideo.id" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.SubirVideo.objects">
+<code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#frweb.models.SubirVideo.objects" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.models.Usuarios">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.models.</code><code class="sig-name descname">Usuarios</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/models.html#Usuarios"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.models.Usuarios" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Modelo para generar la base de datos usuarios.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>Usuarios</strong> (models.Model).</p>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p>Usuarios.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo nombre</dt>
+<dd class="field-odd"><p>Nombre de la persona usuario a añadir.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Usuarios</span></code>.</p>
+</dd>
+</dl>
+<dl class="py exception">
+<dt id="frweb.models.Usuarios.DoesNotExist">
+<em class="property">exception </em><code class="sig-name descname">DoesNotExist</code><a class="headerlink" href="#frweb.models.Usuarios.DoesNotExist" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="frweb.models.Usuarios.MultipleObjectsReturned">
+<em class="property">exception </em><code class="sig-name descname">MultipleObjectsReturned</code><a class="headerlink" href="#frweb.models.Usuarios.MultipleObjectsReturned" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Usuarios.nombre">
+<code class="sig-name descname">nombre</code><a class="headerlink" href="#frweb.models.Usuarios.nombre" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.models.Usuarios.objects">
+<code class="sig-name descname">objects</code><em class="property"> = &lt;django.db.models.manager.Manager object&gt;</em><a class="headerlink" href="#frweb.models.Usuarios.objects" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="frweb-views-modulo">
+<h2>frweb.views módulo<a class="headerlink" href="#frweb-views-modulo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="module-frweb.views">
+<span id="en-este-modulo-se-encuentran-todos-los-metodos-utilizados-para-el-funcionamiento-del-cliente-tipo-usuario"></span><h3>En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo usuario.<a class="headerlink" href="#module-frweb.views" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="py function">
+<dt id="frweb.views.AnalizarVideoframe">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">AnalizarVideoframe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#AnalizarVideoframe"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.AnalizarVideoframe" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Recibe y aloja un video enviado desde los archivos locales del cliente en el propio servicio dentro del directorio “/media/videos”.
+Analiza los frame del video recibido a traves de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_videoweb</span></code> y envia estos al cliente tras cumplimenter el formulario requerido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>AnalizarVideoFrame</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">context form</dt>
+<dd class="field-even"><p>Formulario a cumplimentar por el cliente para proceder a la subida del archivo de video.</p>
+</dd>
+<dt class="field-odd">form referencia</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#frweb.forms.UploadVideoForm" title="frweb.forms.UploadVideoForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.UploadVideoForm</span></code></a></p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el formulario y mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Subida y alojamiento del video para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Video</dt>
+<dd class="field-odd"><p>Video local del usuario.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de video.</p>
+</dd>
+<dt class="field-odd">return.POST Stream</dt>
+<dd class="field-odd"><p>Devuelve frame a frame la respuesta del analisis del video.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>StreamingHttpResponse(frame).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoframe.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.AnalizarVideovista">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">AnalizarVideovista</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#AnalizarVideovista"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.AnalizarVideovista" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de representación del formulario para realizar el envío del archivo de video necesario para el método «AnalizarVideoFrame».</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>AnalizarVideoVista</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista para utilizar la plantilla del método «AnalizarVideoFrame» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoVista.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.Home">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">Home</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#Home"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.Home" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de inicio del servicio web, para poder acceder y utilizar todos los servicios.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>Home</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista de inicio del servicio web.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/home.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.views.ImagenDisplay">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">ImagenDisplay</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#ImagenDisplay"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.ImagenDisplay" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.views.generic.detail.DetailView</span></code></p>
+<p>Vista de presentación de imagenes analizadas por el servicio de reconocimiento facial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>ImagenDisplay</strong> (DetailView).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista con los datos de acceso a la imagen analizada por el método «ImagenView».</p>
+<dl class="field-list simple">
+<dt class="field-odd">parametro img</dt>
+<dd class="field-odd"><p>Ruta de la imagen analizada.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de imagen.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/imagendisplay.html”.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.views.ImagenDisplay.context_object_name">
+<code class="sig-name descname">context_object_name</code><em class="property"> = 'img'</em><a class="headerlink" href="#frweb.views.ImagenDisplay.context_object_name" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.views.ImagenDisplay.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#frweb.views.ImagenDisplay.model" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>alias de <a class="reference internal" href="#frweb.models.SubirImagen" title="frweb.models.SubirImagen"><code class="xref py py-class docutils literal notranslate"><span class="pre">frweb.models.SubirImagen</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.views.ImagenDisplay.template_name">
+<code class="sig-name descname">template_name</code><em class="property"> = 'imagendisplay.html'</em><a class="headerlink" href="#frweb.views.ImagenDisplay.template_name" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="frweb.views.ImagenView">
+<em class="property">class </em><code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">ImagenView</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#ImagenView"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.ImagenView" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.views.generic.base.TemplateView</span></code></p>
+<p>Recibe y aloja una imagen enviada desde los archivos locales del cliente en el propio servicio dentro del directorio “/media”.
+El envio se realiza tras cumplimentar el formulario el formulario requerido.
+Analiza la imagen recibida a traves de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_image</span></code> para mostrar su resultado al cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método clase</dt>
+<dd class="field-odd"><p><strong>ImagenView</strong> (TemplateView).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context form</dt>
+<dd class="field-odd"><p>Formulario a cumplimentar por el cliente para proceder a la subida de la imagen.</p>
+</dd>
+<dt class="field-even">form referencia</dt>
+<dd class="field-even"><p><a class="reference internal" href="#frweb.forms.ImagenForm" title="frweb.forms.ImagenForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.ImagenForm</span></code></a>.</p>
+</dd>
+<dt class="field-odd">tipo context</dt>
+<dd class="field-odd"><p>texto.</p>
+</dd>
+<dt class="field-even">return.GET</dt>
+<dd class="field-even"><p>Vista con el formulario.</p>
+</dd>
+<dt class="field-odd">tipo return</dt>
+<dd class="field-odd"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Request POST</dt>
+<dd class="field-even"><p>Subida y alojamiento de la imagen para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro imagen</dt>
+<dd class="field-odd"><p>Imagen local del usuario.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>Archivo de imagen.</p>
+</dd>
+<dt class="field-odd">return.POST</dt>
+<dd class="field-odd"><p>HttpResponseRedirect: Redirecciona el servicio con la respuesta de la imagen analizada</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HttpResponseRedirect(img).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/imagenview.html”.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="frweb.views.ImagenView.form">
+<code class="sig-name descname">form</code><a class="headerlink" href="#frweb.views.ImagenView.form" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>alias de <a class="reference internal" href="#frweb.forms.ImagenForm" title="frweb.forms.ImagenForm"><code class="xref py py-class docutils literal notranslate"><span class="pre">frweb.forms.ImagenForm</span></code></a></p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="frweb.views.ImagenView.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#ImagenView.get"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.ImagenView.get" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="frweb.views.ImagenView.post">
+<code class="sig-name descname">post</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#ImagenView.post"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.ImagenView.post" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="frweb.views.ImagenView.template_name">
+<code class="sig-name descname">template_name</code><em class="property"> = 'imagenview.html'</em><a class="headerlink" href="#frweb.views.ImagenView.template_name" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.IpVideoframe">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">IpVideoframe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#IpVideoframe"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.IpVideoframe" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Recibe la dirección Ip que maneja la camara a la que se desea acceder para mostrar el resultado del analisis de su video</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>IpVideoframe</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Envio de formulario mostrando los datos necesarios para procesar la petición POST.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context msg</dt>
+<dd class="field-odd"><p>Mensaje de texto para mostrar en la vista.</p>
+</dd>
+<dt class="field-even">context form</dt>
+<dd class="field-even"><p>Formulario a cumplimentar por el cliente para obtener la dirección Ip.</p>
+</dd>
+<dt class="field-odd">form referencia</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#frweb.forms.VideoForm" title="frweb.forms.VideoForm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">frweb.forms.VideoForm</span></code></a></p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista con el formulario y mensaje introducidos en el context.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Request POST</dt>
+<dd class="field-odd"><p>Subida y alojamiento del video para su analisis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro Ip</dt>
+<dd class="field-odd"><p>Dirección Ip de la camara que se desea visualizar.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST Stream</dt>
+<dd class="field-odd"><p>Devuelve frame a frame la respuesta del analisis del video.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>StreamingHttpResponse(frame).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoframe.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.IpVideovista">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">IpVideovista</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#IpVideovista"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.IpVideovista" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de representación del formulario para realizar el envío de la dirección Ip necesaria para utilizar método «IpVideoframe».</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>IpVideovista</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista para utilizar la plantilla del metodo «IpVideoframe» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/AnalizarVideoVista.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.Lista">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">Lista</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#Lista"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.Lista" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de presentación de la lista de todas las personas reconocidas del sistema.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>Lista</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista para utilizar la plantilla del método «IpVideoframe» como un elemento iframe de HTML.</p>
+<dl class="field-list simple">
+<dt class="field-odd">context registros</dt>
+<dd class="field-odd"><p>Obtiene todos los valores de la lista de usarios</p>
+</dd>
+<dt class="field-even">tipo context</dt>
+<dd class="field-even"><p>texto</p>
+</dd>
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/ListaReconocidos.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.camvista">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">camvista</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#camvista"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.camvista" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Vista de representación para utiliar la Webcam del cliente y el método postjsimagen de analisis de imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>camvista</strong> (request).</p>
+</dd>
+<dt class="field-even">Request GET</dt>
+<dd class="field-even"><p>Vista para utilizar la Webcam del cliente y el método postjsimagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">return.GET</dt>
+<dd class="field-odd"><p>Vista de representación.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>HTTP.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/webcamjs.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="frweb.views.postjsimagen">
+<code class="sig-prename descclassname">frweb.views.</code><code class="sig-name descname">postjsimagen</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/frweb/views.html#postjsimagen"><span class="viewcode-link">[fuente]</span></a><a class="headerlink" href="#frweb.views.postjsimagen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Recibe la imagen capturada a través de la Webcam del cliente, esta imagen se envia en formato texto codificado en Base64 y el servidor 
+descodifica esta imagen y la analiza a través de <code class="xref py py-mod docutils literal notranslate"><span class="pre">FaceRegonition.identify_face_image</span></code> , para finalmente responder con la ruta de la 
+imagen analizada por el servidor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método función</dt>
+<dd class="field-odd"><p><strong>postjsimagen</strong> (request).</p>
+</dd>
+<dt class="field-even">Request POST</dt>
+<dd class="field-even"><p>Envio de la imagen en texto Base64 y el token identificador de la imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">parámetro img</dt>
+<dd class="field-odd"><p>Texto en Base64 correspondiente a la captura de imagen realizada por el cliente.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">parámetro token</dt>
+<dd class="field-odd"><p>Valor identificativo de la imagen y marca de tiempo de la captura.</p>
+</dd>
+<dt class="field-even">tipo parámetro</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+<dt class="field-odd">return.POST foto</dt>
+<dd class="field-odd"><p>Devuelve el valor de la ruta de la foto analizada.</p>
+</dd>
+<dt class="field-even">tipo return</dt>
+<dd class="field-even"><p>texto.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Vista</dt>
+<dd class="field-odd"><p>“templates/webcamjs.html”.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-frweb">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-frweb" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete frweb</a><ul>
+<li><a class="reference internal" href="#modulos">Módulos</a></li>
+<li><a class="reference internal" href="#frweb-admin-views-modulo">frweb.admin_views módulo</a><ul>
+<li><a class="reference internal" href="#module-frweb.admin_views">En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo administrador. Todos estos servicios necesitan el usuario y clave de administrador.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-frweb.apps">frweb.apps módulo</a></li>
+<li><a class="reference internal" href="#frweb-forms-modulo">frweb.forms módulo</a><ul>
+<li><a class="reference internal" href="#module-frweb.forms">En este modulo se encuentran todos los formularios necesarios para la interacción con el usuario.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#frweb-models-modulo">frweb.models módulo</a><ul>
+<li><a class="reference internal" href="#module-frweb.models">En este modulo se encuentran todos las clases necesarios para la recogida de los datos con el usuario.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#frweb-views-modulo">frweb.views módulo</a><ul>
+<li><a class="reference internal" href="#module-frweb.views">En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo usuario.</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-frweb">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/frweb.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

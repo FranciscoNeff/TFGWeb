@@ -1,0 +1,1198 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 19 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 18 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 20 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 18 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 21 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 18 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Outlines 12 0 R /PageLabels 22 0 R /PageMode /UseNone /Pages 18 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20201124124808-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201124124808-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Paquete frweb) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 5 /First 13 0 R /Last 17 0 R /Type /Outlines
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 642.6772 0 ] /Next 14 0 R /Parent 12 0 R /Title (SubirImagen:)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 414.1307 0 ] /Next 15 0 R /Parent 12 0 R /Prev 13 0 R /Title (SubirVideo:)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 179.5843 0 ] /Next 16 0 R /Parent 12 0 R /Prev 14 0 R /Title (Persona:)
+>>
+endobj
+16 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 524.4772 0 ] /Next 17 0 R /Parent 12 0 R /Prev 15 0 R /Title (Usuarios:)
+>>
+endobj
+17 0 obj
+<<
+/Dest [ 8 0 R /XYZ 62.69291 265.9307 0 ] /Parent 12 0 R /Prev 16 0 R /Title (Reconocidos:)
+>>
+endobj
+18 0 obj
+<<
+/Count 3 /Kids [ 7 0 R 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+19 0 obj
+<<
+/Length 7464
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 166.5949 0 Td (Paquete frweb) Tj T* -166.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 21 Tm /F2 15 Tf 18 TL 16.54488 0 Td (En este m\363dulo se encuentran todos los modelos necesarios) Tj T* 97.1025 0 Td (para la interacci\363n con el usuario.) Tj T* -113.6474 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 654.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 621.6772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (SubirImagen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 609.6772 cm
+Q
+q
+1 0 0 1 62.69291 597.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modelo para generar el campo de petici\363n de imagenes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 597.6772 cm
+Q
+q
+1 0 0 1 62.69291 591.6772 cm
+Q
+q
+1 0 0 1 62.69291 507.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( SubirImagen\(models.Model\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 66 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (SubirImagen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 30 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -6.11 0 Td (imagen:) Tj T* -34.69937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de imagen a analizar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.SubirImagen) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 462.4772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 144 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 0 54 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (SubirImagen) Tj /F5 10 Tf 0 0 0 rg (\() Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Model) Tj (\):) Tj  T* (    ) Tj (imagen) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (ImageField) Tj (\() Tj (upload_to) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('images/') Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 426.1307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 393.1307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (SubirVideo:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.1307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modelo para generar el campo de petici\363n de video.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.1307 cm
+Q
+q
+1 0 0 1 62.69291 297.1307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( SubirVideo\(models.Model\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 54 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 24 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (SubirVideo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 7.46937 0 Td (campo Video:) Tj T* -7.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de video a analizar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.SubirVideo) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 227.9307 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 174 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 108 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 168 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 228 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 288 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 72 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 84 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (SubirVideo) Tj /F5 10 Tf 0 0 0 rg (\() Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Model) Tj (\):) Tj  T* (    ) Tj (Video) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FileField) Tj (\() Tj (upload_to) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('videos/') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Meta) Tj /F5 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (verbose_name) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('A\361adir Video') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 191.5843 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 158.5843 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Persona:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 140.5843 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modelo para generar el envio de a\361adir nuevas personas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 134.5843 cm
+Q
+ 
+endstream
+endobj
+20 0 obj
+<<
+/Length 10280
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 654.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( Persona\(models.Model\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Persona.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 57 cm
+Q
+q
+1 0 0 1 91.03937 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -7.77 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Nombre de la persona a a\361adir.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -23.33 0 Td (ArchivoZip:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 6.185276 Tw (Archivo '.zip' con los datos de la) Tj T* 0 Tw (persona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Persona) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 572.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 120 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 156 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 54 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 228 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 246 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 60 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 186 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 246 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 24 48 12 re f*
+.960784 .960784 .862745 rg
+n 300 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 72 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 96 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Persona) Tj /F5 10 Tf 0 0 0 rg (\() Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Model) Tj (\):) Tj  T* (    ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (25) Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (ArchivoZip) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FileField) Tj (\() Tj (upload_to) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('media/') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Meta) Tj /F5 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (verbose_name) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('A\361adir Persona') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 536.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 503.4772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Usuarios:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 485.4772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modelo para generar la base de datos usuarios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 479.4772 cm
+Q
+q
+1 0 0 1 62.69291 395.4772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( Usuarios\(models.Model\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 66 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Usuarios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 30 cm
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -7.77 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Nombre de la persona usuario a a\361adir.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Usuarios) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 314.2772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 48 48 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 162 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 54 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 228 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 246 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 36 66 12 re f*
+.960784 .960784 .862745 rg
+n 318 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 72 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 114 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 228 0 6 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Usuarios) Tj /F5 10 Tf 0 0 0 rg (\() Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Model) Tj (\):) Tj  T* (    ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (50) Tj 0 0 0 rg (,) Tj (primary_key) Tj .4 .4 .4 rg (=) Tj /F4 10 Tf 0 .501961 0 rg (True) Tj /F5 10 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Meta) Tj /F5 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (verbose_name) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Usuario') Tj 0 0 0 rg  T* (        ) Tj (verbose_name_plural) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Usuarios') Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 277.9307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 244.9307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Reconocidos:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 226.9307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Modelo para generar la base de datos Reconocidos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 220.9307 cm
+Q
+q
+1 0 0 1 62.69291 109.9307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( Reconocidos\(models.Model\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Reconocidos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 57 cm
+Q
+q
+1 0 0 1 91.03937 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 40.80937 0 Td (campo) Tj T* -7.77 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Nombre de la persona usuario a a\361adir.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.25937 0 Td (campo fotos:) Tj T* -10.25937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 5.408331 Tw (N\372mero de fotos utilizadas para el) Tj T* 0 Tw (entrenamiento.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.70937 0 Td (Modelo:) Tj T* -34.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (models.Reconocidos) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+21 0 obj
+<<
+/Length 3182
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 679.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 60 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 60 66 12 re f*
+.960784 .960784 .862745 rg
+n 102 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 144 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 60 30 12 re f*
+.960784 .960784 .862745 rg
+n 180 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 48 54 12 re f*
+.960784 .960784 .862745 rg
+n 162 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 48 60 12 re f*
+.960784 .960784 .862745 rg
+n 228 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 246 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 48 66 12 re f*
+.960784 .960784 .862745 rg
+n 318 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 54 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 222 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 72 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 72 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 114 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 0 78 12 re f*
+BT 1 0 0 1 0 62 Tm 12 TL /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Reconocidos) Tj /F5 10 Tf 0 0 0 rg (\() Tj (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Model) Tj (\):) Tj  T* (    ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (50) Tj 0 0 0 rg (,) Tj (primary_key) Tj .4 .4 .4 rg (=) Tj /F4 10 Tf 0 .501961 0 rg (True) Tj /F5 10 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj (fotos) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (models) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (CharField) Tj (\() Tj (max_length) Tj .4 .4 .4 rg (=) Tj (3) Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (class) Tj /F5 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf 0 0 1 rg (Meta) Tj /F5 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (verbose_name) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Reconocido') Tj 0 0 0 rg  T* (        ) Tj (verbose_name_plural) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Reconocidos') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 643.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+22 0 obj
+<<
+/Nums [ 0 23 0 R 1 24 0 R 2 25 0 R ]
+>>
+endobj
+23 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+24 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+25 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+xref
+0 26
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000363 00000 n 
+0000000478 00000 n 
+0000000588 00000 n 
+0000000693 00000 n 
+0000000898 00000 n 
+0000001103 00000 n 
+0000001308 00000 n 
+0000001414 00000 n 
+0000001685 00000 n 
+0000001759 00000 n 
+0000001872 00000 n 
+0000001997 00000 n 
+0000002119 00000 n 
+0000002242 00000 n 
+0000002355 00000 n 
+0000002427 00000 n 
+0000009943 00000 n 
+0000020276 00000 n 
+0000023510 00000 n 
+0000023569 00000 n 
+0000023603 00000 n 
+0000023637 00000 n 
+trailer
+<<
+/ID 
+[<bc7fd681d5c0e9b232845fa56aa68d49><bc7fd681d5c0e9b232845fa56aa68d49>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 26
+>>
+startxref
+23671
+%%EOF

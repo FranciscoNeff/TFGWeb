@@ -1,0 +1,42 @@
+Paquete FaceRecognition
+=========================
+
+En este módulo se normalizan las imágenes alojadas en 'train_img' para ser utilizadas por el entrenamiento.
+-------------------------------------------------------------------------------------------------------------
+
+Clase para aplicar el normalizado.
+
+:Método: **clase** DPreprocesses.
+
+Método para aplicar normalizado a las imágenes alojadas en 'trai_img' y gurdarlas en 'pre_img'.
+
+:Método: **función** preproceso(self).
+
+    :Valores entrada: self
+
+        :valor self: self.
+
+    :Lista de métodos: métodos para el desarrollo del reconocimiento facial.
+
+        :método preprocesses: Normaliza la imagen.
+        :método collect_data: Obtiene variables asocidas al preprocesses.
+    
+    :no return:
+       
+
+.. code:: Python
+
+    class DPreprocesses():
+        def preproceso(self):
+            input_datadir = "./FaceRecognition/train_img"
+            output_datadir = "./FaceRecognition/pre_img"
+
+            obj=preprocesses(input_datadir,output_datadir)
+            nrof_images_total,nrof_successfully_aligned=obj.collect_data()
+
+            print('Total number of images: %d' % nrof_images_total)
+            print('Number of successfully aligned images: %d' % nrof_successfully_aligned)
+
+.. note::
+    
+    Las imágenes alojadas en 'pre_img' son las utilizadas para entrenar el modelo.

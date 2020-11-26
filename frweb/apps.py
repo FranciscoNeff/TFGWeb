@@ -1,5 +1,4 @@
 from django.apps import AppConfig
 
-
-class EmployeeConfig(AppConfig):
+class FRWebConfig(AppConfig):
     name = 'frweb'

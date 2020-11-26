@@ -1,0 +1,44 @@
+Paquete FaceRecognition
+=========================
+
+En este módulo se entrena el modelo con las imágenes alojadas en 'pre_img'.
+----------------------------------------------------------------------------
+
+Clase para aplicar el normalizado.
+
+:Método: **clase** Train_main.
+
+Método para aplicar normalizado a las imágenes alojadas en 'trai_img' y gurdarlas en 'pre_img'.
+
+:Método: **función** train_main(self).
+
+    :Valores entrada: self
+
+        :valor self: self.
+
+    :Lista de métodos: métodos para el desarrollo del reconocimiento facial.
+
+        :método ptraining: Entrenamiento del modelo.
+    
+    :no return:
+       
+
+.. code:: Python
+
+    class Train_main:
+        def train_main(self):
+            #ruta de las imágenes para entrenar el modelo
+            datadir = './FaceRecognition/pre_img'
+            #ruta del modelo predefinido
+            modeldir = './FaceRecognition/model/20170511-185253.pb'
+            #ruta del clasificador SVC
+            classifier_filename = './FaceRecognition/class/classifier.pkl'
+            print ("Training Start")
+            obj=training(datadir,modeldir,classifier_filename)
+            get_file=obj.main_train()
+            print('Saved classifier model to file "%s"' % get_file)
+            print("Tarea Realizada con Exito")
+
+.. note::
+    
+    Las imágenes alojadas en 'pre_img' son las utilizadas para entrenar el modelo.

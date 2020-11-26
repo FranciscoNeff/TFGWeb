@@ -5,8 +5,11 @@ import sys
 from FaceRecognition.classifier import training
 class Train_main:
     def train_main(self):
+        #ruta de las imágenes para entrenar el modelo
         datadir = './FaceRecognition/pre_img'
+        #ruta del modelo predefinido
         modeldir = './FaceRecognition/model/20170511-185253.pb'
+        #ruta del clasificador SVC
         classifier_filename = './FaceRecognition/class/classifier.pkl'
         print ("Training Start")
         obj=training(datadir,modeldir,classifier_filename)

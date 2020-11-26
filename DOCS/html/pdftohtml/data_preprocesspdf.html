@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete FaceRecognition &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-facerecognition">
+<h1>Paquete FaceRecognition<a class="headerlink" href="#paquete-facerecognition" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="en-este-modulo-se-normalizan-las-imagenes-alojadas-en-train-img-para-ser-utilizadas-por-el-entrenamiento">
+<h2>En este módulo se normalizan las imágenes alojadas en “train_img” para ser utilizadas por el entrenamiento.<a class="headerlink" href="#en-este-modulo-se-normalizan-las-imagenes-alojadas-en-train-img-para-ser-utilizadas-por-el-entrenamiento" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Clase para aplicar el normalizado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> DPreprocesses.</p>
+</dd>
+</dl>
+<p>Método para aplicar normalizado a las imágenes alojadas en “trai_img” y gurdarlas en “pre_img”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> preproceso(self).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Valores entrada</dt>
+<dd class="field-odd"><p>self</p>
+<dl class="field-list simple">
+<dt class="field-odd">valor self</dt>
+<dd class="field-odd"><p>self.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Lista de métodos</dt>
+<dd class="field-even"><p>métodos para el desarrollo del reconocimiento facial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">método preprocesses</dt>
+<dd class="field-odd"><p>Normaliza la imagen.</p>
+</dd>
+<dt class="field-even">método collect_data</dt>
+<dd class="field-even"><p>Obtiene variables asocidas al preprocesses.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">no return</dt>
+<dd class="field-odd"><p></p></dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">DPreprocesses</span><span class="p">():</span>
+    <span class="k">def</span> <span class="nf">preproceso</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">input_datadir</span> <span class="o">=</span> <span class="s2">&quot;./FaceRecognition/train_img&quot;</span>
+        <span class="n">output_datadir</span> <span class="o">=</span> <span class="s2">&quot;./FaceRecognition/pre_img&quot;</span>
+
+        <span class="n">obj</span><span class="o">=</span><span class="n">preprocesses</span><span class="p">(</span><span class="n">input_datadir</span><span class="p">,</span><span class="n">output_datadir</span><span class="p">)</span>
+        <span class="n">nrof_images_total</span><span class="p">,</span><span class="n">nrof_successfully_aligned</span><span class="o">=</span><span class="n">obj</span><span class="o">.</span><span class="n">collect_data</span><span class="p">()</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Total number of images: </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">nrof_images_total</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Number of successfully aligned images: </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">nrof_successfully_aligned</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Las imágenes alojadas en “pre_img” son las utilizadas para entrenar el modelo.</p>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete FaceRecognition</a><ul>
+<li><a class="reference internal" href="#en-este-modulo-se-normalizan-las-imagenes-alojadas-en-train-img-para-ser-utilizadas-por-el-entrenamiento">En este módulo se normalizan las imágenes alojadas en “train_img” para ser utilizadas por el entrenamiento.</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/rstpdf/data_preprocesspdf.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

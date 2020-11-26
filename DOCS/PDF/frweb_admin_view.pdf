@@ -1,0 +1,5182 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 7 0 R /F6 10 0 R 
+  /F7 14 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 27 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Contents 28 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Contents 31 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/Contents 32 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F7 /Subtype /Type1 /Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 33 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 26 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+16 0 obj
+<<
+/Outlines 18 0 R /PageLabels 34 0 R /PageMode /UseNone /Pages 26 0 R /Type /Catalog
+>>
+endobj
+17 0 obj
+<<
+/Author () /CreationDate (D:20201124124702-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201124124702-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Paquete frweb) /Trapped /False
+>>
+endobj
+18 0 obj
+<<
+/Count 7 /First 19 0 R /Last 25 0 R /Type /Outlines
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 624.6772 0 ] /Next 20 0 R /Parent 18 0 R /Title (ZonaAdmin:)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 321.1307 0 ] /Next 21 0 R /Parent 18 0 R /Prev 19 0 R /Title (SubirZip:)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 765.0236 0 ] /Next 22 0 R /Parent 18 0 R /Prev 20 0 R /Title (Entrenamiento:)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 765.0236 0 ] /Next 23 0 R /Parent 18 0 R /Prev 21 0 R /Title (BorrarReconocido:)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 724.6772 0 ] /Next 24 0 R /Parent 18 0 R /Prev 22 0 R /Title (mostrarfotoborrado:)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 765.0236 0 ] /Next 25 0 R /Parent 18 0 R /Prev 23 0 R /Title (borrarfoto:)
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 185.429 0 ] /Parent 18 0 R /Prev 24 0 R /Title (mostrarfoto:)
+>>
+endobj
+26 0 obj
+<<
+/Count 7 /Kids [ 6 0 R 8 0 R 9 0 R 11 0 R 12 0 R 13 0 R 15 0 R ] /Type /Pages
+>>
+endobj
+27 0 obj
+<<
+/Length 5718
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 166.5949 0 Td (Paquete frweb) Tj T* -166.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F2 15 Tf 18 TL 68.65488 0 Td (Todas estos m\351todos se encuentran dentro de) Tj T* -26.6925 0 Td (frweb.admin_views. Todos ellos son utilizados para el) Tj T* 28.365 0 Td (funcionamiento del cliente tipo administrador.) Tj T* -70.32738 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 636.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 603.6772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ZonaAdmin:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.6772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de inicio del servicio de administraci\363n, para acceder y utilizar todos los servicios de esta zona.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.6772 cm
+Q
+q
+1 0 0 1 62.69291 438.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( ZonaAdmin\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 123 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de inicio del servicio de administraci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.116942 Tw (Mensaje de texto para mostrar en la) Tj T* 0 Tw (vista.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .893609 Tw (Vista con el mensaje introducidos en el) Tj T* 0 Tw (context.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/Administracion.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 369.4772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 78 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 240 12 re f*
+.960784 .960784 .862745 rg
+n 354 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 126 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 330 0 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (ZonaAdmin) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('Bienvenido a la zona de Administraci\363n') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('Administracion.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 333.1307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 300.1307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (SubirZip:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 246.1307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .822765 Tw (Recibe y aloja el archivo ".zip" enviado desde los archivos locales del cliente con los datos de la nueva) Tj T* 0 Tw 1.17784 Tw (persona a a\361adir y poder almacenarla en el propio servicio dentro del directorio "/FaceRecognition". El) Tj T* 0 Tw 4.383828 Tw (envio se realiza tras cumplimentar el formulario el formulario requerido. Recibido el archivo lo) Tj T* 0 Tw (descomprime y aloja las fotos de la nueva persona en el directorio "/FaceRecognition/train_img") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 240.1307 cm
+Q
+ 
+endstream
+endobj
+28 0 obj
+<<
+/Length 26075
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 423.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 330 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 330 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( SubirZip\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 324 cm
+Q
+q
+1 0 0 1 91.03937 192 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 102 cm
+Q
+q
+1 0 0 1 91.03937 63 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw 1.168609 Tw (para proceder al ingreso de una nueva) Tj T* 0 Tw (persona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 20.25937 0 Td (formulario:) Tj T* -20.25937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (frweb.forms.UploadFileForm`.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista con el formulario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 177 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 22.46937 0 Td (Vista GET:) Tj T* -22.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/nuevapersona.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Subida y alojamiento de la imagen para su analisis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 141 cm
+Q
+q
+1 0 0 1 91.03937 114 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 8.34 0 Td (Archivo:) Tj T* -32.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 7.188331 Tw (Archivo local del usuario con las) Tj T* 0 Tw (imagenes de la nueva persona a a\361adir.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo .zip.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 7.79 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .781295 Tw (Nombre con el que se va a desbrir a la) Tj T* 0 Tw (nueva persona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.81937 0 Td (tipo Nombre:) Tj T* -10.81937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.850331 Tw (HttpResponse devuelve la vista con el) Tj T* 0 Tw (estado del proceso.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 15.79937 0 Td (Vista POST:) Tj T* -15.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/respuestasadmin.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 136.8424 cm
+q
+q
+.679817 0 0 .679817 0 0 cm
+q
+1 0 0 1 6.6 9.70849 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 690 408 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 384 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 372 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 372 48 12 re f*
+.960784 .960784 .862745 rg
+n 72 372 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 372 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 372 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 360 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 360 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 360 36 12 re f*
+.960784 .960784 .862745 rg
+n 186 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 348 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 348 84 12 re f*
+.960784 .960784 .862745 rg
+n 174 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 348 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 348 24 12 re f*
+.960784 .960784 .862745 rg
+n 252 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 348 42 12 re f*
+.960784 .960784 .862745 rg
+n 306 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 348 30 12 re f*
+.960784 .960784 .862745 rg
+n 342 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 336 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 336 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 336 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 336 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 324 90 12 re f*
+.960784 .960784 .862745 rg
+n 72 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 312 30 12 re f*
+.960784 .960784 .862745 rg
+n 210 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 312 54 12 re f*
+.960784 .960784 .862745 rg
+n 270 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 300 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 300 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 300 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 300 48 12 re f*
+.960784 .960784 .862745 rg
+n 252 300 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 288 264 12 re f*
+.960784 .960784 .862745 rg
+n 72 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 114 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 126 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 276 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 276 30 12 re f*
+.960784 .960784 .862745 rg
+n 192 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 276 42 12 re f*
+.960784 .960784 .862745 rg
+n 240 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 276 90 12 re f*
+.960784 .960784 .862745 rg
+n 360 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 372 276 60 12 re f*
+.960784 .960784 .862745 rg
+n 432 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 264 30 12 re f*
+.960784 .960784 .862745 rg
+n 144 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 264 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 264 90 12 re f*
+.960784 .960784 .862745 rg
+n 312 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 264 60 12 re f*
+.960784 .960784 .862745 rg
+n 384 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 252 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 252 30 12 re f*
+.960784 .960784 .862745 rg
+n 144 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 252 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 252 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 252 90 12 re f*
+.960784 .960784 .862745 rg
+n 312 252 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 252 48 12 re f*
+.960784 .960784 .862745 rg
+n 372 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 240 96 12 re f*
+.960784 .960784 .862745 rg
+n 72 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 228 18 12 re f*
+.960784 .960784 .862745 rg
+n 114 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 126 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 228 30 12 re f*
+.960784 .960784 .862745 rg
+n 192 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 228 42 12 re f*
+.960784 .960784 .862745 rg
+n 240 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 270 228 90 12 re f*
+.960784 .960784 .862745 rg
+n 360 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 372 228 54 12 re f*
+.960784 .960784 .862745 rg
+n 426 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 438 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 450 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 462 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 498 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 216 30 12 re f*
+.960784 .960784 .862745 rg
+n 144 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 216 90 12 re f*
+.960784 .960784 .862745 rg
+n 312 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 216 54 12 re f*
+.960784 .960784 .862745 rg
+n 378 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 390 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 402 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 216 36 12 re f*
+.960784 .960784 .862745 rg
+n 450 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 204 102 12 re f*
+.960784 .960784 .862745 rg
+n 204 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 162 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 180 84 12 re f*
+.960784 .960784 .862745 rg
+n 72 168 18 12 re f*
+.960784 .960784 .862745 rg
+n 96 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 168 48 12 re f*
+.960784 .960784 .862745 rg
+n 156 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 168 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 168 36 12 re f*
+.960784 .960784 .862745 rg
+n 240 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 90 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 102 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 204 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 252 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 282 144 30 12 re f*
+.960784 .960784 .862745 rg
+n 312 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 336 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 390 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 396 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 420 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 438 144 18 12 re f*
+.960784 .960784 .862745 rg
+n 456 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 486 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 528 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 132 30 12 re f*
+.960784 .960784 .862745 rg
+n 126 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 132 54 12 re f*
+.960784 .960784 .862745 rg
+n 186 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 120 60 12 re f*
+.960784 .960784 .862745 rg
+n 204 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 258 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 288 120 90 12 re f*
+.960784 .960784 .862745 rg
+n 378 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 390 120 54 12 re f*
+.960784 .960784 .862745 rg
+n 444 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 456 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 516 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 120 144 12 re f*
+.960784 .960784 .862745 rg
+n 72 108 72 12 re f*
+.960784 .960784 .862745 rg
+n 72 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 210 96 30 12 re f*
+.960784 .960784 .862745 rg
+n 240 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 114 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 84 48 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 84 276 12 re f*
+.960784 .960784 .862745 rg
+n 456 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 72 132 12 re f*
+.960784 .960784 .862745 rg
+n 336 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 384 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 48 84 12 re f*
+.960784 .960784 .862745 rg
+n 174 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 54 12 re f*
+.960784 .960784 .862745 rg
+n 84 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 186 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 210 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 300 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 222 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 114 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 330 0 6 12 re f*
+BT 1 0 0 1 0 386 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (SubirZip) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (UploadFileForm) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (,) Tj ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FILES) Tj (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (# subir archivo) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj (Archivo) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FILES) Tj ([) Tj .729412 .129412 .129412 rg ('Archivo') Tj 0 0 0 rg (]) Tj  T* (            ) Tj (nombre) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('Nombre') Tj 0 0 0 rg (]) Tj  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#crear rutas de almacenamiento si no existen) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf .666667 .133333 1 rg (not) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (isdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img') Tj 0 0 0 rg (\):) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (mkdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img') Tj 0 0 0 rg (\)) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (mkdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img') Tj 0 0 0 rg (\)) Tj  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (# comprobar ruta) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj /F4 10 Tf .666667 .133333 1 rg (not) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (isdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\):) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (mkdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\)) Tj  T* (            ) Tj (fs) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (FileSystemStorage) Tj (\(\)) Tj  T* (            ) Tj (fs) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\() Tj (Archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (name) Tj (,) Tj ( ) Tj (Archivo) Tj (\)) Tj  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (# UnzipArchivo) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj (reg) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Usuarios) Tj (\() Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nombre) Tj (\)) Tj  T* (            ) Tj (reg) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\(\)) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (with) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (zipfile) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (ZipFile) Tj (\(\() Tj (basedir) Tj ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (media) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (Archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (name) Tj (\),) Tj ( ) Tj .729412 .129412 .129412 rg ('r') Tj 0 0 0 rg (\)) Tj ( ) Tj /F4 10 Tf 0 .501961 0 rg (as) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (zip_ref) Tj (:) Tj  T* (                ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('Extraer') Tj 0 0 0 rg (\)) Tj  T* (                ) Tj (zip_ref) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (extractall) Tj (\() Tj (basedir) Tj ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\)) Tj (  ) Tj /F5 10 Tf .25098 .501961 .501961 rg (# modificar ruta destino) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (##Borrar ZIP) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (media) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (Archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (name) Tj (\)) Tj  T* (            ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('estado') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('La persona ha sido actualizada correctamente') Tj 0 0 0 rg (}) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('respuestasadmin.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (else) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (UploadFileForm) Tj (\(\)) Tj  T* (    ) Tj (documents) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Persona) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T* (    ) Tj /F5 10 Tf .25098 .501961 .501961 rg (# Render list page with the documents and the form) Tj /F3 10 Tf 0 0 0 rg  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('documents') Tj 0 0 0 rg (:) Tj ( ) Tj (documents) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('nuevapersona.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 100.4959 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+29 0 obj
+<<
+/Length 21392
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Entrenamiento:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.406412 Tw (Con este m\351todo se realiza el entrenamiento obtienen primero los datos almacenados en el directorio) Tj T* 0 Tw 8.146976 Tw ('/FaceRecognition/train_img', estos datos se normalizan y se almacenan en el directorio) Tj T* 0 Tw .066905 Tw ('/FaceRecognition/pre_img', estos son los datos utilizados para realizar el entrenamiento. Hace uso de los) Tj T* 0 Tw (metodos alojados en \264FaceRecognition.data_preprocess\264 y\264FaceRecognition.train_main\264.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+Q
+q
+1 0 0 1 62.69291 468.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 204 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 204 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( Entrenamiento\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 198 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 168 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 6.962628 Tw (Envio del estado del proceso una vez realizado el) Tj T* 0 Tw 1.545128 Tw (entrenamiento, si el estado es satisfactorio devuelve la lista) Tj T* 0 Tw 1.770085 Tw (de las personas con las que se ha entrado el sistema y el) Tj T* 0 Tw .402102 Tw (n\372mero de las fotos utilizadas, si el estado es no satisfactorio) Tj T* 0 Tw (responde con un mensaje negativo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 114 cm
+Q
+q
+1 0 0 1 91.03937 87 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -10.56 0 Td (registros:) Tj T* -26.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 8.842913 Tw (Lista de personas reconocidas y) Tj T* 0 Tw (n\372mero de fotos.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -12.78 0 Td (resultado:) Tj T* -24.69937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.650276 Tw (Indica el estado de haber aplicado el) Tj T* 0 Tw (entrenamiento en el servicio.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 16.76291 Tw (Vista con el resultado del) Tj T* 0 Tw (entrenamiento.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/Entrenamiento.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 121.4404 cm
+q
+q
+.781586 0 0 .781586 0 0 cm
+q
+1 0 0 1 6.6 8.444364 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 600 432 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 408 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 396 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 396 78 12 re f*
+.960784 .960784 .862745 rg
+n 102 396 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 396 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 396 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 384 18 12 re f*
+.960784 .960784 .862745 rg
+n 42 384 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 372 318 12 re f*
+.960784 .960784 .862745 rg
+n 24 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 360 42 12 re f*
+.960784 .960784 .862745 rg
+n 114 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 360 42 12 re f*
+.960784 .960784 .862745 rg
+n 162 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 192 360 90 12 re f*
+.960784 .960784 .862745 rg
+n 282 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 294 360 48 12 re f*
+.960784 .960784 .862745 rg
+n 342 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 348 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 348 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 336 18 12 re f*
+.960784 .960784 .862745 rg
+n 78 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 336 30 12 re f*
+.960784 .960784 .862745 rg
+n 114 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 336 18 12 re f*
+.960784 .960784 .862745 rg
+n 138 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 324 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 324 18 12 re f*
+.960784 .960784 .862745 rg
+n 84 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 312 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 198 312 90 12 re f*
+.960784 .960784 .862745 rg
+n 288 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 312 42 12 re f*
+.960784 .960784 .862745 rg
+n 342 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 354 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 360 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 312 18 12 re f*
+.960784 .960784 .862745 rg
+n 384 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 300 156 12 re f*
+.960784 .960784 .862745 rg
+n 24 288 66 12 re f*
+.960784 .960784 .862745 rg
+n 90 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 288 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 288 18 12 re f*
+.960784 .960784 .862745 rg
+n 162 288 12 12 re f*
+.960784 .960784 .862745 rg
+n 174 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 288 36 12 re f*
+.960784 .960784 .862745 rg
+n 216 288 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 276 48 12 re f*
+.960784 .960784 .862745 rg
+n 72 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 276 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 276 18 12 re f*
+.960784 .960784 .862745 rg
+n 144 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 156 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 276 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 276 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 252 150 12 re f*
+.960784 .960784 .862745 rg
+n 24 240 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 240 180 12 re f*
+.960784 .960784 .862745 rg
+n 240 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 228 48 12 re f*
+.960784 .960784 .862745 rg
+n 72 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 228 78 12 re f*
+.960784 .960784 .862745 rg
+n 156 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 228 60 12 re f*
+.960784 .960784 .862745 rg
+n 222 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 252 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 216 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 216 174 12 re f*
+.960784 .960784 .862745 rg
+n 234 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 60 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 204 60 12 re f*
+.960784 .960784 .862745 rg
+n 126 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 204 60 12 re f*
+.960784 .960784 .862745 rg
+n 192 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 222 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 192 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 192 150 12 re f*
+.960784 .960784 .862745 rg
+n 210 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 168 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 168 186 12 re f*
+.960784 .960784 .862745 rg
+n 246 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 168 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 156 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 132 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 210 156 90 12 re f*
+.960784 .960784 .862745 rg
+n 300 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 312 156 60 12 re f*
+.960784 .960784 .862745 rg
+n 372 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 144 30 12 re f*
+.960784 .960784 .862745 rg
+n 138 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 204 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 234 132 90 12 re f*
+.960784 .960784 .862745 rg
+n 324 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 336 132 54 12 re f*
+.960784 .960784 .862745 rg
+n 390 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 414 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 426 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 462 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 120 66 12 re f*
+.960784 .960784 .862745 rg
+n 138 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 180 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 222 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 120 30 12 re f*
+.960784 .960784 .862745 rg
+n 264 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 120 18 12 re f*
+.960784 .960784 .862745 rg
+n 288 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 294 120 30 12 re f*
+.960784 .960784 .862745 rg
+n 324 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 96 48 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 192 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 84 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 72 66 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 48 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 210 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 48 66 12 re f*
+.960784 .960784 .862745 rg
+n 288 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 48 282 12 re f*
+.960784 .960784 .862745 rg
+n 582 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 120 12 re f*
+.960784 .960784 .862745 rg
+n 282 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 294 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 336 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 186 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 264 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 12 258 12 re f*
+.960784 .960784 .862745 rg
+n 534 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 120 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 294 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 336 0 6 12 re f*
+BT 1 0 0 1 0 410 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (Entrenamiento) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (try) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (    ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borrar bounding_box para resetear los entrenamientos) Tj /F3 10 Tf 0 0 0 rg  T* (    ) Tj (bb) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (box) Tj ( ) Tj /F4 10 Tf .666667 .133333 1 rg (in) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (bb) Tj (:) Tj  T* (        ) Tj (b) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (box) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('_') Tj 0 0 0 rg (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (len) Tj 0 0 0 rg (\() Tj (b) Tj (\)) Tj .4 .4 .4 rg (>) Tj (2) Tj 0 0 0 rg (:) Tj  T* (            ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (box) Tj (\)) Tj  T* (    ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borrar lista de registros) Tj /F3 10 Tf 0 0 0 rg  T* (    ) Tj (Reconocidos) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (delete) Tj (\(\)) Tj  T* (    ) Tj (Usuarios) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (delete) Tj (\(\)) Tj  T*  T* (    ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#proceso de entrenamiento) Tj /F3 10 Tf 0 0 0 rg  T* (    ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("INFO  [Realizando el modelo]") Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (entrenar) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (DPreprocesses) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (preproceso) Tj (\() Tj /F4 10 Tf 0 .501961 0 rg (None) Tj /F3 10 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("INFO [Entrenando el modelo]") Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (modelo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (Train_main) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (train_main) Tj (\() Tj /F4 10 Tf 0 .501961 0 rg (None) Tj /F3 10 Tf 0 0 0 rg (\)) Tj  T* (    ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('Entrenamiento terminado') Tj 0 0 0 rg (\)) Tj  T*  T* (    ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('Actualizando la base de datos') Tj 0 0 0 rg (\)) Tj ( ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#actualizar lista) Tj /F3 10 Tf 0 0 0 rg  T* (    ) Tj (lista) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj /F4 10 Tf .666667 .133333 1 rg (in) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (lista) Tj (:) Tj  T* (        ) Tj (fotos) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\)) Tj  T* (        ) Tj (p) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Reconocidos) Tj (\() Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nombre) Tj (,) Tj ( ) Tj (fotos) Tj .4 .4 .4 rg (=) Tj 0 .501961 0 rg (len) Tj 0 0 0 rg (\() Tj (fotos) Tj (\)\)) Tj  T* (        ) Tj (p) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\(\)) Tj  T* (        ) Tj (r) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (Usuarios) Tj (\() Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nombre) Tj (\)) Tj  T* (        ) Tj (r) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\(\)) Tj  T* (    ) Tj (listado) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Reconocidos) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T*  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (listado) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('resultado') Tj 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ('El entrenamiento se ha relizado correctamente') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('Entrenamiento.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj  T* /F4 10 Tf 0 .501961 0 rg (except) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ('') Tj 0 0 0 rg ( ) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('resultado') Tj 0 0 0 rg (:) Tj ( ) Tj .729412 .129412 .129412 rg ('El entrenamiento no se ha podido realizar') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('Entrenamiento.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 85.09392 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+30 0 obj
+<<
+/Length 25207
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (BorrarReconocido:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .699398 Tw (Con este m\351todo se puede borrar todos los datos una persona tipo usuario y reconocido si existiese. El) Tj T* 0 Tw (envio se realiza tras cumplimentar el formulario el formulario requerido.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+Q
+q
+1 0 0 1 62.69291 393.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 303 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 303 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( BorrarReconocido\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 297 cm
+Q
+q
+1 0 0 1 91.03937 138 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+Q
+q
+1 0 0 1 91.03937 90 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw 7.072331 Tw (para proceder al borrado de una) Tj T* 0 Tw (persona.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 75 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 20.25937 0 Td (formulario:) Tj T* -20.25937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F6 10 Tf 0 0 0 rg (frweb.forms.BorrarName) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -10.56 0 Td (registros:) Tj T* -26.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Lista de personas tipo usuario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista con el formulario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 123 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 22.46937 0 Td (Vista GET:) Tj T* -22.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/nuevapersona.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Recepci\363n del nombre de la persona a borrar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 7.79 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.836942 Tw (Nombre de la persona que se desea) Tj T* 0 Tw (borrar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.81937 0 Td (tipo Nombre:) Tj T* -10.81937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 5.410331 Tw (Devuelve los mismos datos que el) Tj T* 0 Tw (proceso "Request GET") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 15.79937 0 Td (Vista POST:) Tj T* -15.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/BorrarReconocido.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 112.6357 cm
+q
+q
+.68577 0 0 .68577 0 0 cm
+q
+1 0 0 1 6.6 9.624215 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 684 396 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 372 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 360 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 360 96 12 re f*
+.960784 .960784 .862745 rg
+n 120 360 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 360 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 360 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 348 54 12 re f*
+.960784 .960784 .862745 rg
+n 84 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 348 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 348 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 348 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 348 18 12 re f*
+.960784 .960784 .862745 rg
+n 216 348 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 336 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 336 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 336 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 324 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 324 48 12 re f*
+.960784 .960784 .862745 rg
+n 102 324 12 12 re f*
+.960784 .960784 .862745 rg
+n 120 324 54 12 re f*
+.960784 .960784 .862745 rg
+n 174 324 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 312 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 312 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 312 48 12 re f*
+.960784 .960784 .862745 rg
+n 138 312 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 312 36 12 re f*
+.960784 .960784 .862745 rg
+n 24 288 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 288 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 288 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 288 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 288 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 288 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 276 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 276 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 276 42 12 re f*
+.960784 .960784 .862745 rg
+n 186 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 276 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 276 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 264 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 264 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 264 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 252 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 240 36 12 re f*
+.960784 .960784 .862745 rg
+n 108 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 240 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 240 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 240 48 12 re f*
+.960784 .960784 .862745 rg
+n 240 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 228 30 12 re f*
+.960784 .960784 .862745 rg
+n 180 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 216 18 12 re f*
+.960784 .960784 .862745 rg
+n 114 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 204 66 12 re f*
+.960784 .960784 .862745 rg
+n 186 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 204 42 12 re f*
+.960784 .960784 .862745 rg
+n 234 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 276 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 318 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 360 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 408 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 420 204 84 12 re f*
+.960784 .960784 .862745 rg
+n 120 192 48 12 re f*
+.960784 .960784 .862745 rg
+n 168 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 216 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 192 36 12 re f*
+.960784 .960784 .862745 rg
+n 258 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 192 36 12 re f*
+.960784 .960784 .862745 rg
+n 300 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 192 36 12 re f*
+.960784 .960784 .862745 rg
+n 342 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 192 36 12 re f*
+.960784 .960784 .862745 rg
+n 390 192 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 192 96 12 re f*
+.960784 .960784 .862745 rg
+n 120 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 180 24 12 re f*
+.960784 .960784 .862745 rg
+n 180 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 180 36 12 re f*
+.960784 .960784 .862745 rg
+n 222 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 180 90 12 re f*
+.960784 .960784 .862745 rg
+n 390 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 180 54 12 re f*
+.960784 .960784 .862745 rg
+n 456 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 468 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 492 180 36 12 re f*
+.960784 .960784 .862745 rg
+n 528 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 540 180 126 12 re f*
+.960784 .960784 .862745 rg
+n 144 168 36 12 re f*
+.960784 .960784 .862745 rg
+n 180 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 168 36 12 re f*
+.960784 .960784 .862745 rg
+n 222 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 168 90 12 re f*
+.960784 .960784 .862745 rg
+n 390 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 168 54 12 re f*
+.960784 .960784 .862745 rg
+n 456 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 468 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 492 168 36 12 re f*
+.960784 .960784 .862745 rg
+n 528 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 168 84 12 re f*
+.960784 .960784 .862745 rg
+n 120 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 180 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 156 36 12 re f*
+.960784 .960784 .862745 rg
+n 222 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 156 90 12 re f*
+.960784 .960784 .862745 rg
+n 390 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 444 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 456 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 156 36 12 re f*
+.960784 .960784 .862745 rg
+n 516 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 144 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 180 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 222 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 270 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 300 144 90 12 re f*
+.960784 .960784 .862745 rg
+n 390 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 402 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 444 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 456 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 516 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 132 66 12 re f*
+.960784 .960784 .862745 rg
+n 252 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 132 54 12 re f*
+.960784 .960784 .862745 rg
+n 318 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 366 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 378 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 402 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 120 138 12 re f*
+.960784 .960784 .862745 rg
+n 396 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 450 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 96 66 12 re f*
+.960784 .960784 .862745 rg
+n 252 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 96 54 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 366 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 378 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 402 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 162 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 84 138 12 re f*
+.960784 .960784 .862745 rg
+n 396 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 450 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 60 66 12 re f*
+.960784 .960784 .862745 rg
+n 228 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 60 54 12 re f*
+.960784 .960784 .862745 rg
+n 294 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 342 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 378 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 138 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 48 138 12 re f*
+.960784 .960784 .862745 rg
+n 372 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 384 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 426 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 24 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 222 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 348 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 12 312 12 re f*
+.960784 .960784 .862745 rg
+n 666 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 138 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 354 0 6 12 re f*
+BT 1 0 0 1 0 374 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (BorrarReconocido) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (registros) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Usuarios) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T* (    ) Tj (lista) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('') Tj 0 0 0 rg  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (registro) Tj ( ) Tj /F4 10 Tf .666667 .133333 1 rg (in) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (registros) Tj (:) Tj  T* (        ) Tj (lista) Tj .4 .4 .4 rg (+=) Tj 0 0 0 rg (registro) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (nombre) Tj  T*  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj .4 .4 .4 rg (==) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borrar) Tj /F3 10 Tf 0 0 0 rg  T* (            ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('Nombre') Tj 0 0 0 rg (]) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj /F4 10 Tf .666667 .133333 1 rg (in) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (lista) Tj (:) Tj  T* (                ) Tj /F4 10 Tf 0 .501961 0 rg (try) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (                    ) Tj (Reconocidos) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (filter) Tj (\() Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nombre) Tj (\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (delete) Tj (\(\)) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borraregistro) Tj /F3 10 Tf 0 0 0 rg  T* (                    ) Tj (Usuarios) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (filter) Tj (\() Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (nombre) Tj (\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (delete) Tj (\(\)) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borrar registro) Tj /F3 10 Tf 0 0 0 rg  T* (                    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\):) Tj /F5 10 Tf .25098 .501961 .501961 rg (#comprueba que existe) Tj /F3 10 Tf 0 0 0 rg  T* (                        ) Tj (shutil) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (rmtree) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\)) Tj /F5 10 Tf .25098 .501961 .501961 rg (#borra carpeta) Tj /F3 10 Tf 0 0 0 rg  T* (                    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\):) Tj  T* (                        ) Tj (shutil) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (rmtree) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj (\)) Tj  T* (                    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (}) Tj  T* (                    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj  T* (                ) Tj /F4 10 Tf 0 .501961 0 rg (except) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (                    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (}) Tj  T* (                    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (else) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (                ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (}) Tj  T* (                ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (else) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\(\)) Tj  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('Introduce el nombre de la persona que desea borrar') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+31 0 obj
+<<
+/Length 16129
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 736.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 703.6772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (mostrarfotoborrado:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 673.6772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .568221 Tw (Con este m\351todo se consiguen y muestran todas las imagenes de una persona tipo usuario. El envio se) Tj T* 0 Tw (realiza tras cumplimentar el formulario el formulario requerido.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 667.6772 cm
+Q
+q
+1 0 0 1 62.69291 286.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 369 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 369 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( mostrarfotoborrado\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 363 cm
+Q
+q
+1 0 0 1 91.03937 189 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 162 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 150 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 144 cm
+Q
+q
+1 0 0 1 91.03937 105 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw 3.951942 Tw (para proceder a mostrar la vista de) Tj T* 0 Tw (borrado de imagen.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 90 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 20.25937 0 Td (formulario:) Tj T* -20.25937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F6 10 Tf 0 0 0 rg (frweb.forms.BorrarName) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -10.56 0 Td (registros:) Tj T* -26.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Lista de personas tipo usuario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Mensaje de informaci\363n para el cliente.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista con el formulario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 174 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 22.46937 0 Td (Vista GET:) Tj T* -22.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/BorrarReconocido.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 144 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Recepci\363n del nombre de la persona a borrar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 138 cm
+Q
+q
+1 0 0 1 91.03937 99 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -4.44 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.836942 Tw (Nombre de la persona que se desea) Tj T* 0 Tw .960331 Tw (borrar o mensaje de resultado negativo) Tj T* 0 Tw (en la busqueda de im\341genes.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 11.35937 0 Td (context lista:) Tj T* -11.35937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.590236 Tw (Listado de la ruta de las imagenes a) Tj T* 0 Tw 1.561665 Tw (mostrar si se encuentran y vacia si no) Tj T* 0 Tw (se tienen registros.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.072331 Tw (Devuelve la vista de presentaci\363n con) Tj T* 0 Tw (las imagenes listas para ser borradas) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 15.79937 0 Td (Vista POST:) Tj T* -15.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/fotosborrado.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 131.7885 cm
+q
+q
+.640875 0 0 .640875 0 0 cm
+q
+1 0 0 1 6.6 10.29842 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 732 228 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 204 72 12 re f*
+.960784 .960784 .862745 rg
+n 0 192 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 180 108 12 re f*
+.960784 .960784 .862745 rg
+n 132 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 168 54 12 re f*
+.960784 .960784 .862745 rg
+n 84 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 168 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 168 18 12 re f*
+.960784 .960784 .862745 rg
+n 216 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 156 60 12 re f*
+.960784 .960784 .862745 rg
+n 114 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 132 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 186 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 120 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 120 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 108 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 108 48 12 re f*
+.960784 .960784 .862745 rg
+n 240 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 96 174 12 re f*
+.960784 .960784 .862745 rg
+n 402 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 444 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 174 12 re f*
+.960784 .960784 .862745 rg
+n 348 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 216 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 246 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 240 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 60 48 12 re f*
+.960784 .960784 .862745 rg
+n 294 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 342 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 210 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 36 48 12 re f*
+.960784 .960784 .862745 rg
+n 264 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 36 264 12 re f*
+.960784 .960784 .862745 rg
+n 540 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 24 114 12 re f*
+.960784 .960784 .862745 rg
+n 324 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 372 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 222 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 348 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 12 360 12 re f*
+.960784 .960784 .862745 rg
+n 714 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 138 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 354 0 6 12 re f*
+BT 1 0 0 1 0 206 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@csrf_exempt) Tj 0 0 0 rg  T* .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (mostrarfotoborrado) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (registros) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Usuarios) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T* (    ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\(\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj .4 .4 .4 rg (==) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('Nombre') Tj 0 0 0 rg (]) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('/FaceRecognition/train_img/') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (nombre) Tj (\):) Tj  T* (                ) Tj (ruta) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('/FaceRecognition/train_img/') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (nombre) Tj  T* (                ) Tj (listado) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (ruta) Tj (\)) Tj  T* (                ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('lista') Tj 0 0 0 rg (:) Tj (listado) Tj (,) Tj .729412 .129412 .129412 rg ('nombre') Tj 0 0 0 rg (:) Tj (nombre) Tj ( ) Tj (}) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (else) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (                ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('lista') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ("") Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg ('nombre') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ("No se ha encontrado la persona introducida") Tj 0 0 0 rg ( ) Tj (}) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('fotosborrado.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('Introduce el nombre de la persona que desea borrar su foto') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 95.44209 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+32 0 obj
+<<
+/Length 21642
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (borrarfoto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 2.976098 Tw 12 TL /F1 10 Tf 0 0 0 rg (Con este m\351todo se obtienen los datos de la foto que se quiere borrar. El envio se realiza tras) Tj T* 0 Tw 17.07442 Tw (cumplimentar el formulario el formulario requerido en el m\351todo funci\363n) Tj T* 0 Tw /F6 10 Tf (frweb.admin_views.mostrarfotoborrado) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 696.0236 cm
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 249 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 249 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( borrarfoto\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 243 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 213 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 189 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.249003 Tw (Contiene la cadena de texto QueryDict sin parsear, una vez) Tj T* 0 Tw 6.135171 Tw (parseada se obtienen los par\341metros necesarios para) Tj T* 0 Tw (procesar el borrado.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 183 cm
+Q
+q
+1 0 0 1 91.03937 156 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 8.9 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.836942 Tw (Nombre de la persona que se desea) Tj T* 0 Tw (borrar su foto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 141 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 11.92937 0 Td (tipo nombre:) Tj T* -11.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 114 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 26.69 0 Td (foto:) Tj T* -50.82937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Nombre de la foto a borrar) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 29.71937 0 Td (tipo foto:) Tj T* -29.71937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* 0 0 Td (estado:) Tj T* -37.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.590236 Tw (Listado de la ruta de las imagenes a) Tj T* 0 Tw 1.561665 Tw (mostrar si se encuentran y vacia si no) Tj T* 0 Tw (se tienen registros.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.033058 Tw (Devuelve la vista de presentaci\363n con el) Tj T* 0 Tw (estado resuelto de este proceso) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 15.79937 0 Td (Vista POST:) Tj T* -15.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/respuestasadmin.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 233.7754 cm
+q
+q
+.668216 0 0 .668216 0 0 cm
+q
+1 0 0 1 6.6 9.87704 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 702 288 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 264 72 12 re f*
+.960784 .960784 .862745 rg
+n 0 252 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 240 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 240 60 12 re f*
+.960784 .960784 .862745 rg
+n 84 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 240 42 12 re f*
+.960784 .960784 .862745 rg
+n 132 240 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 228 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 150 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 216 54 12 re f*
+.960784 .960784 .862745 rg
+n 210 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 216 30 12 re f*
+.960784 .960784 .862745 rg
+n 258 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 276 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 192 30 12 re f*
+.960784 .960784 .862745 rg
+n 126 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 108 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 156 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 204 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 228 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 282 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 306 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 324 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 144 186 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 120 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 120 90 12 re f*
+.960784 .960784 .862745 rg
+n 342 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 354 120 54 12 re f*
+.960784 .960784 .862745 rg
+n 408 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 420 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 432 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 444 120 36 12 re f*
+.960784 .960784 .862745 rg
+n 486 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 492 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 498 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 510 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 516 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 528 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 552 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 564 120 126 12 re f*
+.960784 .960784 .862745 rg
+n 96 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 228 108 90 12 re f*
+.960784 .960784 .862745 rg
+n 318 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 330 108 54 12 re f*
+.960784 .960784 .862745 rg
+n 384 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 396 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 420 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 462 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 474 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 486 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 492 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 504 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 528 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 96 30 12 re f*
+.960784 .960784 .862745 rg
+n 162 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 186 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 252 84 90 12 re f*
+.960784 .960784 .862745 rg
+n 342 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 354 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 396 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 408 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 420 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 432 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 474 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 486 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 498 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 504 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 516 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 540 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 546 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 552 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 558 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 564 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 600 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 228 72 90 12 re f*
+.960784 .960784 .862745 rg
+n 318 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 330 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 372 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 384 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 396 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 408 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 450 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 456 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 462 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 474 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 480 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 486 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 510 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 516 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 522 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 528 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 534 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 570 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 108 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 60 252 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 108 12 re f*
+.960784 .960784 .862745 rg
+n 216 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 48 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 132 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 360 0 6 12 re f*
+BT 1 0 0 1 0 266 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@csrf_exempt) Tj 0 0 0 rg  T* .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (borrarfoto) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj .4 .4 .4 rg (==) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (cadt) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (urlencode) Tj (\(\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('=) Tj (&) Tj (') Tj 0 0 0 rg (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (for) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (t) Tj ( ) Tj /F4 10 Tf .666667 .133333 1 rg (in) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (cadt) Tj (:) Tj  T* (            ) Tj (f) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (t) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('.x') Tj 0 0 0 rg (\)) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (len) Tj 0 0 0 rg (\() Tj (f) Tj (\)) Tj .4 .4 .4 rg (>) Tj (1) Tj 0 0 0 rg (:) Tj  T* (                ) Tj (foto) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (f) Tj ([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (]) Tj  T* (        ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (cadt) Tj ([) Tj .4 .4 .4 rg (2) Tj 0 0 0 rg (]) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (replace) Tj (\() Tj .729412 .129412 .129412 rg ('+') Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg (" ") Tj 0 0 0 rg (\)) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (replace) Tj (\() Tj .729412 .129412 .129412 rg ('=') Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg ("") Tj 0 0 0 rg (\)) Tj  T* (        ) Tj (estado) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('No se ha realizado el borrado') Tj 0 0 0 rg  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (try) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (") Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (foto) Tj (\):) Tj /F5 10 Tf .25098 .501961 .501961 rg (#comprueba que existe) Tj /F3 10 Tf 0 0 0 rg  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (train_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (") Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (foto) Tj (\)) Tj  T* (            ) Tj (arch) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (foto) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('.') Tj 0 0 0 rg (\)) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (") Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (arch) Tj ([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (]) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('.png') Tj 0 0 0 rg (\):) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (nombre) Tj ( ) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (") Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (arch) Tj ([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (]) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('.png') Tj 0 0 0 rg (\)) Tj  T* (            ) Tj (estado) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('El borrado se ha realizado correctamente') Tj 0 0 0 rg  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (except) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (            ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('error en borrado') Tj 0 0 0 rg (\)) Tj  T*  T* (        ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('estado') Tj 0 0 0 rg (:) Tj (estado) Tj (}) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('respuestasadmin.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 197.429 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 164.429 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (mostrarfoto:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 134.429 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.644651 Tw (Con este m\351todo muestran todas las fotos de una persona tipo usuario almacenadas en el directorio) Tj T* 0 Tw ('/FaceRecognition/train_img'. El envio se realiza tras cumplimentar el formulario el formulario requerido.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 128.429 cm
+Q
+ 
+endstream
+endobj
+33 0 obj
+<<
+/Length 17149
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 366.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 387 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( mostrarfoto\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 381 cm
+Q
+q
+1 0 0 1 91.03937 219 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 150 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 138 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 132 cm
+Q
+q
+1 0 0 1 91.03937 105 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw (para proceder a mostrar las fotos.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 90 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 20.25937 0 Td (formulario:) Tj T* -20.25937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F6 10 Tf 0 0 0 rg (frweb.forms.BorrarName) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 63 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -10.56 0 Td (registros:) Tj T* -26.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Lista de personas tipo usuario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Mensaje para mostrar al cliente.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista con el formulario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 204 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 22.46937 0 Td (Vista GET:) Tj T* -22.46937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/BorrarReconocido.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Recepci\363n del nombre de la persona a borrar.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 168 cm
+Q
+q
+1 0 0 1 91.03937 141 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 7.79 0 Td (Nombre:) Tj T* -31.92937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .050236 Tw (Nombre de la persona que se desea ver) Tj T* 0 Tw (sus fotos.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 126 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.81937 0 Td (tipo Nombre:) Tj T* -10.81937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 11.35937 0 Td (context lista:) Tj T* -11.35937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .251457 Tw (Listado con el nombre de las fotos de la) Tj T* 0 Tw (persona deseada.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -4.44 0 Td (nombre:) Tj T* -33.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .891942 Tw (Informa si se ha encontrado la persona) Tj T* 0 Tw 3.391942 Tw (devolviendo el nombre de esta o un) Tj T* 0 Tw (mensaje negativo.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.257913 Tw (Devuelve los datos procesados para) Tj T* 0 Tw (interpretarlos dentro de la vista Post.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 15.79937 0 Td (Vista POST:) Tj T* -15.79937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/fotosmostrar.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 234.9411 cm
+q
+q
+.566678 0 0 .566678 0 0 cm
+q
+1 0 0 1 6.6 11.64682 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 828 216 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 192 132 12 re f*
+.960784 .960784 .862745 rg
+n 0 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 180 66 12 re f*
+.960784 .960784 .862745 rg
+n 90 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 168 54 12 re f*
+.960784 .960784 .862745 rg
+n 84 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 168 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 168 18 12 re f*
+.960784 .960784 .862745 rg
+n 216 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 156 60 12 re f*
+.960784 .960784 .862745 rg
+n 114 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 144 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 144 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 132 60 12 re f*
+.960784 .960784 .862745 rg
+n 138 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 186 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 216 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 120 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 120 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 108 36 12 re f*
+.960784 .960784 .862745 rg
+n 108 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 108 48 12 re f*
+.960784 .960784 .862745 rg
+n 240 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 174 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 222 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 96 162 12 re f*
+.960784 .960784 .862745 rg
+n 390 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 396 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 432 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 84 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 168 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 192 84 90 12 re f*
+.960784 .960784 .862745 rg
+n 282 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 294 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 336 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 348 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 360 84 36 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 216 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 246 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 240 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 60 48 12 re f*
+.960784 .960784 .862745 rg
+n 294 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 342 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 138 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 210 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 36 48 12 re f*
+.960784 .960784 .862745 rg
+n 264 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 36 264 12 re f*
+.960784 .960784 .862745 rg
+n 540 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 24 114 12 re f*
+.960784 .960784 .862745 rg
+n 324 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 330 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 372 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 222 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 270 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 348 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 12 456 12 re f*
+.960784 .960784 .862745 rg
+n 810 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 138 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 354 0 6 12 re f*
+BT 1 0 0 1 0 194 Tm 12 TL /F3 10 Tf .666667 .133333 1 rg (@staff_member_required) Tj 0 0 0 rg  T* /F4 10 Tf 0 .501961 0 rg (def) Tj /F3 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (mostrarfoto) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (registros) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Usuarios) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T* (    ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\(\)) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj .4 .4 .4 rg (==) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (BorrarName) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (\)) Tj  T* (        ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj (nombre) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('Nombre') Tj 0 0 0 rg (]) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (if) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (path) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (exists) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('/FaceRecognition/pre_img/') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (nombre) Tj (\):) Tj  T* (                ) Tj (ruta) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg (') Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (FaceRecognition) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (pre_img) Tj /F4 10 Tf .733333 .4 .133333 rg (\\\\) Tj /F3 10 Tf .729412 .129412 .129412 rg (') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (nombre) Tj  T* (                ) Tj (listado) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (ruta) Tj (\)) Tj  T* (                ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('lista') Tj 0 0 0 rg (:) Tj (listado) Tj (,) Tj .729412 .129412 .129412 rg ('nombre') Tj 0 0 0 rg (:) Tj (nombre) Tj ( ) Tj (}) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (else) Tj /F3 10 Tf 0 0 0 rg (:) Tj  T* (                ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('lista') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ("") Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg ('nombre') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ("No se ha encontrado la persona introducida") Tj 0 0 0 rg ( ) Tj (}) Tj  T* (            ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('fotosmostrar.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj ( ) Tj (registros) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('Introduce el nombre de la persona que desea ver sus fotos de entrenamiento') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F4 10 Tf 0 .501961 0 rg (return) Tj /F3 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('BorrarReconocido.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 198.5946 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 186.5946 cm
+Q
+q
+1 0 0 1 62.69291 115.5946 cm
+.960784 .960784 .862745 rg
+n 0 71 469.8898 -71 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 45 Tm  T* ET
+q
+1 0 0 1 16 40 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F7 12.5 Tf 15 TL (Nota) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Todos estos servicios necesitan el usuario y clave de administrador.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 71 m 469.8898 71 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 71 l S
+n 469.8898 0 m 469.8898 71 l S
+Q
+Q
+q
+1 0 0 1 62.69291 109.5946 cm
+Q
+ 
+endstream
+endobj
+34 0 obj
+<<
+/Nums [ 0 35 0 R 1 36 0 R 2 37 0 R 3 38 0 R 4 39 0 R 
+  5 40 0 R 6 41 0 R ]
+>>
+endobj
+35 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+36 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+37 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+38 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+39 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+40 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+41 0 obj
+<<
+/S /D /St 7
+>>
+endobj
+xref
+0 42
+0000000000 65535 f 
+0000000073 00000 n 
+0000000169 00000 n 
+0000000276 00000 n 
+0000000388 00000 n 
+0000000493 00000 n 
+0000000603 00000 n 
+0000000808 00000 n 
+0000000921 00000 n 
+0000001126 00000 n 
+0000001331 00000 n 
+0000001447 00000 n 
+0000001653 00000 n 
+0000001859 00000 n 
+0000002065 00000 n 
+0000002185 00000 n 
+0000002391 00000 n 
+0000002497 00000 n 
+0000002768 00000 n 
+0000002842 00000 n 
+0000002953 00000 n 
+0000003076 00000 n 
+0000003204 00000 n 
+0000003336 00000 n 
+0000003470 00000 n 
+0000003596 00000 n 
+0000003709 00000 n 
+0000003809 00000 n 
+0000009579 00000 n 
+0000035707 00000 n 
+0000057152 00000 n 
+0000082412 00000 n 
+0000098594 00000 n 
+0000120289 00000 n 
+0000137491 00000 n 
+0000137589 00000 n 
+0000137623 00000 n 
+0000137657 00000 n 
+0000137691 00000 n 
+0000137725 00000 n 
+0000137759 00000 n 
+0000137793 00000 n 
+trailer
+<<
+/ID 
+[<bcb49136c08f518b981aa43d13f9f28c><bcb49136c08f518b981aa43d13f9f28c>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 17 0 R
+/Root 16 0 R
+/Size 42
+>>
+startxref
+137827
+%%EOF

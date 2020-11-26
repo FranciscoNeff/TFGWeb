@@ -12,14 +12,29 @@ import time
 import sys
 import pickle
 
-
+""" 
+    En este clase se encuentran todos los métodos utilizados para el funcionamiento del analisis del video.
+    :parámetro global frame: contiene el frame de video manejado por la clase.
+"""
 global frame
 class identify_face_video:
    def resultado(self,input_video):
+        """
+        Método para obtener el frame analizado del video.
 
+        :Método función: **resultado** (self,input_video).
+        :valor self: None.
+        :valor input_video: Ruta del archivo de video o dirección de la camara Ip.
+
+        :Lista de parámetros variables:
+
+            :minsize: Tamaño mínimo para detectar el rostro.
+            :umbral: Valor mínimo para marcar a la persona como desconocida.
+    
+        :return: 'frame analizado procesado y listo para el envio a través de HTTP como tipo jpeg'.
+        """
         #input_video="http://admin:admin@192.168.1.33:8081"
         #input_video="./FaceRecognition/videoGOT.mp4" #ruta
-        
         modeldir = os.path.realpath(
             "./FaceRecognition/model/20170511-185253.pb")  # 'C:/Users/Corgito/Desktop/untitled/FaceRecognition/model/20170511-185253.pb'
         classifier_filename = os.path.realpath(
@@ -34,7 +49,7 @@ class identify_face_video:
             with sess.as_default():
                 pnet, rnet, onet = detect_face.create_mtcnn(sess, npy)
 
-                minsize = 10  # minimum size of face
+                minsize = 35  # minimum size of face
                 threshold = [0.8, 0.8, 0.8]  # three steps's threshold
                 factor = 0.709  # scale factor
                 margin = 44
@@ -42,7 +57,7 @@ class identify_face_video:
                 batch_size = 1000
                 image_size = 182
                 input_image_size = 160
-
+                umbral = 0.3
                 HumanNames = os.listdir(train_img)
                 HumanNames.sort()
 
@@ -128,13 +143,16 @@ class identify_face_video:
                             # plot result idx under box
                                     text_x = bb[i][0]
                                     text_y = bb[i][3] + 20
-                                    print('Result Indices: ', best_class_indices[0])
-                                    print(HumanNames)
                                     for H_i in HumanNames:
-                                        if HumanNames[best_class_indices[0]] == H_i:
-                                            result_names = HumanNames[best_class_indices[0]]
-                                            cv2.putText(frame, result_names, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                                        if best_class_probabilities < umbral:
+                                            result_names = "Desconocido"
+                                            cv2.putText(frame, result_names+str(i), (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                                 1, (0, 0, 255), thickness=1, lineType=2)
+                                        else: # HumanNames[best_class_indices[0]] == H_i:
+                                                result_names = HumanNames[best_class_indices[0]]
+                                                cv2.putText(frame, result_names, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                                                    1, (0, 0, 255), thickness=1, lineType=2)
+                                            
 
                         else:
                             print('Alignment Failure')

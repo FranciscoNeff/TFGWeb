@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete frweb &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-frweb">
+<h1>Paquete frweb<a class="headerlink" href="#paquete-frweb" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="en-este-modulo-se-encuentran-todos-los-formularios-necesarios-para-la-interaccion-con-el-usuario">
+<h2>En este módulo se encuentran todos los formularios necesarios para la interacción con el usuario.<a class="headerlink" href="#en-este-modulo-se-encuentran-todos-los-formularios-necesarios-para-la-interaccion-con-el-usuario" title="Enlazar permanentemente con este título">¶</a></h2>
+<hr class="docutils" />
+<div class="section" id="imagenform">
+<h3>ImagenForm:<a class="headerlink" href="#imagenform" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Formulario de petición de imágenes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> ImagenForm(forms.ModelForm).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>ImagenForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo imagen</dt>
+<dd class="field-odd"><p>Archivo de imagen a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirImagen</span></code></p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">ImagenForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">ModelForm</span><span class="p">):</span>
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">SubirImagen</span>
+        <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;imagen&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="uploadfileform">
+<h3>UploadFileForm:<a class="headerlink" href="#uploadfileform" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> UploadFileForm(forms.Form).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>UploadFileForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Nombre de la nueva persona.</p>
+</dd>
+<dt class="field-even">campo Archivo</dt>
+<dd class="field-even"><p>Archivo con los datos de la persona en formato «.zip».</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Modelo</dt>
+<dd class="field-odd"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Persona</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">UploadFileForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">Nombre</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+    <span class="n">Archivo</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">FileField</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="uploadvideoform">
+<h3>UploadVideoForm:<a class="headerlink" href="#uploadvideoform" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> UploadVideoForm(forms.Form).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>UploadVideoForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Video</dt>
+<dd class="field-odd"><p>Archivo de video a analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.SubirVideo</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">UploadVideoForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">Video</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">FileField</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="borrarname">
+<h3>BorrarName:<a class="headerlink" href="#borrarname" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Formulario de petición para borrar una persona.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> BorrarName(forms.Form).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>BorrarName.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Usuarios</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">BorrarName</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">Nombre</span> <span class="o">=</span> <span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="reconocidosform">
+<h3>ReconocidosForm:<a class="headerlink" href="#reconocidosform" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Formulario de petición para añadir nuevas personas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> ReconocidosForm(forms.Form).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>ReconocidosForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Nombre</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Reconocidos</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">ReconocidosForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">Nombre</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="videoform">
+<h3>VideoForm:<a class="headerlink" href="#videoform" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><p>Formulario de petición para conseguir la dirección Ip de la cámara y otros campos de texto.</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> VideoForm(forms.Form).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Formulario</dt>
+<dd class="field-odd"><p>UploadVideoForm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">campo Ip</dt>
+<dd class="field-odd"><p>Campo de texto para introducir el valor.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Modelo</dt>
+<dd class="field-even"><p><code class="xref py py-mod docutils literal notranslate"><span class="pre">models.Reconocidos</span></code>.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">VideoForm</span><span class="p">(</span><span class="n">forms</span><span class="o">.</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">Ip</span><span class="o">=</span><span class="n">forms</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete frweb</a><ul>
+<li><a class="reference internal" href="#en-este-modulo-se-encuentran-todos-los-formularios-necesarios-para-la-interaccion-con-el-usuario">En este módulo se encuentran todos los formularios necesarios para la interacción con el usuario.</a><ul>
+<li><a class="reference internal" href="#imagenform">ImagenForm:</a></li>
+<li><a class="reference internal" href="#uploadfileform">UploadFileForm:</a></li>
+<li><a class="reference internal" href="#uploadvideoform">UploadVideoForm:</a></li>
+<li><a class="reference internal" href="#borrarname">BorrarName:</a></li>
+<li><a class="reference internal" href="#reconocidosform">ReconocidosForm:</a></li>
+<li><a class="reference internal" href="#videoform">VideoForm:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/rstpdf/frweb_formspdf.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete frweb</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

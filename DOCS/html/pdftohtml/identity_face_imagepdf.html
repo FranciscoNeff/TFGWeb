@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquete FaceRecognition &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="paquete-facerecognition">
+<h1>Paquete FaceRecognition<a class="headerlink" href="#paquete-facerecognition" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="en-este-modulo-se-encuentran-todos-los-metodos-necesarios-para-aplicar-el-reconocimiento-facial-en-imagen">
+<h2>En este módulo se encuentran todos los métodos necesarios para aplicar el reconocimiento facial en imagen.<a class="headerlink" href="#en-este-modulo-se-encuentran-todos-los-metodos-necesarios-para-aplicar-el-reconocimiento-facial-en-imagen" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Clase para aplicar el reconocimiento facial en imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>clase</strong> identify_face_image.</p>
+</dd>
+</dl>
+<p>Método para aplicar reconocimiento facial a la imagen.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Método</dt>
+<dd class="field-odd"><p><strong>función</strong> resultado(self,ruta).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Valores entrada</dt>
+<dd class="field-odd"><p>self, ruta</p>
+<dl class="field-list simple">
+<dt class="field-odd">valor self</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">valor ruta</dt>
+<dd class="field-even"><p>Ruta del archivo de imagen.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Lista de parámetros</dt>
+<dd class="field-odd"><p>parámetros variables.</p>
+<dl class="field-list simple">
+<dt class="field-odd">threshold</dt>
+<dd class="field-odd"><p>Umbral para que cada una de las redes [Pnet, Rnet, Onet] decida que la ventana facial es valida.</p>
+</dd>
+<dt class="field-even">factor</dt>
+<dd class="field-even"><p>Valor con la que la imagen se va a reducir en cada interacción.</p>
+</dd>
+<dt class="field-odd">minsize</dt>
+<dd class="field-odd"><p>Tamaño mínimo para detectar el rostro.</p>
+</dd>
+<dt class="field-even">umbral</dt>
+<dd class="field-even"><p>Valor mínimo para marcar a la persona como desconocida.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">Lista de métodos</dt>
+<dd class="field-odd"><p>métodos para el desarrollo del reconocimiento facial.</p>
+<dl class="field-list simple">
+<dt class="field-odd">método cv2.imread</dt>
+<dd class="field-odd"><p>Carga la imagen en el sistema.</p>
+</dd>
+<dt class="field-even">método pickle.load</dt>
+<dd class="field-even"><p>Carga el modelo para realizar las prediciones SVC</p>
+</dd>
+<dt class="field-odd">método detect_face. detect_face</dt>
+<dd class="field-odd"><p>Obtiene las bounding_boxes y los puntos de los rostros.</p>
+</dd>
+<dt class="field-even">método model.predict_proba</dt>
+<dd class="field-even"><p>Obtiene las prediciones del modelo.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-odd">return result_name</dt>
+<dd class="field-odd"><p>Devuelve el nombre de la persona reconocida.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">identify_face_image</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">resultado</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">ruta</span><span class="p">):</span>
+        <span class="n">result_names</span><span class="o">=</span><span class="s2">&quot;No se detecto ninguna cara&quot;</span>
+        <span class="n">img_path</span> <span class="o">=</span> <span class="n">ruta</span>
+        <span class="n">modeldir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="s2">&quot;./FaceRecognition/model/20170511-185253.pb&quot;</span><span class="p">)</span>
+        <span class="n">classifier_filename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="s2">&quot;./FaceRecognition/class/classifier.pkl&quot;</span><span class="p">)</span>
+        <span class="n">npy</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="s2">&quot;./FaceRecognition/npy&quot;</span><span class="p">)</span>
+        <span class="n">train_img</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="s2">&quot;./FaceRecognition/train_img&quot;</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span><span class="o">.</span><span class="n">as_default</span><span class="p">():</span>
+            <span class="n">gpu_options</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">GPUOptions</span><span class="p">(</span><span class="n">per_process_gpu_memory_fraction</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+            <span class="n">sess</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">(</span><span class="n">config</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">ConfigProto</span><span class="p">(</span><span class="n">gpu_options</span><span class="o">=</span><span class="n">gpu_options</span><span class="p">,</span> <span class="n">log_device_placement</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+            <span class="k">with</span> <span class="n">sess</span><span class="o">.</span><span class="n">as_default</span><span class="p">():</span>
+                <span class="n">pnet</span><span class="p">,</span> <span class="n">rnet</span><span class="p">,</span> <span class="n">onet</span> <span class="o">=</span> <span class="n">detect_face</span><span class="o">.</span><span class="n">create_mtcnn</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="n">npy</span><span class="p">)</span>
+                <span class="n">image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">img_path</span><span class="p">)</span>
+                <span class="n">umbral</span> <span class="o">=</span> <span class="mf">0.35</span>
+                <span class="n">h</span><span class="p">,</span><span class="n">w</span><span class="p">,</span><span class="n">_</span><span class="o">=</span><span class="n">image</span><span class="o">.</span><span class="n">shape</span>
+                <span class="n">minsize</span> <span class="o">=</span> <span class="mi">8</span>  <span class="c1"># minimum size of face</span>
+                <span class="n">threshold</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">]</span>  <span class="c1"># three steps&#39;s threshold</span>
+                <span class="n">factor</span> <span class="o">=</span> <span class="mf">0.709</span>  <span class="c1"># scale factor</span>
+                <span class="n">margin</span> <span class="o">=</span> <span class="mi">20</span>
+                <span class="n">frame_interval</span> <span class="o">=</span> <span class="mi">3</span>
+                <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">1000</span>
+                <span class="n">image_size</span> <span class="o">=</span> <span class="mi">182</span>
+                <span class="n">input_image_size</span> <span class="o">=</span> <span class="mi">160</span>
+
+                <span class="n">HumanNames</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">train_img</span><span class="p">)</span>
+                <span class="n">HumanNames</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Loading feature extraction model&#39;</span><span class="p">)</span>
+                <span class="n">facenet</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="n">modeldir</span><span class="p">)</span>
+
+                <span class="n">images_placeholder</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">get_default_graph</span><span class="p">()</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;input:0&quot;</span><span class="p">)</span>
+                <span class="n">embeddings</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">get_default_graph</span><span class="p">()</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;embeddings:0&quot;</span><span class="p">)</span>
+                <span class="n">phase_train_placeholder</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">get_default_graph</span><span class="p">()</span><span class="o">.</span><span class="n">get_tensor_by_name</span><span class="p">(</span><span class="s2">&quot;phase_train:0&quot;</span><span class="p">)</span>
+                <span class="n">embedding_size</span> <span class="o">=</span> <span class="n">embeddings</span><span class="o">.</span><span class="n">get_shape</span><span class="p">()[</span><span class="mi">1</span><span class="p">]</span>
+
+                <span class="n">classifier_filename_exp</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">classifier_filename</span><span class="p">)</span>
+                <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">classifier_filename_exp</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+                    <span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">class_names</span><span class="p">)</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">infile</span><span class="p">)</span>
+
+                <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
+
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Start Recognition!&#39;</span><span class="p">)</span>
+                <span class="n">prevTime</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="n">frame</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">img_path</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+
+                <span class="n">curTime</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span>  <span class="c1"># calc fps</span>
+                <span class="n">timeF</span> <span class="o">=</span> <span class="n">frame_interval</span>
+
+                <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">%</span> <span class="n">timeF</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+                    <span class="n">find_results</span> <span class="o">=</span> <span class="p">[]</span>
+
+                    <span class="k">if</span> <span class="n">frame</span><span class="o">.</span><span class="n">ndim</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+                        <span class="n">frame</span> <span class="o">=</span> <span class="n">facenet</span><span class="o">.</span><span class="n">to_rgb</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
+                    <span class="n">frame</span> <span class="o">=</span> <span class="n">frame</span><span class="p">[:,</span> <span class="p">:,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+                    <span class="n">bounding_boxes</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">detect_face</span><span class="o">.</span><span class="n">detect_face</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">minsize</span><span class="p">,</span> <span class="n">pnet</span><span class="p">,</span> <span class="n">rnet</span><span class="p">,</span> <span class="n">onet</span><span class="p">,</span> <span class="n">threshold</span><span class="p">,</span> <span class="n">factor</span><span class="p">)</span>
+                    <span class="n">nrof_faces</span> <span class="o">=</span> <span class="n">bounding_boxes</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Face Detected: </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">nrof_faces</span><span class="p">)</span>
+
+                    <span class="k">if</span> <span class="n">nrof_faces</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                        <span class="n">det</span> <span class="o">=</span> <span class="n">bounding_boxes</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+                        <span class="n">img_size</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">frame</span><span class="o">.</span><span class="n">shape</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+
+                        <span class="n">cropped</span> <span class="o">=</span> <span class="p">[]</span>
+                        <span class="n">scaled</span> <span class="o">=</span> <span class="p">[]</span>
+                        <span class="n">scaled_reshape</span> <span class="o">=</span> <span class="p">[]</span>
+                        <span class="n">bb</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">nrof_faces</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int32</span><span class="p">)</span>
+
+                        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nrof_faces</span><span class="p">):</span>
+                            <span class="n">emb_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="n">embedding_size</span><span class="p">))</span>
+
+                            <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">det</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                            <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">det</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                            <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">det</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+                            <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">det</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span>
+
+                    <span class="c1"># inner exception</span>
+                            <span class="k">if</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">frame</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="ow">or</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">frame</span><span class="p">):</span>
+                                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;face is too close&#39;</span><span class="p">)</span>
+                                <span class="k">continue</span>
+
+                            <span class="n">cropped</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">[</span><span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]:</span><span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span><span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="p">:])</span>
+                            <span class="n">cropped</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">facenet</span><span class="o">.</span><span class="n">flip</span><span class="p">(</span><span class="n">cropped</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="kc">False</span><span class="p">)</span>
+                            <span class="n">scaled</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">misc</span><span class="o">.</span><span class="n">imresize</span><span class="p">(</span><span class="n">cropped</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="p">(</span><span class="n">image_size</span><span class="p">,</span> <span class="n">image_size</span><span class="p">),</span> <span class="n">interp</span><span class="o">=</span><span class="s1">&#39;bilinear&#39;</span><span class="p">))</span>
+                            <span class="n">scaled</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">scaled</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="p">(</span><span class="n">input_image_size</span><span class="p">,</span> <span class="n">input_image_size</span><span class="p">),</span>
+                                        <span class="n">interpolation</span><span class="o">=</span><span class="n">cv2</span><span class="o">.</span><span class="n">INTER_CUBIC</span><span class="p">)</span>
+                            <span class="n">scaled</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">facenet</span><span class="o">.</span><span class="n">prewhiten</span><span class="p">(</span><span class="n">scaled</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                            <span class="n">scaled_reshape</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">scaled</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">input_image_size</span><span class="p">,</span> <span class="n">input_image_size</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+                            <span class="n">feed_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">images_placeholder</span><span class="p">:</span> <span class="n">scaled_reshape</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">phase_train_placeholder</span><span class="p">:</span> <span class="kc">False</span><span class="p">}</span>
+                            <span class="n">emb_array</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">embeddings</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="n">feed_dict</span><span class="p">)</span>
+                            <span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">emb_array</span><span class="p">)</span>
+                            <span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+                            <span class="n">best_class_indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">predictions</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+                            <span class="c1"># print(best_class_indices)</span>
+                            <span class="n">best_class_probabilities</span> <span class="o">=</span> <span class="n">predictions</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">best_class_indices</span><span class="p">)),</span> <span class="n">best_class_indices</span><span class="p">]</span>
+                            <span class="nb">print</span><span class="p">(</span><span class="n">best_class_probabilities</span><span class="p">)</span>
+                            <span class="n">cv2</span><span class="o">.</span><span class="n">rectangle</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="p">(</span><span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]),</span> <span class="p">(</span><span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># boxing face</span>
+
+                    <span class="c1"># plot result idx under box</span>
+                            <span class="n">text_x</span> <span class="o">=</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                            <span class="n">text_y</span> <span class="o">=</span> <span class="n">bb</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="mi">20</span>
+                            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Result Indices: &#39;</span><span class="p">,</span> <span class="n">best_class_indices</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                            <span class="nb">print</span><span class="p">(</span><span class="n">HumanNames</span><span class="p">)</span>
+                            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mejor Indicie&quot;</span><span class="p">,</span><span class="n">best_class_indices</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                            <span class="k">if</span> <span class="n">best_class_probabilities</span> <span class="o">&lt;</span> <span class="n">umbral</span><span class="p">:</span>
+                                <span class="n">result_names</span> <span class="o">=</span> <span class="s2">&quot;Desconocido&quot;</span>
+
+                                <span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">result_names</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="p">(</span><span class="n">text_x</span><span class="p">,</span> <span class="n">text_y</span><span class="p">),</span> <span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_COMPLEX_SMALL</span><span class="p">,</span>
+                                    <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">),</span> <span class="n">thickness</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">lineType</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+                            <span class="k">else</span><span class="p">:</span>
+                                <span class="k">for</span> <span class="n">H_i</span> <span class="ow">in</span> <span class="n">HumanNames</span><span class="p">:</span>
+
+                                    <span class="k">if</span> <span class="n">HumanNames</span><span class="p">[</span><span class="n">best_class_indices</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">==</span> <span class="n">H_i</span><span class="p">:</span>
+                                        <span class="n">result_names</span> <span class="o">=</span> <span class="n">HumanNames</span><span class="p">[</span><span class="n">best_class_indices</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="c1"># + str(i)</span>
+                                        <span class="n">cv2</span><span class="o">.</span><span class="n">putText</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">result_names</span><span class="p">,</span> <span class="p">(</span><span class="n">text_x</span><span class="p">,</span> <span class="n">text_y</span><span class="p">),</span> <span class="n">cv2</span><span class="o">.</span><span class="n">FONT_HERSHEY_COMPLEX_SMALL</span><span class="p">,</span>
+                                        <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">),</span> <span class="n">thickness</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">lineType</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+                            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La cara&quot;</span><span class="p">,</span><span class="n">i</span><span class="p">,</span><span class="s2">&quot;pertene a&quot;</span><span class="p">,</span><span class="n">result_names</span><span class="p">,</span><span class="s2">&quot;con un indice de probabilidad de&quot;</span><span class="p">,</span><span class="n">best_class_probabilities</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Unable to align&#39;</span><span class="p">)</span>
+                <span class="c1">#dim=int(frame.shape[1]-200),int(frame.shape[0]-200)#height,width</span>
+                <span class="c1">#frame = cv2.resize(frame, dim, fx=0.5, fy=0.5)  #el resize es opcional, pero si se hace mejor despues de la deteccíon ya que si no perdemos información</span>
+                <span class="c1">#cv2.imshow(&#39;Image&#39;, frame)</span>
+                <span class="n">cv2</span><span class="o">.</span><span class="n">imwrite</span><span class="p">(</span><span class="n">ruta</span><span class="p">,</span> <span class="n">frame</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">result_names</span>
+
+                <span class="k">if</span> <span class="n">cv2</span><span class="o">.</span><span class="n">waitKey</span><span class="p">(</span><span class="mi">1000000</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mh">0xFF</span> <span class="o">==</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;q&#39;</span><span class="p">):</span>
+                    <span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+                    <span class="c1">#sys.exit(&quot;Thanks&quot;)</span>
+                <span class="n">cv2</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Paquete FaceRecognition</a><ul>
+<li><a class="reference internal" href="#en-este-modulo-se-encuentran-todos-los-metodos-necesarios-para-aplicar-el-reconocimiento-facial-en-imagen">En este módulo se encuentran todos los métodos necesarios para aplicar el reconocimiento facial en imagen.</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/rstpdf/identity_face_imagepdf.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Paquete FaceRecognition</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+Paquete frweb
+=============
+
+Módulos
+----------
+
+frweb.admin\_views módulo
+-------------------------
+
+En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo administrador. Todos estos servicios necesitan el usuario y clave de administrador.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+.. automodule:: frweb.admin_views
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+frweb.apps módulo
+-----------------
+
+.. automodule:: frweb.apps
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+frweb.forms módulo
+------------------
+
+En este modulo se encuentran todos los formularios necesarios para la interacción con el usuario.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. automodule:: frweb.forms
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+frweb.models módulo
+-------------------
+En este modulo se encuentran todos las clases necesarios para la recogida de los datos con el usuario.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+.. automodule:: frweb.models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+frweb.views módulo
+------------------
+
+En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo usuario.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. automodule:: frweb.views
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: frweb
+   :members:
+   :undoc-members:
+   :show-inheritance:

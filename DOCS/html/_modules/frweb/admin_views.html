@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frweb.admin_views &#8212; documentación de FaceRecognitionWeb - 1.0</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Código de módulo</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">frweb.admin_views</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Código fuente para frweb.admin_views</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">zipfile</span>
+<span class="kn">from</span> <span class="nn">django.core.files.storage</span> <span class="kn">import</span> <span class="n">FileSystemStorage</span>
+<span class="kn">from</span> <span class="nn">django.http</span> <span class="kn">import</span> <span class="n">HttpResponse</span>
+<span class="kn">from</span> <span class="nn">.forms</span> <span class="kn">import</span> <span class="n">UploadFileForm</span><span class="p">,</span> <span class="n">BorrarName</span>
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Persona</span>
+<span class="kn">from</span> <span class="nn">django.shortcuts</span> <span class="kn">import</span> <span class="n">render</span>
+<span class="kn">from</span> <span class="nn">django.contrib.admin.views.decorators</span> <span class="kn">import</span> <span class="n">staff_member_required</span>
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Reconocidos</span><span class="p">,</span><span class="n">Usuarios</span>
+<span class="kn">import</span> <span class="nn">FaceRecognition.data_preprocess</span> <span class="k">as</span> <span class="nn">entrenar</span>
+<span class="kn">import</span> <span class="nn">FaceRecognition.train_main</span> <span class="k">as</span> <span class="nn">modelo</span>
+<span class="kn">from</span> <span class="nn">django.views.decorators.csrf</span> <span class="kn">import</span> <span class="n">csrf_exempt</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="sd">&quot;&quot;&quot; </span>
+<span class="sd">    En este modulo se encuentran todos los metodos utilizados para el funcionamiento del cliente tipo administrador.</span>
+<span class="sd">    Todos estos servicios necesitan el usuario y clave de administrador.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="n">basedir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)))</span>
+
+<div class="viewcode-block" id="ZonaAdmin"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.ZonaAdmin">[documentos]</a><span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">ZonaAdmin</span><span class="p">(</span><span class="n">request</span><span class="p">):</span><span class="c1">#Verde</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Vista de inicio del servicio de administración, para poder acceder y utilizar todos los servicios de esta zona.</span>
+
+<span class="sd">    :Método función: **ZonaAdmin** (request).</span>
+
+<span class="sd">    :Request GET: Vista de inicio del servicio de administración.</span>
+
+<span class="sd">        :context msg: Mensaje de texto para mostrar en la vista.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el mensaje introducidos en el context.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista: &#39;templates/Administracion.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="s1">&#39;Bienvenido a la zona de Administración&#39;</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;Administracion.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="SubirZip"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.SubirZip">[documentos]</a><span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">SubirZip</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Recibe y aloja el archivo &quot;.zip&quot; enviado desde los archivos locales del cliente con los datos de la nueva persona a añadir</span>
+<span class="sd">    y poder almacenarla en el propio servicio dentro del directorio &#39;/FaceRecognition&#39;.</span>
+<span class="sd">    El envio se realiza tras cumplimentar el formulario el formulario requerido.</span>
+<span class="sd">    Recibido el archivo lo descomprime y aloja las fotos de la nueva persona en el directorio &#39;/FaceRecognition/train_img&#39;</span>
+
+<span class="sd">    :Método función: **SubirZip** (request).</span>
+
+<span class="sd">    :Request GET: Envio de formulario mostrando los datos necesarios para procesar la petición POST.</span>
+<span class="sd">        </span>
+<span class="sd">        :context form: Formulario a cumplimentar por el cliente para proceder al ingreso de una nueva persona.</span>
+<span class="sd">        :form referencia: :mod:`frweb.forms.UploadFileForm`.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el formulario.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista GET: &#39;templates/nuevapersona.html&#39;.</span>
+
+<span class="sd">    :Request POST: Subida y alojamiento de la imagen para su analisis.</span>
+<span class="sd">    </span>
+<span class="sd">        :parámetro Archivo: Archivo local del usuario con las imagenes de la nueva persona a añadir. </span>
+<span class="sd">        :tipo parámetro: Archivo .zip.</span>
+<span class="sd">        :parámetro Nombre: Nombre con el que se va a desbrir a la nueva persona. </span>
+<span class="sd">        :tipo Nombre: texto.</span>
+<span class="sd">        :return.POST: HttpResponse devuelve la vista con el estado del proceso</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    :Vista POST: &#39;templates/respuestasadmin.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">UploadFileForm</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">,</span> <span class="n">request</span><span class="o">.</span><span class="n">FILES</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="c1"># subir archivo</span>
+            <span class="n">Archivo</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">FILES</span><span class="p">[</span><span class="s1">&#39;Archivo&#39;</span><span class="p">]</span>
+            <span class="n">nombre</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;Nombre&#39;</span><span class="p">]</span>
+            <span class="c1">#crear rutas de almacenamiento si no existen</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img&#39;</span><span class="p">):</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img&#39;</span><span class="p">)</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img&#39;</span><span class="p">)</span>
+
+            <span class="c1"># comprobar ruta</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">):</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">)</span>
+                <span class="n">reg</span> <span class="o">=</span> <span class="n">Usuarios</span><span class="p">(</span><span class="n">nombre</span><span class="o">=</span><span class="n">nombre</span><span class="p">)</span>
+                <span class="n">reg</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+
+            <span class="n">fs</span> <span class="o">=</span> <span class="n">FileSystemStorage</span><span class="p">()</span>
+            <span class="n">fs</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">Archivo</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">Archivo</span><span class="p">)</span>
+            <span class="c1"># UnzipArchivo            </span>
+            <span class="k">with</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">((</span><span class="n">basedir</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">media</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">Archivo</span><span class="o">.</span><span class="n">name</span><span class="p">),</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">zip_ref</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Extraer&#39;</span><span class="p">)</span>
+                <span class="n">zip_ref</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">basedir</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">)</span>  <span class="c1"># modificar ruta destino</span>
+            <span class="c1">##Borrar ZIP</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">media</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">Archivo</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;estado&#39;</span><span class="p">:</span><span class="s1">&#39;La persona ha sido actualizada correctamente&#39;</span><span class="p">}</span>
+            <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;respuestasadmin.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span> 
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">form</span> <span class="o">=</span> <span class="n">UploadFileForm</span><span class="p">()</span>
+    <span class="n">documents</span> <span class="o">=</span> <span class="n">Persona</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+
+    <span class="c1"># Render list page with the documents and the form</span>
+    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;documents&#39;</span><span class="p">:</span> <span class="n">documents</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;nuevapersona.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Entrenamiento"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.Entrenamiento">[documentos]</a><span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">Entrenamiento</span><span class="p">(</span><span class="n">request</span><span class="p">):</span><span class="c1">#Verde</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Con este método se realiza el entrenamiento obtienen primero los datos almacenados en el directorio &#39;/FaceRecognition/train_img&#39;, estos datos se normalizan</span>
+<span class="sd">    y se almacenan en el directorio &#39;/FaceRecognition/pre_img&#39;, estos son los datos utilizados para realizar el entrenamiento.</span>
+<span class="sd">    Hace uso de los metodos alojados en :mod:´FaceRecognition.data_preprocess´ y :mod:´FaceRecognition.train_main´ .</span>
+<span class="sd"> </span>
+<span class="sd">    :Método función: **Entrenamiento** (request).</span>
+
+<span class="sd">    :Request GET: Envio del estado del proceso una vez realizado el entrenamiento, si el estado es satisfactorio devuelve la lista de las personas con las que se ha entrado el sistema y el número de las fotos utilizadas, si el estado es no satisfactorio responde con un mensaje negativo.</span>
+<span class="sd">        </span>
+<span class="sd">        :context registros: Lista de personas reconocidas y número de fotos.</span>
+<span class="sd">        :context resultado: Indica el estado de haber aplicado el entrenamiento en el servicio.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el resultado del entrenamiento.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista: &#39;templates/Entrenamiento.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1">#borrar bounding_box para resetear los entrenamientos</span>
+        <span class="n">bb</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img&#39;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">box</span> <span class="ow">in</span> <span class="n">bb</span><span class="p">:</span>
+            <span class="n">b</span><span class="o">=</span><span class="n">box</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">b</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">2</span><span class="p">:</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">+</span><span class="n">box</span><span class="p">)</span>
+        <span class="c1">#borrar lista de registros</span>
+        <span class="n">Reconocidos</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span>
+        <span class="n">Usuarios</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span>
+        
+        <span class="c1">#proceso de entrenamiento</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;INFO  [Realizando el modelo]&quot;</span><span class="p">)</span>
+        <span class="n">entrenar</span><span class="o">.</span><span class="n">DPreprocesses</span><span class="o">.</span><span class="n">preproceso</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;INFO [Entrenando el modelo]&quot;</span><span class="p">)</span>
+        <span class="n">modelo</span><span class="o">.</span><span class="n">Train_main</span><span class="o">.</span><span class="n">train_main</span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Entrenamiento terminado&#39;</span><span class="p">)</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Actualizando la base de datos&#39;</span><span class="p">)</span> <span class="c1">#actualizar lista</span>
+        <span class="n">lista</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img&#39;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+            <span class="n">fotos</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">)</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">Reconocidos</span><span class="p">(</span><span class="n">nombre</span><span class="o">=</span><span class="n">nombre</span><span class="p">,</span> <span class="n">fotos</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">fotos</span><span class="p">))</span>
+            <span class="n">p</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+            <span class="n">r</span><span class="o">=</span><span class="n">Usuarios</span><span class="p">(</span><span class="n">nombre</span><span class="o">=</span><span class="n">nombre</span><span class="p">)</span>
+            <span class="n">r</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+        <span class="n">listado</span> <span class="o">=</span> <span class="n">Reconocidos</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+        
+        <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">listado</span><span class="p">,</span> <span class="s1">&#39;resultado&#39;</span><span class="p">:</span> <span class="s1">&#39;El entrenamiento se ha relizado correctamente&#39;</span><span class="p">}</span>
+        <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;Entrenamiento.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span> <span class="p">,</span> <span class="s1">&#39;resultado&#39;</span><span class="p">:</span> <span class="s1">&#39;El entrenamiento no se ha podido realizar&#39;</span><span class="p">}</span>
+        <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;Entrenamiento.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="BorrarReconocido"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.BorrarReconocido">[documentos]</a><span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">BorrarReconocido</span><span class="p">(</span><span class="n">request</span><span class="p">):</span><span class="c1">#Verde</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Con este método se puede borrar todos los datos una persona tipo usuario y reconocido si existiese.</span>
+<span class="sd">    El envio se realiza tras cumplimentar el formulario el formulario requerido.</span>
+
+<span class="sd">    :Método función: **BorrarReconocido** (request).</span>
+
+<span class="sd">    :Request GET: Envio de formulario mostrando los datos necesarios para procesar la petición POST.</span>
+<span class="sd">        </span>
+<span class="sd">        :context form: Formulario a cumplimentar por el cliente para proceder al borrado de una persona.</span>
+<span class="sd">        :form referencia: :mod:`frweb.forms.BorrarName`.</span>
+<span class="sd">        :context registros: Lista de personas tipo usuario.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el formulario.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista GET: &#39;templates/nuevapersona.html&#39;.</span>
+
+<span class="sd">    :Request POST: Recepción del nombre de la persona a borrar.</span>
+<span class="sd">    </span>
+<span class="sd">        :parámetro Nombre: Nombre de la persona que se desea borrar. </span>
+<span class="sd">        :tipo Nombre: texto.</span>
+<span class="sd">        :return.POST: Devuelve los mismos datos que el proceso &quot;Request GET&quot;</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    :Vista POST: &#39;templates/BorrarReconocido.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registros</span> <span class="o">=</span> <span class="n">Usuarios</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+    <span class="n">lista</span><span class="o">=</span><span class="s1">&#39;&#39;</span>
+    <span class="k">for</span> <span class="n">registro</span> <span class="ow">in</span> <span class="n">registros</span><span class="p">:</span>
+        <span class="n">lista</span><span class="o">+=</span><span class="n">registro</span><span class="o">.</span><span class="n">nombre</span>
+
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="c1">#borrar</span>
+            <span class="n">nombre</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;Nombre&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">nombre</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">Reconocidos</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">nombre</span><span class="o">=</span><span class="n">nombre</span><span class="p">)</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span><span class="c1">#borraregistro</span>
+                    <span class="n">Usuarios</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">nombre</span><span class="o">=</span><span class="n">nombre</span><span class="p">)</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span><span class="c1">#borrar registro</span>
+                    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">):</span><span class="c1">#comprueba que existe</span>
+                        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">)</span><span class="c1">#borra carpeta</span>
+                    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">):</span>
+                        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span><span class="p">)</span>
+                    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">}</span>
+                    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+                <span class="k">except</span><span class="p">:</span>
+                    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">}</span>
+                    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">}</span>
+                <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">()</span>
+    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="s1">&#39;Introduce el nombre de la persona que desea borrar&#39;</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="mostrarfotoborrado"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.mostrarfotoborrado">[documentos]</a><span class="nd">@csrf_exempt</span>
+<span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">mostrarfotoborrado</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Con este método se consiguen y muestran todas las imagenes de una persona tipo usuario.</span>
+<span class="sd">    El envio se realiza tras cumplimentar el formulario el formulario requerido.</span>
+
+<span class="sd">    :Método función: **mostrarfotoborrado** (request).</span>
+
+<span class="sd">    :Request GET: Envio de formulario mostrando los datos necesarios para procesar la petición POST.</span>
+<span class="sd">        </span>
+<span class="sd">        :context form: Formulario a cumplimentar por el cliente para proceder a mostrar la vista de borrado de imagen.</span>
+<span class="sd">        :form referencia: :mod:`frweb.forms.BorrarName`.</span>
+<span class="sd">        :context registros: Lista de personas tipo usuario.</span>
+<span class="sd">        :context msg: Mensaje de información para el cliente.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el formulario.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista GET: &#39;templates/BorrarReconocido.html&#39;.</span>
+
+<span class="sd">    :Request POST: Recepción del nombre de la persona a borrar.</span>
+<span class="sd">    </span>
+<span class="sd">        :context nombre: Nombre de la persona que se desea borrar o mensaje de resultado negativo en la busqueda de imágenes.  </span>
+<span class="sd">        :context lista: Listado de la ruta de las imagenes a mostrar si se encuentran y vacia si no se tienen registros.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.POST: Devuelve la vista de presentación con las imagenes listas para ser borradas</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    :Vista POST: &#39;templates/fotosborrado.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registros</span> <span class="o">=</span> <span class="n">Usuarios</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+    <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="n">nombre</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;Nombre&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s1">&#39;/FaceRecognition/train_img/&#39;</span><span class="o">+</span><span class="n">nombre</span><span class="p">):</span>
+                <span class="n">ruta</span><span class="o">=</span><span class="n">basedir</span><span class="o">+</span><span class="s1">&#39;/FaceRecognition/train_img/&#39;</span><span class="o">+</span><span class="n">nombre</span>
+                <span class="n">listado</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">ruta</span><span class="p">)</span>
+                <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;lista&#39;</span><span class="p">:</span><span class="n">listado</span><span class="p">,</span><span class="s1">&#39;nombre&#39;</span><span class="p">:</span><span class="n">nombre</span> <span class="p">}</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;lista&#39;</span><span class="p">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s1">&#39;nombre&#39;</span><span class="p">:</span><span class="s2">&quot;No se ha encontrado la persona introducida&quot;</span> <span class="p">}</span>
+            <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;fotosborrado.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span>
+    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="s1">&#39;Introduce el nombre de la persona que desea borrar su foto&#39;</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="borrarfoto"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.borrarfoto">[documentos]</a><span class="nd">@csrf_exempt</span>
+<span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">borrarfoto</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Con este método se obtienen los datos de la foto que se quiere borrar.</span>
+<span class="sd">    El envio se realiza tras cumplimentar el formulario el formulario requerido en el método función :mod:`frweb.admin_views.mostrarfotoborrado`.</span>
+
+<span class="sd">    :Método función: **borrarfoto** (request).</span>
+
+<span class="sd">    :Request POST: Contiene la cadena de texto QueryDict sin parsear, una vez parseada se obtienen los parámetros necesarios para procesar el borrado.</span>
+
+<span class="sd">        :parámetro nombre: Nombre de la persona que se desea borrar su foto.  </span>
+<span class="sd">        :tipo nombre: texto.</span>
+<span class="sd">        :parámetro foto: Nombre de la foto a borrar</span>
+<span class="sd">        :tipo foto: texto</span>
+<span class="sd">        :context estado: Listado de la ruta de las imagenes a mostrar si se encuentran y vacia si no se tienen registros.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.POST: Devuelve la vista de presentación con el estado resuelto de este proceso</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    :Vista POST: &#39;templates/respuestasadmin.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s1">&#39;POST&#39;</span><span class="p">:</span>   
+        <span class="n">cadt</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="o">.</span><span class="n">urlencode</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;=&amp;&#39;</span><span class="p">)</span>       
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">cadt</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.x&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">f</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+                <span class="n">foto</span><span class="o">=</span><span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">nombre</span><span class="o">=</span><span class="n">cadt</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">,</span><span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">estado</span><span class="o">=</span><span class="s1">&#39;No se ha realizado el borrado&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span> <span class="o">+</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="o">+</span> <span class="n">foto</span><span class="p">):</span><span class="c1">#comprueba que existe</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">train_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span> <span class="o">+</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="o">+</span> <span class="n">foto</span><span class="p">)</span>
+            <span class="n">arch</span><span class="o">=</span><span class="n">foto</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span> <span class="o">+</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="o">+</span> <span class="n">arch</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;.png&#39;</span><span class="p">):</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">nombre</span> <span class="o">+</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="o">+</span><span class="n">arch</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="s1">&#39;.png&#39;</span><span class="p">)</span>
+            <span class="n">estado</span><span class="o">=</span><span class="s1">&#39;El borrado se ha realizado correctamente&#39;</span>   
+        <span class="k">except</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error en borrado&#39;</span><span class="p">)</span>
+
+        <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;estado&#39;</span><span class="p">:</span><span class="n">estado</span><span class="p">}</span>
+        <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="s1">&#39;respuestasadmin.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span>   </div>
+
+<div class="viewcode-block" id="mostrarfoto"><a class="viewcode-back" href="../../frweb.html#frweb.admin_views.mostrarfoto">[documentos]</a><span class="nd">@staff_member_required</span>
+<span class="k">def</span> <span class="nf">mostrarfoto</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Con este método muestran todas las fotos de una persona tipo usuario almacenadas en el directorio &#39;/FaceRecognition/train_img&#39;.</span>
+<span class="sd">    El envio se realiza tras cumplimentar el formulario el formulario requerido.</span>
+
+<span class="sd">    :Método función: **mostrarfoto** (request).</span>
+
+<span class="sd">    :Request GET: Envio de formulario mostrando los datos necesarios para procesar la petición POST.</span>
+<span class="sd">        </span>
+<span class="sd">        :context form: Formulario a cumplimentar por el cliente para proceder a mostrar las fotos.</span>
+<span class="sd">        :form referencia: :mod:`frweb.forms.BorrarName`.</span>
+<span class="sd">        :context registros: Lista de personas tipo usuario.</span>
+<span class="sd">        :context msg: Mensaje para mostrar al cliente.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.GET: Vista con el formulario.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    :Vista GET: &#39;templates/BorrarReconocido.html&#39;.</span>
+
+<span class="sd">    :Request POST: Recepción del nombre de la persona a borrar.</span>
+<span class="sd">    </span>
+<span class="sd">        :parámetro Nombre: Nombre de la persona que se desea ver sus fotos. </span>
+<span class="sd">        :tipo Nombre: texto.</span>
+<span class="sd">        :context lista: Listado con el nombre de las fotos de la persona deseada.</span>
+<span class="sd">        :context nombre: Informa si se ha encontrado la persona devolviendo el nombre de esta o un mensaje negativo.</span>
+<span class="sd">        :tipo context: texto.</span>
+<span class="sd">        :return.POST: Devuelve los datos procesados para interpretarlos dentro de la vista Post.</span>
+<span class="sd">        :tipo return: HTTP.</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    :Vista POST: &#39;templates/fotosmostrar.html&#39;.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registros</span> <span class="o">=</span> <span class="n">Usuarios</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+    <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="o">==</span><span class="s1">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">form</span><span class="o">=</span><span class="n">BorrarName</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">form</span><span class="o">.</span><span class="n">is_valid</span><span class="p">():</span>
+            <span class="n">nombre</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">POST</span><span class="p">[</span><span class="s1">&#39;Nombre&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">basedir</span><span class="o">+</span><span class="s1">&#39;/FaceRecognition/pre_img/&#39;</span><span class="o">+</span><span class="n">nombre</span><span class="p">):</span>
+                <span class="n">ruta</span><span class="o">=</span><span class="n">basedir</span><span class="o">+</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">FaceRecognition</span><span class="se">\\</span><span class="s1">pre_img</span><span class="se">\\</span><span class="s1">&#39;</span><span class="o">+</span><span class="n">nombre</span>
+                <span class="n">listado</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">ruta</span><span class="p">)</span>
+                <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;lista&#39;</span><span class="p">:</span><span class="n">listado</span><span class="p">,</span><span class="s1">&#39;nombre&#39;</span><span class="p">:</span><span class="n">nombre</span> <span class="p">}</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">context</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;lista&#39;</span><span class="p">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s1">&#39;nombre&#39;</span><span class="p">:</span><span class="s2">&quot;No se ha encontrado la persona introducida&quot;</span> <span class="p">}</span>
+            <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;fotosmostrar.html&#39;</span><span class="p">,</span><span class="n">context</span><span class="p">)</span>
+    
+    <span class="n">context</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;registros&#39;</span><span class="p">:</span> <span class="n">registros</span><span class="p">,</span> <span class="s1">&#39;form&#39;</span><span class="p">:</span> <span class="n">form</span><span class="p">,</span> <span class="s1">&#39;msg&#39;</span><span class="p">:</span><span class="s1">&#39;Introduce el nombre de la persona que desea ver sus fotos de entrenamiento&#39;</span><span class="p">}</span>
+    <span class="k">return</span> <span class="n">render</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="s1">&#39;BorrarReconocido.html&#39;</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span></div>
+
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">documentación de FaceRecognitionWeb - 1.0</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Código de módulo</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">frweb.admin_views</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2020, Francisco José Neff Hernandez.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+    </div>
+  </body>
+</html>

@@ -11,18 +11,30 @@ import os
 import time
 import pickle
 import sys
-
-
+#bottom right, white,#66CC00, #009933, green ,#336600
+#linear-gradient(to bottom right, white,#66CC00, #009933, green ,#336600);
 class identify_face_image:
     def resultado(self,ruta):
+        """
+        Método para aplicar reconocimiento facial a la imagen.
 
+        :Método función: **resultado** (self,input_video).
+        :valor self: None.
+        :valor input_video: Ruta del archivo de imagen.
 
+        :Lista de parámetros variables:
+
+            :minsize: Tamaño mínimo para detectar el rostro.
+            :umbral: Valor mínimo para marcar a la persona como desconocida.
+    
+        :return result_name: Devuelve el nombre de la persona reconocida.
+        """
+        result_names="No se detecto ninguna cara"
         img_path = ruta
-        print ("ruta",ruta)
-        modeldir = os.path.realpath("./FaceRecognition/model/20170511-185253.pb")#'C:/Users/CorgiUltra/PycharmProjects/untitled/FaceRecognition/model/20170511-185253.pb'
-        classifier_filename = os.path.realpath("./FaceRecognition/class/classifier.pkl")#'C:/Users/CorgiUltra/PycharmProjects/untitled/FaceRecognition/class/classifier.pkl'
-        npy = os.path.realpath("./FaceRecognition/npy")#'C:/Users/CorgiUltra/PycharmProjects/untitled/FaceRecognition/npy'
-        train_img = os.path.realpath("./FaceRecognition/train_img")#"C:/Users/CorgiUltra/PycharmProjects/untitled/FaceRecognition/train_img"
+        modeldir = os.path.realpath("./FaceRecognition/model/20170511-185253.pb")
+        classifier_filename = os.path.realpath("./FaceRecognition/class/classifier.pkl")
+        npy = os.path.realpath("./FaceRecognition/npy")
+        train_img = os.path.realpath("./FaceRecognition/train_img")
 
         with tf.Graph().as_default():
             gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.6)
@@ -30,12 +42,12 @@ class identify_face_image:
             with sess.as_default():
                 pnet, rnet, onet = detect_face.create_mtcnn(sess, npy)
                 image = cv2.imread(img_path)
+                umbral = 0.35
                 h,w,_=image.shape
-                print("height",h, "width",w)
                 minsize = 8  # minimum size of face
                 threshold = [0.7, 0.7, 0.7]  # three steps's threshold
                 factor = 0.709  # scale factor
-                margin = 150
+                margin = 20
                 frame_interval = 3
                 batch_size = 1000
                 image_size = 182
@@ -121,8 +133,8 @@ class identify_face_image:
                             print('Result Indices: ', best_class_indices[0])
                             print(HumanNames)
                             print("Mejor Indicie",best_class_indices[0])
-                            if best_class_probabilities < 0.35:
-                                result_names = "Unknow"
+                            if best_class_probabilities < umbral:
+                                result_names = "Desconocido"
                                 
                                 cv2.putText(frame, result_names+str(i), (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                     1, (0, 0, 255), thickness=1, lineType=2)
@@ -130,7 +142,7 @@ class identify_face_image:
                                 for H_i in HumanNames:
 
                                     if HumanNames[best_class_indices[0]] == H_i:
-                                        result_names = HumanNames[best_class_indices[0]] + str(i)
+                                        result_names = HumanNames[best_class_indices[0]]# + str(i)
                                         cv2.putText(frame, result_names, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                         1, (0, 0, 255), thickness=1, lineType=2)
                                         

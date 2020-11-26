@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Administración</title>
     <link href="{%static 'css/cabecera2.css' %}" rel="stylesheet">
 </head>
 <body>
@@ -16,12 +16,13 @@
 
 <a href="{% url 'AddPersona'%}">Añadir nuevo Usuario</a>
 <a href="{% url 'BorrarUsuarios' %}">Borrar Un Reconocido</a>
-<a href="{% url 'Mostrarfotos' %}">Borrar una foto</a>
+<a href="{% url 'MostrarfotosBorrado' %}">Borrar una foto</a>
+<a href="{% url 'Mostrarfotos' %}">Ver fotos</a>
 <a href="{% url 'Entrenamiento' %}">Realizar Entrenamiento</a>
 <a href="/">Inicio</a>
     </nav>
 </div>
-<p>Introduce el nombre de la persona a borrar</p>
+<p>{{msg}}</p>
 
 <table>
     <tbody>
@@ -41,7 +42,7 @@
         <form method="POST" class="post-form" >
             {% csrf_token %}
             {{ form.as_p }}
-            <button type="submit" class="save btn btn-default">Borrar</button>
+            <button type="submit" class="save btn btn-default">Enviar</button>
     </form>
 
 

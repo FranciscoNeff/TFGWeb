@@ -1,0 +1,3887 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 8 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Contents 30 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Contents 31 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 32 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Contents 33 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+13 0 obj
+<<
+/Contents 34 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+14 0 obj
+<<
+/Contents 35 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+15 0 obj
+<<
+/Outlines 17 0 R /PageLabels 36 0 R /PageMode /UseNone /Pages 28 0 R /Type /Catalog
+>>
+endobj
+16 0 obj
+<<
+/Author () /CreationDate (D:20201124124616-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20201124124616-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Paquete frweb) /Trapped /False
+>>
+endobj
+17 0 obj
+<<
+/Count 10 /First 18 0 R /Last 27 0 R /Type /Outlines
+>>
+endobj
+18 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 624.6772 0 ] /Next 19 0 R /Parent 17 0 R /Title (Home:)
+>>
+endobj
+19 0 obj
+<<
+/Dest [ 7 0 R /XYZ 62.69291 333.1307 0 ] /Next 20 0 R /Parent 17 0 R /Prev 18 0 R /Title (ImagenView:)
+>>
+endobj
+20 0 obj
+<<
+/Dest [ 9 0 R /XYZ 62.69291 176.2438 0 ] /Next 21 0 R /Parent 17 0 R /Prev 19 0 R /Title (ImagenDisplay:)
+>>
+endobj
+21 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 506.4772 0 ] /Next 22 0 R /Parent 17 0 R /Prev 20 0 R /Title (AnalizarVideoVista:)
+>>
+endobj
+22 0 obj
+<<
+/Dest [ 10 0 R /XYZ 62.69291 256.9307 0 ] /Next 23 0 R /Parent 17 0 R /Prev 21 0 R /Title (AnalizarVideoFrame:)
+>>
+endobj
+23 0 obj
+<<
+/Dest [ 11 0 R /XYZ 62.69291 161.4021 0 ] /Next 24 0 R /Parent 17 0 R /Prev 22 0 R /Title (Lista:)
+>>
+endobj
+24 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 506.4772 0 ] /Next 25 0 R /Parent 17 0 R /Prev 23 0 R /Title (IpVideovista:)
+>>
+endobj
+25 0 obj
+<<
+/Dest [ 12 0 R /XYZ 62.69291 244.9307 0 ] /Next 26 0 R /Parent 17 0 R /Prev 24 0 R /Title (IpVideoframe:)
+>>
+endobj
+26 0 obj
+<<
+/Dest [ 13 0 R /XYZ 62.69291 265.3834 0 ] /Next 27 0 R /Parent 17 0 R /Prev 25 0 R /Title (camvista:)
+>>
+endobj
+27 0 obj
+<<
+/Dest [ 14 0 R /XYZ 62.69291 679.4772 0 ] /Parent 17 0 R /Prev 26 0 R /Title (postjsimagen:)
+>>
+endobj
+28 0 obj
+<<
+/Count 7 /Kids [ 7 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R ] /Type /Pages
+>>
+endobj
+29 0 obj
+<<
+/Length 5454
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 166.5949 0 Td (Paquete frweb) Tj T* -166.5949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 675.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F2 15 Tf 18 TL 21.96738 0 Td (Todas estos m\351todos se encuentran dentro de frweb.views.) Tj T* -19.5825 0 Td (Todos ellos son utilizados para el funcionamiento del cliente tipo) Tj T* 203.385 0 Td (usuario.) Tj T* -205.7699 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 636.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 603.6772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Home:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.6772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de inicio del servicio web, para poder acceder y utilizar todos los servicios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.6772 cm
+Q
+q
+1 0 0 1 62.69291 438.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( Home\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 123 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de inicio del servicio web.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.116942 Tw (Mensaje de texto para mostrar en la) Tj T* 0 Tw (vista.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .893609 Tw (Vista con el mensaje introducidos en el) Tj T* 0 Tw (context.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/home.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 381.4772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 96 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 324 12 re f*
+.960784 .960784 .862745 rg
+n 438 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 66 12 re f*
+.960784 .960784 .862745 rg
+n 228 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (Home) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj .729412 .129412 .129412 rg ('Bienvenidos al servicio Web de reconocimiento facial') Tj 0 0 0 rg (}) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('home.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 345.1307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 312.1307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ImagenView:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 270.1307 cm
+q
+BT 1 0 0 1 0 26 Tm .471751 Tw 12 TL /F1 10 Tf 0 0 0 rg (Recibe y aloja una imagen enviada desde los archivos locales del cliente en el propio servicio dentro del) Tj T* 0 Tw .979269 Tw (directorio '/media'. El envio se realiza tras cumplimentar el formulario el formulario requerido. Analiza la) Tj T* 0 Tw (imagen recibida a traves de ) Tj /F5 10 Tf (FaceRegonition.identify_face_image) Tj /F1 10 Tf ( para mostrar su resultado al cliente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 264.1307 cm
+Q
+ 
+endstream
+endobj
+30 0 obj
+<<
+/Length 16560
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 468.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 285 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 285 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( ImagenView\(TemplateView\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 279 cm
+Q
+q
+1 0 0 1 91.03937 147 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 102 cm
+Q
+q
+1 0 0 1 91.03937 75 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw (para proceder a la subida de la imagen.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 50.81937 0 Td (form) Tj T* -28.91 0 Td (referencia:) Tj T* -21.90937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F5 10 Tf 0 0 0 rg (frweb.forms.ImagenForm) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista con el formulario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Subida y alojamiento de la imagen para su analisis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 111 cm
+Q
+q
+1 0 0 1 91.03937 84 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 10.56 0 Td (imagen:) Tj T* -34.69937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Imagen local del usuario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 57 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de imagen.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (return.POST:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.855827 Tw (HttpResponseRedirect: Redirecciona el) Tj T* 0 Tw 1.450276 Tw (servicio con la respuesta de la imagen) Tj T* 0 Tw (analizada) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HttpResponseRedirect\(img\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/imagenview.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 224.5903 cm
+q
+q
+.814085 0 0 .814085 0 0 cm
+q
+1 0 0 1 6.6 8.107263 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 576 288 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 264 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 264 60 12 re f*
+.960784 .960784 .862745 rg
+n 96 264 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 264 72 12 re f*
+.960784 .960784 .862745 rg
+n 174 264 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 252 24 12 re f*
+.960784 .960784 .862745 rg
+n 54 252 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 252 60 12 re f*
+.960784 .960784 .862745 rg
+n 24 240 78 12 re f*
+.960784 .960784 .862745 rg
+n 108 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 240 102 12 re f*
+.960784 .960784 .862745 rg
+n 24 228 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 102 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 228 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 228 24 12 re f*
+.960784 .960784 .862745 rg
+n 198 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 222 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 258 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 204 60 12 re f*
+.960784 .960784 .862745 rg
+n 150 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 204 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 228 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 204 42 12 re f*
+.960784 .960784 .862745 rg
+n 282 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 204 30 12 re f*
+.960784 .960784 .862745 rg
+n 318 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 180 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 180 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 180 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 168 18 12 re f*
+.960784 .960784 .862745 rg
+n 96 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 162 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 168 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 192 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 198 156 36 12 re f*
+.960784 .960784 .862745 rg
+n 234 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 144 30 12 re f*
+.960784 .960784 .862745 rg
+n 102 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 144 18 12 re f*
+.960784 .960784 .862745 rg
+n 126 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 144 114 12 re f*
+.960784 .960784 .862745 rg
+n 246 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 144 54 12 re f*
+.960784 .960784 .862745 rg
+n 306 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 336 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 372 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 378 144 186 12 re f*
+.960784 .960784 .862745 rg
+n 72 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 132 120 12 re f*
+.960784 .960784 .862745 rg
+n 234 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 132 72 12 re f*
+.960784 .960784 .862745 rg
+n 312 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 132 90 12 re f*
+.960784 .960784 .862745 rg
+n 408 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 420 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 456 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 462 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 468 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 492 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 504 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 522 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 528 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 540 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 96 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 108 96 12 re f*
+.960784 .960784 .862745 rg
+n 234 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 264 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 294 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 108 12 re f*
+.960784 .960784 .862745 rg
+n 228 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 276 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 216 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 252 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 60 486 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 48 90 12 re f*
+.960784 .960784 .862745 rg
+n 222 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 102 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 120 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 150 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 96 12 re f*
+.960784 .960784 .862745 rg
+n 276 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 306 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 234 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 258 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 294 0 6 12 re f*
+BT 1 0 0 1 0 266 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (class) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (ImagenView) Tj /F4 10 Tf 0 0 0 rg (\() Tj (TemplateView) Tj (\):) Tj  T* (    ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (ImagenForm) Tj  T* (    ) Tj (template_name) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('imagenview.html') Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (post) Tj 0 0 0 rg (\() Tj 0 .501961 0 rg (self) Tj 0 0 0 rg (,) Tj ( ) Tj (request) Tj (,) Tj ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (args) Tj (,) Tj ( ) Tj .4 .4 .4 rg (**) Tj 0 0 0 rg (kwargs) Tj (\):) Tj  T*  T* (        ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (ImagenForm) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (,) Tj ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FILES) Tj (\)) Tj  T*  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj (obj) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\(\)) Tj  T* (            ) Tj (ruta) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (obj) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (imagen) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (url) Tj  T* (            ) Tj (valor) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (ifm) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (identify_face_image) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (resultado) Tj (\() Tj /F3 10 Tf 0 .501961 0 rg (None) Tj /F4 10 Tf 0 0 0 rg (,) Tj ( ) Tj (ruta) Tj (\)) Tj /F6 10 Tf .25098 .501961 .501961 rg (#devuelva ruta de la nueva foto) Tj /F4 10 Tf 0 0 0 rg  T* (            ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (HttpResponseRedirect) Tj (\() Tj (reverse_lazy) Tj (\() Tj .729412 .129412 .129412 rg ('Imagendisplay') Tj 0 0 0 rg (,) Tj ( ) Tj (kwargs) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('pk') Tj 0 0 0 rg (:) Tj ( ) Tj (obj) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (id) Tj (}\)\)) Tj  T*  T* (        ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj 0 .501961 0 rg (self) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get_context_data) Tj (\() Tj (form) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (form) Tj (\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (self) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (render_to_response) Tj (\() Tj (context) Tj (\)) Tj  T*  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (get) Tj 0 0 0 rg (\() Tj 0 .501961 0 rg (self) Tj 0 0 0 rg (,) Tj ( ) Tj (request) Tj (,) Tj ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (args) Tj (,) Tj ( ) Tj .4 .4 .4 rg (**) Tj 0 0 0 rg (kwargs) Tj (\):) Tj  T* (        ) Tj /F6 10 Tf .25098 .501961 .501961 rg (#Cada vez que hacemos una petici\363n al servidor borramos las fotos en su interior.) Tj /F4 10 Tf 0 0 0 rg  T* (        ) Tj (ruta) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/images") Tj 0 0 0 rg (\)) Tj  T* (        ) Tj (fotos) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (ruta) Tj (\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (foto) Tj ( ) Tj /F3 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (fotos) Tj (:) Tj  T* (            ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/images/") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (foto) Tj (\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (self) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (post) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (args) Tj (,) Tj ( ) Tj .4 .4 .4 rg (**) Tj 0 0 0 rg (kwargs) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 188.2438 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 155.2438 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (ImagenDisplay:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 137.2438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de presentaci\363n de imagenes analizadas por el servicio de reconocimiento facial.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 131.2438 cm
+Q
+ 
+endstream
+endobj
+31 0 obj
+<<
+/Length 7722
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 624.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (clase) Tj /F1 10 Tf ( ImagenDisplay\(DetailView\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 123 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.425548 Tw (Vista con los datos de acceso a la imagen analizada por el) Tj T* 0 Tw (m\351todo "ImagenView".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 75 cm
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (parametro img:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ruta de la imagen analizada.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de imagen.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de representaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/imagendisplay.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 554.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 36 78 12 re f*
+.960784 .960784 .862745 rg
+n 114 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 36 60 12 re f*
+.960784 .960784 .862745 rg
+n 180 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 24 66 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 78 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 120 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 114 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 30 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (class) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (ImagenDisplay) Tj /F4 10 Tf 0 0 0 rg (\() Tj (DetailView) Tj (\):) Tj  T* (    ) Tj (model) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (SubirImagen) Tj  T* (    ) Tj (template_name) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('imagendisplay.html') Tj 0 0 0 rg  T* (    ) Tj (context_object_name) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('img') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 518.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 485.4772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (AnalizarVideoVista:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 455.4772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.123765 Tw (Vista de representaci\363n del formulario para realizar el env\355o del archivo de video necesario para el m\351todo) Tj T* 0 Tw ("AnalizarVideoFrame".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.4772 cm
+Q
+q
+1 0 0 1 62.69291 350.4772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( AnalizarVideoVista\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 81 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.118425 Tw (Vista para utilizar la plantilla del m\351todo "AnalizarVideoFrame") Tj T* 0 Tw (como un elemento iframe de HTML.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de representaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/AnalizarVideoVista.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 305.2772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 108 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 150 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (AnalizarVideovista) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('AnalizarVideoVista.html') Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 268.9307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 235.9307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (AnalizarVideoFrame:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 223.9307 cm
+Q
+q
+1 0 0 1 62.69291 199.9307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .14528 Tw (Recibe y aloja un video enviado desde los archivos locales del cliente en el propio servicio dentro del) Tj T* 0 Tw (directorio '/media/videos'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 199.9307 cm
+Q
+q
+1 0 0 1 62.69291 169.9307 cm
+q
+BT 1 0 0 1 0 14 Tm .70229 Tw 12 TL /F1 10 Tf 0 0 0 rg (Analiza los frame del video recibido a traves de ) Tj /F5 10 Tf (FaceRegonition.identify_face_videoweb) Tj /F1 10 Tf ( y envia estos al) Tj T* 0 Tw (cliente tras cumplimenter el formulario requerido.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 163.9307 cm
+Q
+ 
+endstream
+endobj
+32 0 obj
+<<
+/Length 16360
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 429.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 324 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 324 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( AnalizarVideoFrame\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 318 cm
+Q
+q
+1 0 0 1 91.03937 135 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 171 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 159 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 153 cm
+Q
+q
+1 0 0 1 91.03937 126 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.116942 Tw (Mensaje de texto para mostrar en la) Tj T* 0 Tw (vista.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw .050236 Tw (para proceder a la subida del archivo de) Tj T* 0 Tw (video.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 50.81937 0 Td (form) Tj T* -28.91 0 Td (referencia:) Tj T* -21.90937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL (frweb.forms.UploadVideoForm) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 6.300331 Tw (Vista con el formulario y mensaje) Tj T* 0 Tw (introducidos en el context.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Subida y alojamiento del video para su analisis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+Q
+q
+1 0 0 1 91.03937 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 18.34 0 Td (Video:) Tj T* -42.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Video local del usuario.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Archivo de video.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 14.13937 0 Td (return.POST) Tj T* 21.67 0 Td (Stream:) Tj T* -35.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.964331 Tw (Devuelve frame a frame la respuesta) Tj T* 0 Tw (del analisis del video.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (StreamingHttpResponse\(frame\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/AnalizarVideoframe.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 209.7486 cm
+q
+q
+.73055 0 0 .73055 0 0 cm
+q
+1 0 0 1 6.6 9.034289 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 642 288 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 264 156 12 re f*
+.960784 .960784 .862745 rg
+n 0 252 72 12 re f*
+.960784 .960784 .862745 rg
+n 0 240 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 240 108 12 re f*
+.960784 .960784 .862745 rg
+n 132 240 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 240 42 12 re f*
+.960784 .960784 .862745 rg
+n 180 240 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 228 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 228 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 228 36 12 re f*
+.960784 .960784 .862745 rg
+n 186 228 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 216 90 12 re f*
+.960784 .960784 .862745 rg
+n 180 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 228 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 216 24 12 re f*
+.960784 .960784 .862745 rg
+n 258 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 270 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 312 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 318 216 30 12 re f*
+.960784 .960784 .862745 rg
+n 348 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 204 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 204 48 12 re f*
+.960784 .960784 .862745 rg
+n 144 204 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 192 30 12 re f*
+.960784 .960784 .862745 rg
+n 210 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 258 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 180 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 180 102 12 re f*
+.960784 .960784 .862745 rg
+n 204 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 252 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 258 180 90 12 re f*
+.960784 .960784 .862745 rg
+n 348 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 168 12 12 re f*
+.960784 .960784 .862745 rg
+n 84 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 114 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 162 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 156 48 12 re f*
+.960784 .960784 .862745 rg
+n 120 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 156 90 12 re f*
+.960784 .960784 .862745 rg
+n 270 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 276 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 294 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 342 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 348 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 144 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 144 18 12 re f*
+.960784 .960784 .862745 rg
+n 144 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 144 54 12 re f*
+.960784 .960784 .862745 rg
+n 204 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 144 24 12 re f*
+.960784 .960784 .862745 rg
+n 234 144 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 144 48 12 re f*
+.960784 .960784 .862745 rg
+n 294 144 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 132 126 12 re f*
+.960784 .960784 .862745 rg
+n 240 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 246 132 30 12 re f*
+.960784 .960784 .862745 rg
+n 276 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 132 72 12 re f*
+.960784 .960784 .862745 rg
+n 360 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 366 132 258 12 re f*
+.960784 .960784 .862745 rg
+n 624 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 78 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 108 90 12 re f*
+.960784 .960784 .862745 rg
+n 180 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 18 12 re f*
+.960784 .960784 .862745 rg
+n 66 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 84 48 12 re f*
+.960784 .960784 .862745 rg
+n 126 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 84 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 84 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 252 84 90 12 re f*
+.960784 .960784 .862745 rg
+n 342 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 96 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 162 72 48 12 re f*
+.960784 .960784 .862745 rg
+n 210 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 60 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 60 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 60 96 12 re f*
+.960784 .960784 .862745 rg
+n 300 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 312 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 354 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 144 12 re f*
+.960784 .960784 .862745 rg
+n 252 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 192 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 144 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 192 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 228 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 150 12 re f*
+.960784 .960784 .862745 rg
+n 312 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 366 0 6 12 re f*
+BT 1 0 0 1 0 266 Tm 12 TL /F4 10 Tf .666667 .133333 1 rg (@xframe_options_sameorigin) Tj 0 0 0 rg  T* .666667 .133333 1 rg (@csrf_exempt) Tj 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (AnalizarVideoframe) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (UploadVideoForm) Tj (\() Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj (,) Tj ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FILES) Tj (\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (form) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (is_valid) Tj (\(\):) Tj  T* (            ) Tj (Archivo) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (FILES) Tj ([) Tj .729412 .129412 .129412 rg ('Video') Tj 0 0 0 rg (]) Tj  T* (            ) Tj (fs) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (FileSystemStorage) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/videos") Tj 0 0 0 rg (\)) Tj  T* (            ) Tj (fs) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\() Tj (Archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (name) Tj (,) Tj ( ) Tj (Archivo) Tj (\)) Tj  T* (            ) Tj (rArchivo) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/videos") Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ('/') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (Archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (name) Tj  T* (            ) Tj (frame) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (\() Tj (ifv) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (resultado) Tj (\() Tj /F3 10 Tf 0 .501961 0 rg (None) Tj /F4 10 Tf 0 0 0 rg (,) Tj ( ) Tj (rArchivo) Tj (\)\)) Tj  T* (            ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (StreamingHttpResponse) Tj (\() Tj (frame) Tj (,) Tj ( ) Tj (content_type) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('multipart/x-mixed-replace; boundary=frame') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (else) Tj /F4 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (UploadVideoForm) Tj (\(\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (try) Tj /F4 10 Tf 0 0 0 rg (:) Tj  T* (            ) Tj (archivos) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/videos") Tj 0 0 0 rg (\)) Tj  T* (            ) Tj /F3 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (archivo) Tj ( ) Tj /F3 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (archivos) Tj (:) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/videos/") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg ( ) Tj (archivo) Tj (\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (except) Tj /F4 10 Tf 0 0 0 rg (:) Tj  T* (            ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ('no se ha podido borrar') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (msg) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Introduzca el video a analizar') Tj 0 0 0 rg  T* (    ) Tj (context) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj ({) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj (msg) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj ( ) Tj (form) Tj (}) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('AnalizarVideoframe.html') Tj 0 0 0 rg (,) Tj ( ) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 173.4021 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 140.4021 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Lista:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 122.4021 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de presentaci\363n de la lista de todas las personas reconocidas del sistema.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 116.4021 cm
+Q
+ 
+endstream
+endobj
+33 0 obj
+<<
+/Length 8233
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 624.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 129 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( Lista\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 123 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .381378 Tw (Vista para utilizar la plantilla del m\351todo "IpVideoframe" como) Tj T* 0 Tw (un elemento iframe de HTML.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 75 cm
+Q
+q
+1 0 0 1 91.03937 48 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 37.47937 0 Td (context) Tj T* -10.56 0 Td (registros:) Tj T* -26.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.003093 Tw (Obtiene todos los valores de la lista de) Tj T* 0 Tw (usarios) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de representaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/ListaReconocidos.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 554.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 54 12 re f*
+.960784 .960784 .862745 rg
+n 78 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 24 66 12 re f*
+.960784 .960784 .862745 rg
+n 150 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 222 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 66 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 66 12 re f*
+.960784 .960784 .862745 rg
+n 144 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 204 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 138 12 re f*
+.960784 .960784 .862745 rg
+n 294 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 342 0 6 12 re f*
+BT 1 0 0 1 0 38 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (Lista) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (registros) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (Reconocidos) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (objects) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (all) Tj (\(\)) Tj  T* (    ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('registros') Tj 0 0 0 rg (:) Tj (registros) Tj (}) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('ListaReconocidos.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 518.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 485.4772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (IpVideovista:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 455.4772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.758651 Tw (Vista de representaci\363n del formulario para realizar el env\355o de la direcci\363n Ip necesaria para utilizar) Tj T* 0 Tw (m\351todo "IpVideoframe".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.4772 cm
+Q
+q
+1 0 0 1 62.69291 350.4772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( IpVideovista\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 81 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .381378 Tw (Vista para utilizar la plantilla del metodo "IpVideoframe" como) Tj T* 0 Tw (un elemento iframe de HTML.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de representaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/AnalizarVideoVista.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 293.2772 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 24 156 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 72 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 162 12 re f*
+.960784 .960784 .862745 rg
+n 318 0 6 12 re f*
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf .666667 .133333 1 rg (@xframe_options_sameorigin) Tj 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (IpVideovista) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('AnalizarVideoIPvista.html') Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 256.9307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 223.9307 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (IpVideoframe:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 193.9307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.24832 Tw (Recibe la direcci\363n Ip que maneja la camara a la que se desea acceder para mostrar el resultado del) Tj T* 0 Tw (analisis de su video) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 187.9307 cm
+Q
+ 
+endstream
+endobj
+34 0 obj
+<<
+/Length 12119
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 441.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 312 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 312 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( IpVideoframe\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 306 cm
+Q
+q
+1 0 0 1 91.03937 135 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 159 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.275861 Tw (Envio de formulario mostrando los datos necesarios para) Tj T* 0 Tw (procesar la petici\363n POST.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 141 cm
+Q
+q
+1 0 0 1 91.03937 114 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 10.80937 0 Td (context msg:) Tj T* -10.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.116942 Tw (Mensaje de texto para mostrar en la) Tj T* 0 Tw (vista.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.14937 0 Td (context form:) Tj T* -9.14937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .078331 Tw (Formulario a cumplimentar por el cliente) Tj T* 0 Tw (para obtener la direcci\363n Ip.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 50.81937 0 Td (form) Tj T* -28.91 0 Td (referencia:) Tj T* -21.90937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL (frweb.forms.VideoForm) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 13.03937 0 Td (tipo context:) Tj T* -13.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 6.300331 Tw (Vista con el formulario y mensaje) Tj T* 0 Tw (introducidos en el context.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Subida y alojamiento del video para su analisis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+Q
+q
+1 0 0 1 91.03937 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 9.13937 0 Td (par\341metro Ip:) Tj T* -9.13937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .368808 Tw (Direcci\363n Ip de la camara que se desea) Tj T* 0 Tw (visualizar.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 14.13937 0 Td (return.POST) Tj T* 21.67 0 Td (Stream:) Tj T* -35.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.964331 Tw (Devuelve frame a frame la respuesta) Tj T* 0 Tw (del analisis del video.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (StreamingHttpResponse\(frame\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/AnalizarVideoframe.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 313.7299 cm
+q
+q
+.758866 0 0 .758866 0 0 cm
+q
+1 0 0 1 6.6 8.697189 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 618 156 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 132 156 12 re f*
+.960784 .960784 .862745 rg
+n 0 120 72 12 re f*
+.960784 .960784 .862745 rg
+n 0 108 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 108 72 12 re f*
+.960784 .960784 .862745 rg
+n 96 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 108 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 96 24 12 re f*
+.960784 .960784 .862745 rg
+n 54 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 96 54 12 re f*
+.960784 .960784 .862745 rg
+n 120 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 84 18 12 re f*
+.960784 .960784 .862745 rg
+n 42 84 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 246 12 re f*
+.960784 .960784 .862745 rg
+n 24 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 72 36 12 re f*
+.960784 .960784 .862745 rg
+n 186 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 60 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 60 24 12 re f*
+.960784 .960784 .862745 rg
+n 186 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 120 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 48 54 12 re f*
+.960784 .960784 .862745 rg
+n 180 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 210 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 252 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 48 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 36 126 12 re f*
+.960784 .960784 .862745 rg
+n 216 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 222 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 252 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 264 36 72 12 re f*
+.960784 .960784 .862745 rg
+n 336 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 342 36 258 12 re f*
+.960784 .960784 .862745 rg
+n 600 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 48 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 90 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 156 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 198 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 228 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 174 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 150 12 re f*
+.960784 .960784 .862745 rg
+n 330 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 336 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 378 0 6 12 re f*
+BT 1 0 0 1 0 134 Tm 12 TL /F4 10 Tf .666667 .133333 1 rg (@xframe_options_sameorigin) Tj 0 0 0 rg  T* .666667 .133333 1 rg (@csrf_exempt) Tj 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (IpVideoframe) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj (form) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (VideoForm) Tj (\(\)) Tj  T* (    ) Tj (msg) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('Introduzca direcci\363n Ip de su camara IP') Tj 0 0 0 rg  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (dirIP) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('Ip') Tj 0 0 0 rg (]) Tj  T* (        ) Tj (frame) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (\() Tj (ifv) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (resultado) Tj (\() Tj /F3 10 Tf 0 .501961 0 rg (None) Tj /F4 10 Tf 0 0 0 rg (,) Tj ( ) Tj (dirIP) Tj (\)\)) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (StreamingHttpResponse) Tj (\() Tj (frame) Tj (,) Tj ( ) Tj (content_type) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('multipart/x-mixed-replace; boundary=frame') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (else) Tj /F4 10 Tf 0 0 0 rg (:) Tj  T* (        ) Tj (context) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ({) Tj .729412 .129412 .129412 rg ('msg') Tj 0 0 0 rg (:) Tj (msg) Tj (,) Tj .729412 .129412 .129412 rg ('form') Tj 0 0 0 rg (:) Tj (form) Tj (}) Tj  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj .729412 .129412 .129412 rg ('AnalizarVideoframe.html') Tj 0 0 0 rg (,) Tj (context) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 277.3834 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 244.3834 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (camvista:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 214.3834 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.313984 Tw (Vista de representaci\363n para utiliar la Webcam del cliente y el m\351todo postjsimagen de analisis de) Tj T* 0 Tw (imagen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 208.3834 cm
+Q
+q
+1 0 0 1 62.69291 109.3834 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 87 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( camvista\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 81 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 6.91937 0 Td (Request GET:) Tj T* -6.91937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.895669 Tw (Vista para utilizar la Webcam del cliente y el m\351todo) Tj T* 0 Tw (postjsimagen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 33 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 17.47937 0 Td (return.GET:) Tj T* -17.47937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Vista de representaci\363n.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HTTP.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/webcamjs.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+35 0 obj
+<<
+/Length 15353
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 727.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 12 48 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 66 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 42 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 90 12 re f*
+.960784 .960784 .862745 rg
+n 252 0 6 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (camvista) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (render) Tj (\() Tj (request) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('webcamjs.html') Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 691.4772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 658.4772 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (postjsimagen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 604.4772 cm
+q
+BT 1 0 0 1 0 38 Tm 1.027045 Tw 12 TL /F1 10 Tf 0 0 0 rg (Recibe la imagen capturada a trav\351s de la Webcam del cliente, esta imagen se envia en formato texto) Tj T* 0 Tw 7.321412 Tw (codificado en Base64 y el servidor descodifica esta imagen y la analiza a trav\351s de) Tj T* 0 Tw .016905 Tw /F5 10 Tf (FaceRegonition.identify_face_image) Tj /F1 10 Tf ( , para finalmente responder con la ruta de la imagen analizada por el) Tj T* 0 Tw (servidor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 598.4772 cm
+Q
+q
+1 0 0 1 62.69291 367.4772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 34.15937 0 Td (M\351todo:) Tj T* -34.15937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 219 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (funci\363n) Tj /F1 10 Tf ( postjsimagen\(request\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 213 cm
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (Request POST:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 171 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.040816 Tw (Envio de la imagen en texto Base64 y el token identificador de) Tj T* 0 Tw (la imagen.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 165 cm
+Q
+q
+1 0 0 1 91.03937 126 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL .24937 0 Td (par\341metro img:) Tj T* -0.24937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.958331 Tw (Texto en Base64 correspondiente a la) Tj T* 0 Tw 4.962331 Tw (captura de imagen realizada por el) Tj T* 0 Tw (cliente.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 99 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 72 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 24.13937 0 Td (par\341metro) Tj T* 18.9 0 Td (token:) Tj T* -43.03937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.123058 Tw (Valor identificativo de la imagen y marca) Tj T* 0 Tw (de tiempo de la captura.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 45 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 54.70937 0 Td (tipo) Tj T* -33.9 0 Td (par\341metro:) Tj T* -20.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F2 10 Tf 12 TL 14.13937 0 Td (return.POST) Tj T* 36.69 0 Td (foto:) Tj T* -50.82937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.711457 Tw (Devuelve el valor de la ruta de la foto) Tj T* 0 Tw (analizada.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 19.70937 0 Td (tipo return:) Tj T* -19.70937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (texto.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 45.80937 0 Td (Vista:) Tj T* -45.80937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ('templates/webcamjs.html'.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 144.4083 cm
+q
+q
+.849403 0 0 .849403 0 0 cm
+q
+1 0 0 1 6.6 7.770163 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 552 252 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 228 72 12 re f*
+.960784 .960784 .862745 rg
+n 0 216 18 12 re f*
+.960784 .960784 .862745 rg
+n 24 216 72 12 re f*
+.960784 .960784 .862745 rg
+n 96 216 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 216 42 12 re f*
+.960784 .960784 .862745 rg
+n 144 216 12 12 re f*
+.960784 .960784 .862745 rg
+n 24 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 42 204 42 12 re f*
+.960784 .960784 .862745 rg
+n 84 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 90 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 132 204 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 204 36 12 re f*
+.960784 .960784 .862745 rg
+n 186 204 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 192 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 126 192 24 12 re f*
+.960784 .960784 .862745 rg
+n 150 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 192 30 12 re f*
+.960784 .960784 .862745 rg
+n 186 192 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 180 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 126 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 180 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 180 42 12 re f*
+.960784 .960784 .862745 rg
+n 204 180 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 168 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 168 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 168 30 12 re f*
+.960784 .960784 .862745 rg
+n 144 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 168 42 12 re f*
+.960784 .960784 .862745 rg
+n 192 168 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 168 246 12 re f*
+.960784 .960784 .862745 rg
+n 48 156 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 156 18 12 re f*
+.960784 .960784 .862745 rg
+n 102 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 156 24 12 re f*
+.960784 .960784 .862745 rg
+n 132 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 156 12 12 re f*
+.960784 .960784 .862745 rg
+n 156 156 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 156 42 12 re f*
+.960784 .960784 .862745 rg
+n 210 156 186 12 re f*
+.960784 .960784 .862745 rg
+n 48 132 12 12 re f*
+.960784 .960784 .862745 rg
+n 66 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 132 30 12 re f*
+.960784 .960784 .862745 rg
+n 108 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 138 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 132 42 12 re f*
+.960784 .960784 .862745 rg
+n 186 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 132 36 12 re f*
+.960784 .960784 .862745 rg
+n 228 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 132 54 12 re f*
+.960784 .960784 .862745 rg
+n 288 132 6 12 re f*
+.960784 .960784 .862745 rg
+n 294 132 24 12 re f*
+.960784 .960784 .862745 rg
+n 318 132 18 12 re f*
+.960784 .960784 .862745 rg
+n 48 120 24 12 re f*
+.960784 .960784 .862745 rg
+n 72 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 120 108 12 re f*
+.960784 .960784 .862745 rg
+n 186 120 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 120 30 12 re f*
+.960784 .960784 .862745 rg
+n 48 108 12 12 re f*
+.960784 .960784 .862745 rg
+n 60 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 66 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 90 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 108 24 12 re f*
+.960784 .960784 .862745 rg
+n 120 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 108 30 12 re f*
+.960784 .960784 .862745 rg
+n 162 108 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 96 30 12 re f*
+.960784 .960784 .862745 rg
+n 84 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 96 96 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 96 42 12 re f*
+.960784 .960784 .862745 rg
+n 204 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 96 108 12 re f*
+.960784 .960784 .862745 rg
+n 318 96 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 84 240 12 re f*
+.960784 .960784 .862745 rg
+n 48 72 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 72 42 12 re f*
+.960784 .960784 .862745 rg
+n 120 72 12 12 re f*
+.960784 .960784 .862745 rg
+n 138 72 30 12 re f*
+.960784 .960784 .862745 rg
+n 168 72 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 114 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 162 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 60 30 12 re f*
+.960784 .960784 .862745 rg
+n 198 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 60 42 12 re f*
+.960784 .960784 .862745 rg
+n 246 60 6 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 108 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 48 42 12 re f*
+.960784 .960784 .862745 rg
+n 156 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 180 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 48 18 12 re f*
+.960784 .960784 .862745 rg
+n 204 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 48 30 12 re f*
+.960784 .960784 .862745 rg
+n 240 48 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 198 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 204 36 114 12 re f*
+.960784 .960784 .862745 rg
+n 318 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 36 42 12 re f*
+.960784 .960784 .862745 rg
+n 366 36 6 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 84 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 102 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 12 114 12 re f*
+.960784 .960784 .862745 rg
+n 222 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 228 12 54 12 re f*
+.960784 .960784 .862745 rg
+n 282 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 288 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 312 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 324 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 348 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 354 12 186 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 72 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 192 0 6 12 re f*
+BT 1 0 0 1 0 230 Tm 12 TL /F4 10 Tf .666667 .133333 1 rg (@csrf_exempt) Tj 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (def) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (postjsimagen) Tj 0 0 0 rg (\() Tj (request) Tj (\):) Tj  T* (    ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (method) Tj ( ) Tj .4 .4 .4 rg (==) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('POST') Tj 0 0 0 rg (:) Tj  T* (        ) Tj (base) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('img') Tj 0 0 0 rg (]) Tj  T* (        ) Tj (token) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (request) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (POST) Tj ([) Tj .729412 .129412 .129412 rg ('token') Tj 0 0 0 rg (]) Tj  T* (        ) Tj (time) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (token) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('token') Tj 0 0 0 rg (\)) Tj ( ) Tj /F6 10 Tf .25098 .501961 .501961 rg (#se separa el timestamp del identificador) Tj /F4 10 Tf 0 0 0 rg  T* (        ) Tj (timeb) Tj .4 .4 .4 rg (=) Tj 0 .501961 0 rg (int) Tj 0 0 0 rg (\() Tj (time) Tj ([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (]\)) Tj .4 .4 .4 rg (-) Tj (8000000) Tj 0 0 0 rg ( ) Tj /F6 10 Tf .25098 .501961 .501961 rg (#se define un tiempo de borrado) Tj /F4 10 Tf 0 0 0 rg  T*  T* (        ) Tj (im) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (Image) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (open) Tj (\() Tj (BytesIO) Tj (\() Tj (base64) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (b64decode) Tj (\() Tj (base) Tj (\)\)\)) Tj  T* (        ) Tj (foto) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('media/imagescam/') Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (token) Tj  T* (        ) Tj (im) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (save) Tj (\() Tj (foto) Tj (,) Tj ( ) Tj .729412 .129412 .129412 rg ('PNG') Tj 0 0 0 rg (\)) Tj  T* (        ) Tj (fotos) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (listdir) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/imagescam") Tj 0 0 0 rg (\)) Tj  T* (        ) Tj /F6 10 Tf .25098 .501961 .501961 rg (#borrado de fotos mas de 8000000 miliseg) Tj /F4 10 Tf 0 0 0 rg  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (archivo) Tj ( ) Tj /F3 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (fotos) Tj (:) Tj  T* (            ) Tj (borrado) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (archivo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (split) Tj (\() Tj .729412 .129412 .129412 rg ('token') Tj 0 0 0 rg (\)) Tj  T* (            ) Tj /F3 10 Tf 0 .501961 0 rg (if) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (int) Tj 0 0 0 rg (\() Tj (borrado) Tj ([) Tj .4 .4 .4 rg (0) Tj 0 0 0 rg (]\)) Tj .4 .4 .4 rg (<) Tj 0 .501961 0 rg (int) Tj 0 0 0 rg (\() Tj (timeb) Tj (\):) Tj  T* (                ) Tj (os) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (remove) Tj (\() Tj (basedir) Tj .4 .4 .4 rg (+) Tj .729412 .129412 .129412 rg ("/media/imagescam/") Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (archivo) Tj (\)) Tj  T*  T* (        ) Tj (valor) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg (ifm) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (identify_face_image) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (resultado) Tj (\() Tj /F3 10 Tf 0 .501961 0 rg (None) Tj /F4 10 Tf 0 0 0 rg (,) Tj ( ) Tj (foto) Tj (\)) Tj /F6 10 Tf .25098 .501961 .501961 rg (#devuelva ruta de la nueva foto) Tj /F4 10 Tf 0 0 0 rg  T* (        ) Tj /F3 10 Tf 0 .501961 0 rg (return) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (HttpResponse) Tj (\() Tj (foto) Tj (\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 108.0619 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+ 
+endstream
+endobj
+36 0 obj
+<<
+/Nums [ 0 37 0 R 1 38 0 R 2 39 0 R 3 40 0 R 4 41 0 R 
+  5 42 0 R 6 43 0 R ]
+>>
+endobj
+37 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+38 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+39 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+40 0 obj
+<<
+/S /D /St 4
+>>
+endobj
+41 0 obj
+<<
+/S /D /St 5
+>>
+endobj
+42 0 obj
+<<
+/S /D /St 6
+>>
+endobj
+43 0 obj
+<<
+/S /D /St 7
+>>
+endobj
+xref
+0 44
+0000000000 65535 f 
+0000000073 00000 n 
+0000000154 00000 n 
+0000000261 00000 n 
+0000000373 00000 n 
+0000000483 00000 n 
+0000000588 00000 n 
+0000000703 00000 n 
+0000000908 00000 n 
+0000001021 00000 n 
+0000001226 00000 n 
+0000001432 00000 n 
+0000001638 00000 n 
+0000001844 00000 n 
+0000002050 00000 n 
+0000002256 00000 n 
+0000002362 00000 n 
+0000002633 00000 n 
+0000002708 00000 n 
+0000002814 00000 n 
+0000002939 00000 n 
+0000003067 00000 n 
+0000003201 00000 n 
+0000003335 00000 n 
+0000003456 00000 n 
+0000003584 00000 n 
+0000003712 00000 n 
+0000003836 00000 n 
+0000003951 00000 n 
+0000004052 00000 n 
+0000009558 00000 n 
+0000026171 00000 n 
+0000033945 00000 n 
+0000050358 00000 n 
+0000058643 00000 n 
+0000070815 00000 n 
+0000086221 00000 n 
+0000086319 00000 n 
+0000086353 00000 n 
+0000086387 00000 n 
+0000086421 00000 n 
+0000086455 00000 n 
+0000086489 00000 n 
+0000086523 00000 n 
+trailer
+<<
+/ID 
+[<c5011c7ca486dcfc4c008431f08013e8><c5011c7ca486dcfc4c008431f08013e8>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 16 0 R
+/Root 15 0 R
+/Size 44
+>>
+startxref
+86557
+%%EOF
